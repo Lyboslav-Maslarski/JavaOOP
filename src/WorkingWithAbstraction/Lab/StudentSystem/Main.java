@@ -6,13 +6,12 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         StudentSystem studentSystem = new StudentSystem();
-        while (true)
-        {
-            String[] input = scanner.nextLine().split(" ");
-            if (input[0].equals("Exit")){
-                break;
-            }
-            studentSystem.ParseCommand(input);
+        String input = scanner.nextLine();
+        while (!input.equals("Exit")) {
+            String[] studentInfo = input.split(" ");
+
+            studentSystem.ParseCommand(studentInfo);
+            input = scanner.nextLine();
         }
     }
 }
