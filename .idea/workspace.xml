@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05a8a1e-9340-4aa8-9c36-23b5122a6c4d" name="Changes" comment="add new exercise">
-      <change afterPath="$PROJECT_DIR$/src/WorkingWithAbstraction/Lab/HotelReservation/DiscountType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WorkingWithAbstraction/Lab/HotelReservation/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WorkingWithAbstraction/Lab/HotelReservation/PriceCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WorkingWithAbstraction/Lab/HotelReservation/Season.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WorkingWithAbstraction/Exercise/CardSuit/CardSuit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WorkingWithAbstraction/Exercise/CardSuit/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +49,7 @@
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\WorkingWithAbstraction\Lab\StudentSystem" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WorkingWithAbstraction.Lab.HotelReservation.Main">
+  <component name="RunManager" selected="Application.WorkingWithAbstraction.Exercise.CardSuit.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="WorkingWithAbstraction.Lab.PointInRectangle.Main" />
       <module name="JavaOOP" />
@@ -71,6 +69,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="WorkingWithAbstraction.Lab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WorkingWithAbstraction.Exercise.CardSuit.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WorkingWithAbstraction.Exercise.CardSuit.Main" />
+      <module name="JavaOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WorkingWithAbstraction.Exercise.CardSuit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,6 +117,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WorkingWithAbstraction.Exercise.CardSuit.Main" />
         <item itemvalue="Application.WorkingWithAbstraction.Lab.HotelReservation.Main" />
         <item itemvalue="Application.WorkingWithAbstraction.Lab.StudentSystem.Main" />
         <item itemvalue="Application.Main" />
@@ -171,7 +183,49 @@
       <option name="project" value="LOCAL" />
       <updated>1664463597278</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add new exercise">
+      <created>1664465928142</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1664465928142</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add new exercise">
+      <created>1664465936808</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1664465936808</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add new exercise">
+      <created>1664466043362</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1664466043362</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add new exercise">
+      <created>1664466056064</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1664466056064</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add new exercise">
+      <created>1664466061825</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1664466061825</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add new exercise">
+      <created>1664466298956</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1664466298956</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
