@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05a8a1e-9340-4aa8-9c36-23b5122a6c4d" name="Changes" comment="add new exercise">
-      <change afterPath="$PROJECT_DIR$/src/WorkingWithAbstraction/Exercise/TrafficLights/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WorkingWithAbstraction/Exercise/TrafficLights/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WorkingWithAbstraction/Exercise/TrafficLights/TrafficLight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WorkingWithAbstraction/Exercise/jediGalaxy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorkingWithAbstraction/Exercise/jediGalaxy/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +49,7 @@
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\WorkingWithAbstraction\Lab\StudentSystem" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.WorkingWithAbstraction.Exercise.jediGalaxy.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="WorkingWithAbstraction.Exercise.TrafficLights.Main" />
       <module name="JavaOOP" />
@@ -104,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WorkingWithAbstraction.Lab.HotelReservation.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WorkingWithAbstraction.Lab.HotelReservation.Main" />
+    <configuration name="WorkingWithAbstraction.Exercise.jediGalaxy.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WorkingWithAbstraction.Exercise.jediGalaxy.Main" />
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WorkingWithAbstraction.Lab.HotelReservation.*" />
+          <option name="PATTERN" value="WorkingWithAbstraction.Exercise.jediGalaxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WorkingWithAbstraction.Exercise.jediGalaxy.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.WorkingWithAbstraction.Exercise.CardsWithPower.Main" />
         <item itemvalue="Application.WorkingWithAbstraction.Exercise.CardRank.Main" />
         <item itemvalue="Application.WorkingWithAbstraction.Exercise.CardSuit.Main" />
-        <item itemvalue="Application.WorkingWithAbstraction.Lab.HotelReservation.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -290,7 +288,28 @@
       <option name="project" value="LOCAL" />
       <updated>1664529957745</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="add new exercise">
+      <created>1664534557729</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1664534557729</updated>
+    </task>
+    <task id="LOCAL-00024" summary="add new exercise">
+      <created>1664534564908</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1664534564908</updated>
+    </task>
+    <task id="LOCAL-00025" summary="add new exercise">
+      <created>1664534572681</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1664534572681</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
