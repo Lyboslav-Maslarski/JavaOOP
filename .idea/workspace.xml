@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05a8a1e-9340-4aa8-9c36-23b5122a6c4d" name="Changes" comment="add new exercise">
-      <change afterPath="$PROJECT_DIR$/src/WorkingWithAbstraction/Exercise/CardRank/CardRank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WorkingWithAbstraction/Exercise/CardRank/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WorkingWithAbstraction/Exercise/CardsWithPower/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WorkingWithAbstraction/Exercise/CardsWithPower/CardRank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WorkingWithAbstraction/Exercise/CardsWithPower/CardSuit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WorkingWithAbstraction/Exercise/CardsWithPower/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WorkingWithAbstraction/Exercise/TrafficLights/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WorkingWithAbstraction/Exercise/TrafficLights/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WorkingWithAbstraction/Exercise/TrafficLights/TrafficLight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -54,7 +51,20 @@
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\WorkingWithAbstraction\Lab\StudentSystem" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WorkingWithAbstraction.Exercise.CardsWithPower.Main">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WorkingWithAbstraction.Exercise.TrafficLights.Main" />
+      <module name="JavaOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WorkingWithAbstraction.Exercise.TrafficLights.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WorkingWithAbstraction.Exercise.CardRank.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="WorkingWithAbstraction.Exercise.CardRank.Main" />
       <module name="JavaOOP" />
@@ -107,26 +117,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WorkingWithAbstraction.Lab.StudentSystem.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WorkingWithAbstraction.Lab.StudentSystem.Main" />
-      <module name="JavaOOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="WorkingWithAbstraction.Lab.StudentSystem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.WorkingWithAbstraction.Exercise.CardsWithPower.Main" />
         <item itemvalue="Application.WorkingWithAbstraction.Exercise.CardRank.Main" />
         <item itemvalue="Application.WorkingWithAbstraction.Exercise.CardSuit.Main" />
         <item itemvalue="Application.WorkingWithAbstraction.Lab.HotelReservation.Main" />
-        <item itemvalue="Application.WorkingWithAbstraction.Lab.StudentSystem.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +241,56 @@
       <option name="project" value="LOCAL" />
       <updated>1664479666090</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add new exercise">
+      <created>1664529912528</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1664529912528</updated>
+    </task>
+    <task id="LOCAL-00017" summary="add new exercise">
+      <created>1664529918821</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1664529918821</updated>
+    </task>
+    <task id="LOCAL-00018" summary="add new exercise">
+      <created>1664529927248</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1664529927248</updated>
+    </task>
+    <task id="LOCAL-00019" summary="add new exercise">
+      <created>1664529938255</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1664529938255</updated>
+    </task>
+    <task id="LOCAL-00020" summary="add new exercise">
+      <created>1664529945315</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1664529945315</updated>
+    </task>
+    <task id="LOCAL-00021" summary="add new exercise">
+      <created>1664529950485</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1664529950485</updated>
+    </task>
+    <task id="LOCAL-00022" summary="add new exercise">
+      <created>1664529957745</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1664529957745</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
