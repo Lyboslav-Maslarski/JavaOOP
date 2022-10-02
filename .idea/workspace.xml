@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05a8a1e-9340-4aa8-9c36-23b5122a6c4d" name="Changes" comment="add new exercise">
-      <change afterPath="$PROJECT_DIR$/src/Encapsulation/Exercise/ClassBox/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Encapsulation/Exercise/ClassBox/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Encapsulation/Exercise/AnimalFarm/Chicken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Encapsulation/Exercise/AnimalFarm/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +53,7 @@
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\WorkingWithAbstraction\Lab\StudentSystem" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Encapsulation.Exercise.ClassBox.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Encapsulation.Exercise.ClassBox.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Encapsulation.Exercise.ClassBox.Main" />
       <module name="JavaOOP" />
@@ -93,6 +93,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Encapsulation.Exercise.AnimalFarm.Main" />
+      <module name="JavaOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Encapsulation.Exercise.AnimalFarm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WorkingWithAbstraction.Exercise.greedyTimes.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="WorkingWithAbstraction.Exercise.greedyTimes.Main" />
       <module name="JavaOOP" />
@@ -106,26 +119,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WorkingWithAbstraction.Exercise.jediGalaxy.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WorkingWithAbstraction.Exercise.jediGalaxy.Main" />
-      <module name="JavaOOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="WorkingWithAbstraction.Exercise.jediGalaxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Encapsulation.Exercise.ClassBox.Main" />
         <item itemvalue="Application.Encapsulation.Lab.SortByNameAndAge.Main" />
         <item itemvalue="Application.Encapsulation.Lab.Main" />
         <item itemvalue="Application.WorkingWithAbstraction.Exercise.greedyTimes.Main" />
-        <item itemvalue="Application.WorkingWithAbstraction.Exercise.jediGalaxy.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -355,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664724155281</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="add new exercise">
+      <created>1664725795274</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1664725795274</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
