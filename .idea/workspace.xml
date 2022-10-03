@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05a8a1e-9340-4aa8-9c36-23b5122a6c4d" name="Changes" comment="add new exercise">
-      <change afterPath="$PROJECT_DIR$/src/ShoppingSpree/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ShoppingSpree/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ShoppingSpree/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FootballTeamGenerator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FootballTeamGenerator/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FootballTeamGenerator/Team.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,13 +50,13 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Encapsulation\Lab" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Encapsulation\Exercise" />
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Encapsulation\Lab" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\WorkingWithAbstraction\Lab" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\WorkingWithAbstraction\Lab\StudentSystem" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ShoppingSpree.Main">
+  <component name="RunManager" selected="Application.FootballTeamGenerator.Main">
     <configuration name="Encapsulation.Exercise.ClassBox.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Encapsulation.Exercise.ClassBox.Main" />
       <module name="JavaOOP" />
@@ -70,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Encapsulation.Lab.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Encapsulation.Lab.Main" />
+    <configuration name="Encapsulation.Exercise.PizzaCalories.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Encapsulation.Exercise.PizzaCalories.Main" />
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Encapsulation.Lab.*" />
+          <option name="PATTERN" value="Encapsulation.Exercise.PizzaCalories.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +83,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Encapsulation.Lab.SortByNameAndAge.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Encapsulation.Lab.SortByNameAndAge.Main" />
+    <configuration name="Encapsulation.Exercise.ShoppingSpree.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Encapsulation.Exercise.ShoppingSpree.Main" />
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Encapsulation.Lab.SortByNameAndAge.*" />
+          <option name="PATTERN" value="Encapsulation.Exercise.ShoppingSpree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FootballTeamGenerator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FootballTeamGenerator.Main" />
+      <module name="JavaOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FootballTeamGenerator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,26 +122,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingSpree.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ShoppingSpree.Main" />
-      <module name="JavaOOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ShoppingSpree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ShoppingSpree.Main" />
+        <item itemvalue="Application.FootballTeamGenerator.Main" />
+        <item itemvalue="Application.Encapsulation.Exercise.PizzaCalories.Main" />
+        <item itemvalue="Application.Encapsulation.Exercise.ShoppingSpree.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Encapsulation.Exercise.ClassBox.Main" />
-        <item itemvalue="Application.Encapsulation.Lab.SortByNameAndAge.Main" />
-        <item itemvalue="Application.Encapsulation.Lab.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -379,7 +379,56 @@
       <option name="project" value="LOCAL" />
       <updated>1664782954608</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="add new exercise">
+      <created>1664788169164</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1664788169164</updated>
+    </task>
+    <task id="LOCAL-00036" summary="add new exercise">
+      <created>1664788184297</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1664788184297</updated>
+    </task>
+    <task id="LOCAL-00037" summary="add new exercise">
+      <created>1664788190910</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1664788190910</updated>
+    </task>
+    <task id="LOCAL-00038" summary="add new exercise">
+      <created>1664805646744</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1664805646744</updated>
+    </task>
+    <task id="LOCAL-00039" summary="add new exercise">
+      <created>1664805652451</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1664805652451</updated>
+    </task>
+    <task id="LOCAL-00040" summary="add new exercise">
+      <created>1664805658298</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1664805658298</updated>
+    </task>
+    <task id="LOCAL-00041" summary="add new exercise">
+      <created>1664805666316</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1664805666316</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
