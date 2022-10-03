@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c05a8a1e-9340-4aa8-9c36-23b5122a6c4d" name="Changes" comment="add new exercise" />
+    <list default="true" id="c05a8a1e-9340-4aa8-9c36-23b5122a6c4d" name="Changes" comment="add new exercise">
+      <change afterPath="$PROJECT_DIR$/src/ShoppingSpree/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ShoppingSpree/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ShoppingSpree/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,25 +36,27 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Encapsulation\Lab" />
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Encapsulation\Exercise" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\WorkingWithAbstraction\Lab" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\WorkingWithAbstraction\Lab\StudentSystem" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.ShoppingSpree.Main">
     <configuration name="Encapsulation.Exercise.ClassBox.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Encapsulation.Exercise.ClassBox.Main" />
       <module name="JavaOOP" />
@@ -102,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WorkingWithAbstraction.Exercise.greedyTimes.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WorkingWithAbstraction.Exercise.greedyTimes.Main" />
+    <configuration name="ShoppingSpree.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ShoppingSpree.Main" />
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WorkingWithAbstraction.Exercise.greedyTimes.*" />
+          <option name="PATTERN" value="ShoppingSpree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShoppingSpree.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Encapsulation.Exercise.ClassBox.Main" />
         <item itemvalue="Application.Encapsulation.Lab.SortByNameAndAge.Main" />
         <item itemvalue="Application.Encapsulation.Lab.Main" />
-        <item itemvalue="Application.WorkingWithAbstraction.Exercise.greedyTimes.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -365,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664727628843</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="add new exercise">
+      <created>1664782954608</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1664782954608</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
