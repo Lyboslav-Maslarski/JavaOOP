@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05a8a1e-9340-4aa8-9c36-23b5122a6c4d" name="Changes" comment="add new exercise">
-      <change afterPath="$PROJECT_DIR$/src/FootballTeamGenerator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FootballTeamGenerator/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FootballTeamGenerator/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab/Puppy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab/RandomArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab/StackOfStrings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,13 +60,13 @@
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\WorkingWithAbstraction\Lab\StudentSystem" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FootballTeamGenerator.Main">
-    <configuration name="Encapsulation.Exercise.ClassBox.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Encapsulation.Exercise.ClassBox.Main" />
+  <component name="RunManager" selected="Application.Lab.Main">
+    <configuration name="Encapsulation.Exercise.FootballTeamGenerator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Encapsulation.Exercise.FootballTeamGenerator.Main" />
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Encapsulation.Exercise.ClassBox.*" />
+          <option name="PATTERN" value="Encapsulation.Exercise.FootballTeamGenerator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FootballTeamGenerator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FootballTeamGenerator.Main" />
+    <configuration name="Lab.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab.Main" />
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FootballTeamGenerator.*" />
+          <option name="PATTERN" value="Lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FootballTeamGenerator.Main" />
+        <item itemvalue="Application.Lab.Main" />
+        <item itemvalue="Application.Encapsulation.Exercise.FootballTeamGenerator.Main" />
         <item itemvalue="Application.Encapsulation.Exercise.PizzaCalories.Main" />
         <item itemvalue="Application.Encapsulation.Exercise.ShoppingSpree.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Encapsulation.Exercise.ClassBox.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -428,7 +432,28 @@
       <option name="project" value="LOCAL" />
       <updated>1664805666316</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="add new exercise">
+      <created>1664809308511</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1664809308511</updated>
+    </task>
+    <task id="LOCAL-00043" summary="add new exercise">
+      <created>1664809314015</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1664809314015</updated>
+    </task>
+    <task id="LOCAL-00044" summary="add new exercise">
+      <created>1664809320616</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1664809320616</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -446,5 +471,16 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add new exercise" />
     <option name="LAST_COMMIT_MESSAGE" value="add new exercise" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Encapsulation/Exercise/FootballTeamGenerator/Main.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
