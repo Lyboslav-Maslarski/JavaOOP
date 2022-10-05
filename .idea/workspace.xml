@@ -5,13 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05a8a1e-9340-4aa8-9c36-23b5122a6c4d" name="Changes" comment="add new exercise">
-      <change afterPath="$PROJECT_DIR$/src/Lab/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab/Puppy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab/RandomArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab/StackOfStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/Person/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/Person/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/Zoo/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/Zoo/Bear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/Zoo/Gorilla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/Zoo/Lizard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/Zoo/Mammal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/Zoo/Reptile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/Zoo/Snake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hero/BladeKnight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hero/DarkKnight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hero/DarkWizard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hero/Elf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hero/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hero/Knight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hero/MuseElf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hero/SoulMaster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hero/Wizard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,13 +66,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Inheritance\Lab" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Encapsulation\Exercise" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Encapsulation\Lab" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\WorkingWithAbstraction\Lab" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\WorkingWithAbstraction\Lab\StudentSystem" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lab.Main">
+  <component name="RunManager" selected="Application.Judge.Main">
     <configuration name="Encapsulation.Exercise.FootballTeamGenerator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Encapsulation.Exercise.FootballTeamGenerator.Main" />
       <module name="JavaOOP" />
@@ -100,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab.Main" />
+    <configuration name="Inheritance.Lab.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Inheritance.Lab.Main" />
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab.*" />
+          <option name="PATTERN" value="Inheritance.Lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Encapsulation.Exercise.AnimalFarm.Main" />
+    <configuration name="Judge.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Judge.Main" />
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Encapsulation.Exercise.AnimalFarm.*" />
+          <option name="PATTERN" value="Judge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Lab.Main" />
+        <item itemvalue="Application.Judge.Main" />
+        <item itemvalue="Application.Inheritance.Lab.Main" />
         <item itemvalue="Application.Encapsulation.Exercise.FootballTeamGenerator.Main" />
         <item itemvalue="Application.Encapsulation.Exercise.PizzaCalories.Main" />
         <item itemvalue="Application.Encapsulation.Exercise.ShoppingSpree.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -453,7 +466,28 @@
       <option name="project" value="LOCAL" />
       <updated>1664809320616</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="add new exercise">
+      <created>1664980891624</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1664980891624</updated>
+    </task>
+    <task id="LOCAL-00046" summary="add new exercise">
+      <created>1664980898142</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1664980898142</updated>
+    </task>
+    <task id="LOCAL-00047" summary="add new exercise">
+      <created>1664980907246</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1664980907246</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
