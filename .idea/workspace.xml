@@ -4,28 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c05a8a1e-9340-4aa8-9c36-23b5122a6c4d" name="Changes" comment="add new exercise">
-      <change afterPath="$PROJECT_DIR$/src/Judge/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/Person/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/Person/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/Zoo/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/Zoo/Bear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/Zoo/Gorilla.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/Zoo/Lizard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/Zoo/Mammal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/Zoo/Reptile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/Zoo/Snake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hero/BladeKnight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hero/DarkKnight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hero/DarkWizard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hero/Elf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hero/Hero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hero/Knight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hero/MuseElf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hero/SoulMaster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hero/Wizard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c05a8a1e-9340-4aa8-9c36-23b5122a6c4d" name="Changes" comment="add new exercise" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,11 +45,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Inheritance\Exercise" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Inheritance\Lab" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Encapsulation\Exercise" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Encapsulation\Lab" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\WorkingWithAbstraction\Lab" />
-      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\WorkingWithAbstraction\Lab\StudentSystem" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Judge.Main">
@@ -157,20 +136,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664452212227</updated>
-    </task>
-    <task id="LOCAL-00001" summary="add new exercise">
-      <created>1664461102818</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1664461102818</updated>
-    </task>
-    <task id="LOCAL-00002" summary="add new exercise">
-      <created>1664462379327</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1664462379327</updated>
     </task>
     <task id="LOCAL-00003" summary="add new exercise">
       <created>1664462393143</created>
@@ -487,7 +452,35 @@
       <option name="project" value="LOCAL" />
       <updated>1664980907246</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="add new exercise">
+      <created>1664982863388</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1664982863388</updated>
+    </task>
+    <task id="LOCAL-00049" summary="add new exercise">
+      <created>1664982896480</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1664982896480</updated>
+    </task>
+    <task id="LOCAL-00050" summary="add new exercise">
+      <created>1664982951786</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1664982951786</updated>
+    </task>
+    <task id="LOCAL-00051" summary="add new exercise">
+      <created>1664982959738</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1664982959738</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
