@@ -5,9 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05a8a1e-9340-4aa8-9c36-23b5122a6c4d" name="Changes" comment="add new exercise">
-      <change afterPath="$PROJECT_DIR$/src/Judge/NeedForSpeed/Motorcycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/NeedForSpeed/RaceMotorcycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/NeedForSpeed/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/restaurant/Beverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/restaurant/Cake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/restaurant/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/restaurant/ColdBeverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/restaurant/Dessert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/restaurant/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/restaurant/HotBeverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/restaurant/MainDish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/restaurant/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/restaurant/Salmon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/restaurant/Soup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/restaurant/Starter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/restaurant/Tea.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -141,13 +151,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664452212227</updated>
-    </task>
-    <task id="LOCAL-00004" summary="add new exercise">
-      <created>1664462401425</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1664462401425</updated>
     </task>
     <task id="LOCAL-00005" summary="add new exercise">
       <created>1664462425063</created>
@@ -485,7 +488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664983136391</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="add new exercise">
+      <created>1665047607957</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1665047607957</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
