@@ -3,12 +3,12 @@ package Inheritance.Exercise.restaurant;
 import java.math.BigDecimal;
 
 public class Coffee extends HotBeverage {
-    private final double COFFEE_MILLILITERS = 50;
-    private final BigDecimal COFFEE_PRICE = BigDecimal.valueOf(3.50);
+    private final static double COFFEE_MILLILITERS = 50;
+    private final static BigDecimal COFFEE_PRICE = BigDecimal.valueOf(3.50);
     double caffeine;
 
     public Coffee(String name, double caffeine) {
-        super(name, BigDecimal.valueOf(3.50), 50);
+        super(name, COFFEE_PRICE, COFFEE_MILLILITERS);
         this.caffeine = caffeine;
     }
 
