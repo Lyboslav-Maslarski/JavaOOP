@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05a8a1e-9340-4aa8-9c36-23b5122a6c4d" name="Changes" comment="add new exercise">
-      <change afterPath="$PROJECT_DIR$/src/Judge/BorderControl/Citizen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/BorderControl/Identifiable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/BorderControl/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/BorderControl/Robot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/Ferrari/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/Ferrari/Ferrari.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,19 +58,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
-    <configuration name="Encapsulation.Exercise.FootballTeamGenerator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Encapsulation.Exercise.FootballTeamGenerator.Main" />
-      <module name="JavaOOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Encapsulation.Exercise.FootballTeamGenerator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Inheritance.Exercise.animals.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Inheritance.Exercise.animals.Main" />
       <module name="JavaOOP" />
@@ -100,6 +84,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InterfacesAndAbstraction.Lab.BorderControl.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterfacesAndAbstraction.Lab.BorderControl.Main" />
+      <module name="JavaOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="InterfacesAndAbstraction.Lab.BorderControl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Judge.SayHello.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Judge.SayHello.Main" />
       <module name="JavaOOP" />
@@ -114,11 +111,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Judge.BorderControl.Main" />
+      <option name="MAIN_CLASS_NAME" value="Judge.Ferrari.Main" />
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Judge.BorderControl.*" />
+          <option name="PATTERN" value="Judge.Ferrari.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,10 +126,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.InterfacesAndAbstraction.Lab.BorderControl.Main" />
         <item itemvalue="Application.Judge.SayHello.Main" />
         <item itemvalue="Application.Inheritance.Exercise.animals.Main" />
         <item itemvalue="Application.Inheritance.Lab.Main" />
-        <item itemvalue="Application.Encapsulation.Exercise.FootballTeamGenerator.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -144,20 +141,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664452212227</updated>
-    </task>
-    <task id="LOCAL-00017" summary="add new exercise">
-      <created>1664529918821</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1664529918821</updated>
-    </task>
-    <task id="LOCAL-00018" summary="add new exercise">
-      <created>1664529927248</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1664529927248</updated>
     </task>
     <task id="LOCAL-00019" summary="add new exercise">
       <created>1664529938255</created>
@@ -488,7 +471,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665133388637</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="add new exercise">
+      <created>1665134245942</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1665134245942</updated>
+    </task>
+    <task id="LOCAL-00067" summary="add new exercise">
+      <created>1665134252534</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1665134252534</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
