@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05a8a1e-9340-4aa8-9c36-23b5122a6c4d" name="Changes" comment="add new exercise">
-      <change afterPath="$PROJECT_DIR$/src/Judge/Audi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/CarImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/Rentable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/Seat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/Sellable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/lyb4o.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/SayHello/BasePerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/SayHello/Bulgarian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/SayHello/Chinese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/SayHello/European.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/SayHello/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/SayHello/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +51,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -62,7 +63,7 @@
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Encapsulation\Lab" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Judge.SayHello.Main">
     <configuration name="Encapsulation.Exercise.FootballTeamGenerator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Encapsulation.Exercise.FootballTeamGenerator.Main" />
       <module name="JavaOOP" />
@@ -115,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Judge.Main" />
+    <configuration name="Judge.SayHello.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Judge.SayHello.Main" />
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Judge.*" />
+          <option name="PATTERN" value="Judge.SayHello.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,7 +131,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Judge.SayHello.Main" />
         <item itemvalue="Application.Inheritance.Exercise.animals.Main" />
         <item itemvalue="Application.Inheritance.Lab.Main" />
         <item itemvalue="Application.Encapsulation.Exercise.FootballTeamGenerator.Main" />
@@ -146,34 +147,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664452212227</updated>
-    </task>
-    <task id="LOCAL-00009" summary="add new exercise">
-      <created>1664465936808</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1664465936808</updated>
-    </task>
-    <task id="LOCAL-00010" summary="add new exercise">
-      <created>1664466043362</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1664466043362</updated>
-    </task>
-    <task id="LOCAL-00011" summary="add new exercise">
-      <created>1664466056064</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1664466056064</updated>
-    </task>
-    <task id="LOCAL-00012" summary="add new exercise">
-      <created>1664466061825</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1664466061825</updated>
     </task>
     <task id="LOCAL-00013" summary="add new exercise">
       <created>1664466298956</created>
@@ -490,7 +463,35 @@
       <option name="project" value="LOCAL" />
       <updated>1665055054300</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="add new exercise">
+      <created>1665068345370</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1665068345370</updated>
+    </task>
+    <task id="LOCAL-00059" summary="add new exercise">
+      <created>1665068350640</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1665068350640</updated>
+    </task>
+    <task id="LOCAL-00060" summary="add new exercise">
+      <created>1665068357144</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1665068357144</updated>
+    </task>
+    <task id="LOCAL-00061" summary="add new exercise">
+      <created>1665068364061</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1665068364061</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -519,5 +520,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
