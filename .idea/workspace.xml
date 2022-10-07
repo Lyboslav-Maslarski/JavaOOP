@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05a8a1e-9340-4aa8-9c36-23b5122a6c4d" name="Changes" comment="add new exercise">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/lyb4o.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/SayHello/BasePerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/SayHello/Bulgarian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/SayHello/Chinese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/SayHello/European.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/SayHello/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/SayHello/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/BorderControl/Citizen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/BorderControl/Identifiable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/BorderControl/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/BorderControl/Robot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,26 +60,13 @@
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Encapsulation\Lab" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Judge.SayHello.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Encapsulation.Exercise.FootballTeamGenerator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Encapsulation.Exercise.FootballTeamGenerator.Main" />
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Encapsulation.Exercise.FootballTeamGenerator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Encapsulation.Exercise.PizzaCalories.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Encapsulation.Exercise.PizzaCalories.Main" />
-      <module name="JavaOOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Encapsulation.Exercise.PizzaCalories.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,13 +113,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Judge.BorderControl.Main" />
+      <module name="JavaOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Judge.BorderControl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Judge.SayHello.Main" />
         <item itemvalue="Application.Inheritance.Exercise.animals.Main" />
         <item itemvalue="Application.Inheritance.Lab.Main" />
         <item itemvalue="Application.Encapsulation.Exercise.FootballTeamGenerator.Main" />
-        <item itemvalue="Application.Encapsulation.Exercise.PizzaCalories.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -147,34 +144,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664452212227</updated>
-    </task>
-    <task id="LOCAL-00013" summary="add new exercise">
-      <created>1664466298956</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1664466298956</updated>
-    </task>
-    <task id="LOCAL-00014" summary="add new exercise">
-      <created>1664469443514</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1664469443514</updated>
-    </task>
-    <task id="LOCAL-00015" summary="add new exercise">
-      <created>1664479666090</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1664479666090</updated>
-    </task>
-    <task id="LOCAL-00016" summary="add new exercise">
-      <created>1664529912528</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1664529912528</updated>
     </task>
     <task id="LOCAL-00017" summary="add new exercise">
       <created>1664529918821</created>
@@ -491,7 +460,35 @@
       <option name="project" value="LOCAL" />
       <updated>1665068364061</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="add new exercise">
+      <created>1665133369400</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1665133369400</updated>
+    </task>
+    <task id="LOCAL-00063" summary="add new exercise">
+      <created>1665133375328</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1665133375328</updated>
+    </task>
+    <task id="LOCAL-00064" summary="add new exercise">
+      <created>1665133380856</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1665133380856</updated>
+    </task>
+    <task id="LOCAL-00065" summary="add new exercise">
+      <created>1665133388637</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1665133388637</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
