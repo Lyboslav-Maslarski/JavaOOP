@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05a8a1e-9340-4aa8-9c36-23b5122a6c4d" name="Changes" comment="add new exercise">
-      <change afterPath="$PROJECT_DIR$/src/Judge/DefineAnInterfacePerson/Birthable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/DefineAnInterfacePerson/Buyer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/DefineAnInterfacePerson/Citizen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/DefineAnInterfacePerson/Identifiable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/DefineAnInterfacePerson/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/DefineAnInterfacePerson/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/DefineAnInterfacePerson/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/DefineAnInterfacePerson/Rebel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/DefineAnInterfacePerson/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/Telephony/Browsable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/Telephony/Callable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/Telephony/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/Telephony/Smartphone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -65,12 +60,12 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
-    <configuration name="Inheritance.Exercise.animals.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Inheritance.Exercise.animals.Main" />
+    <configuration name="InterfacesAndAbstraction.Exercise.DefineAnInterfacePerson.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterfacesAndAbstraction.Exercise.DefineAnInterfacePerson.Main" />
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Inheritance.Exercise.animals.*" />
+          <option name="PATTERN" value="InterfacesAndAbstraction.Exercise.DefineAnInterfacePerson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +113,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Judge.DefineAnInterfacePerson.Main" />
+      <option name="MAIN_CLASS_NAME" value="Judge.Telephony.Main" />
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Judge.DefineAnInterfacePerson.*" />
+          <option name="PATTERN" value="Judge.Telephony.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,10 +128,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.InterfacesAndAbstraction.Exercise.DefineAnInterfacePerson.Main" />
         <item itemvalue="Application.InterfacesAndAbstraction.Lab.Ferrari.Main" />
         <item itemvalue="Application.InterfacesAndAbstraction.Lab.BorderControl.Main" />
         <item itemvalue="Application.Judge.SayHello.Main" />
-        <item itemvalue="Application.Inheritance.Exercise.animals.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -148,48 +143,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664452212227</updated>
-    </task>
-    <task id="LOCAL-00020" summary="add new exercise">
-      <created>1664529945315</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1664529945315</updated>
-    </task>
-    <task id="LOCAL-00021" summary="add new exercise">
-      <created>1664529950485</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1664529950485</updated>
-    </task>
-    <task id="LOCAL-00022" summary="add new exercise">
-      <created>1664529957745</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1664529957745</updated>
-    </task>
-    <task id="LOCAL-00023" summary="add new exercise">
-      <created>1664534557729</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1664534557729</updated>
-    </task>
-    <task id="LOCAL-00024" summary="add new exercise">
-      <created>1664534564908</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1664534564908</updated>
-    </task>
-    <task id="LOCAL-00025" summary="add new exercise">
-      <created>1664534572681</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1664534572681</updated>
     </task>
     <task id="LOCAL-00026" summary="add new exercise">
       <created>1664537326177</created>
@@ -492,7 +445,49 @@
       <option name="project" value="LOCAL" />
       <updated>1665134896987</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="add new exercise">
+      <created>1665140402424</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1665140402424</updated>
+    </task>
+    <task id="LOCAL-00070" summary="add new exercise">
+      <created>1665140408610</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1665140408610</updated>
+    </task>
+    <task id="LOCAL-00071" summary="add new exercise">
+      <created>1665140416125</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1665140416125</updated>
+    </task>
+    <task id="LOCAL-00072" summary="add new exercise">
+      <created>1665140420859</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1665140420859</updated>
+    </task>
+    <task id="LOCAL-00073" summary="add new exercise">
+      <created>1665140426289</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1665140426289</updated>
+    </task>
+    <task id="LOCAL-00074" summary="add new exercise">
+      <created>1665140432789</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1665140432789</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
