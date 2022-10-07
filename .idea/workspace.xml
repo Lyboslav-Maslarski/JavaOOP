@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05a8a1e-9340-4aa8-9c36-23b5122a6c4d" name="Changes" comment="add new exercise">
-      <change afterPath="$PROJECT_DIR$/src/Judge/Ferrari/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/Ferrari/Ferrari.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/DefineAnInterfacePerson/Birthable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/DefineAnInterfacePerson/Buyer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/DefineAnInterfacePerson/Citizen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/DefineAnInterfacePerson/Identifiable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/DefineAnInterfacePerson/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/DefineAnInterfacePerson/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/DefineAnInterfacePerson/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/DefineAnInterfacePerson/Rebel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/DefineAnInterfacePerson/Robot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +25,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -50,11 +57,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\InterfacesAndAbstraction\Exercise" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\InterfacesAndAbstraction\Lab" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Inheritance\Exercise" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Inheritance\Lab" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Encapsulation\Exercise" />
-      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Encapsulation\Lab" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -71,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Inheritance.Lab.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Inheritance.Lab.Main" />
+    <configuration name="InterfacesAndAbstraction.Lab.BorderControl.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterfacesAndAbstraction.Lab.BorderControl.Main" />
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Inheritance.Lab.*" />
+          <option name="PATTERN" value="InterfacesAndAbstraction.Lab.BorderControl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterfacesAndAbstraction.Lab.BorderControl.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterfacesAndAbstraction.Lab.BorderControl.Main" />
+    <configuration name="InterfacesAndAbstraction.Lab.Ferrari.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterfacesAndAbstraction.Lab.Ferrari.Main" />
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterfacesAndAbstraction.Lab.BorderControl.*" />
+          <option name="PATTERN" value="InterfacesAndAbstraction.Lab.Ferrari.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +118,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Judge.Ferrari.Main" />
+      <option name="MAIN_CLASS_NAME" value="Judge.DefineAnInterfacePerson.Main" />
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Judge.Ferrari.*" />
+          <option name="PATTERN" value="Judge.DefineAnInterfacePerson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,10 +133,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.InterfacesAndAbstraction.Lab.Ferrari.Main" />
         <item itemvalue="Application.InterfacesAndAbstraction.Lab.BorderControl.Main" />
         <item itemvalue="Application.Judge.SayHello.Main" />
         <item itemvalue="Application.Inheritance.Exercise.animals.Main" />
-        <item itemvalue="Application.Inheritance.Lab.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -141,13 +148,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664452212227</updated>
-    </task>
-    <task id="LOCAL-00019" summary="add new exercise">
-      <created>1664529938255</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1664529938255</updated>
     </task>
     <task id="LOCAL-00020" summary="add new exercise">
       <created>1664529945315</created>
@@ -485,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665134252534</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="add new exercise">
+      <created>1665134896987</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1665134896987</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
