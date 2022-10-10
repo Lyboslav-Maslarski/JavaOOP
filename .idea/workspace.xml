@@ -5,18 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05a8a1e-9340-4aa8-9c36-23b5122a6c4d" name="Changes" comment="add new exercise">
-      <change afterPath="$PROJECT_DIR$/src/Judge/MilitaryElite/CommandoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/MilitaryElite/Corps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/MilitaryElite/EngineerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/MilitaryElite/LieutenantGeneralImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/MilitaryElite/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/MilitaryElite/Mission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/MilitaryElite/MissionStates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/MilitaryElite/PrivateImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/MilitaryElite/Repair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/MilitaryElite/SoldierImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/MilitaryElite/SpecialisedSoldierImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Judge/MilitaryElite/SpyImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/Animals/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/Animals/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/Animals/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/Animals/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/MathOperation/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/MathOperation/MathOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/Shapes/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/Shapes/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/Shapes/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Judge/Shapes/Shape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +57,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Judge.MathOperation" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\InterfacesAndAbstraction\Exercise" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\InterfacesAndAbstraction\Lab" />
@@ -67,7 +68,7 @@
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Encapsulation\Exercise" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Judge.Animals.Main">
     <configuration name="InterfacesAndAbstraction.Exercise.CollectionHierarchy.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InterfacesAndAbstraction.Exercise.CollectionHierarchy.Main" />
       <module name="JavaOOP" />
@@ -81,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterfacesAndAbstraction.Exercise.DefineAnInterfacePerson.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterfacesAndAbstraction.Exercise.DefineAnInterfacePerson.Main" />
+    <configuration name="InterfacesAndAbstraction.Exercise.MilitaryElite.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterfacesAndAbstraction.Exercise.MilitaryElite.Main" />
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterfacesAndAbstraction.Exercise.DefineAnInterfacePerson.*" />
+          <option name="PATTERN" value="InterfacesAndAbstraction.Exercise.MilitaryElite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterfacesAndAbstraction.Lab.Ferrari.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterfacesAndAbstraction.Lab.Ferrari.Main" />
+    <configuration name="Judge.Animals.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Judge.Animals.Main" />
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterfacesAndAbstraction.Lab.Ferrari.*" />
+          <option name="PATTERN" value="Judge.Animals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +122,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Judge.MilitaryElite.Main" />
+      <option name="MAIN_CLASS_NAME" value="Judge.MathOperation.Main" />
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Judge.MilitaryElite.*" />
+          <option name="PATTERN" value="Judge.MathOperation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Judge.Animals.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.InterfacesAndAbstraction.Exercise.MilitaryElite.Main" />
         <item itemvalue="Application.InterfacesAndAbstraction.Exercise.CollectionHierarchy.Main" />
         <item itemvalue="Application.InterfacesAndAbstraction.Exercise.Telephony.Main" />
-        <item itemvalue="Application.InterfacesAndAbstraction.Exercise.DefineAnInterfacePerson.Main" />
-        <item itemvalue="Application.InterfacesAndAbstraction.Lab.Ferrari.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -151,13 +152,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664452212227</updated>
-    </task>
-    <task id="LOCAL-00028" summary="add new exercise">
-      <created>1664563488889</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1664563488889</updated>
     </task>
     <task id="LOCAL-00029" summary="add new exercise">
       <created>1664724138717</created>
@@ -495,7 +489,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665152925501</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="add new exercise">
+      <created>1665252754111</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1665252754111</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
