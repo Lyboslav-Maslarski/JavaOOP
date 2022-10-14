@@ -5,21 +5,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05a8a1e-9340-4aa8-9c36-23b5122a6c4d" name="Changes" comment="add new exercise">
-      <change afterPath="$PROJECT_DIR$/src/calculator/CalculationEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/calculator/DivisionOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/calculator/Extensions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/calculator/InputInterpreter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/calculator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/calculator/MemoryRecallOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/calculator/MemorySaveOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/calculator/MultiplicationOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/calculator/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidLab/p01_SingleResponsibility/p01_DrawingShape/DrawingManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidLab/p01_SingleResponsibility/p01_DrawingShape/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidLab/p01_SingleResponsibility/p01_DrawingShape/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidLab/p01_SingleResponsibility/p01_DrawingShape/interfaces/DrawingManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidLab/p01_SingleResponsibility/p01_DrawingShape/interfaces/DrawingRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidLab/p01_SingleResponsibility/p01_DrawingShape/interfaces/Rengerer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidLab/p01_SingleResponsibility/p01_DrawingShape/interfaces/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidLab/p02_OpenClosedPrinciple/p01_FileStream/File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidLab/p02_OpenClosedPrinciple/p01_FileStream/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidLab/p02_OpenClosedPrinciple/p01_FileStream/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidLab/p02_OpenClosedPrinciple/p01_FileStream/Progress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidLab/p02_OpenClosedPrinciple/p02_DrawingShape/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidLab/p02_OpenClosedPrinciple/p02_DrawingShape/DrawingManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidLab/p02_OpenClosedPrinciple/p02_DrawingShape/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidLab/p02_OpenClosedPrinciple/p02_DrawingShape/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidLab/p02_OpenClosedPrinciple/p02_DrawingShape/interfaces/DrawingManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidLab/p02_OpenClosedPrinciple/p02_DrawingShape/interfaces/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidLab/p02_OpenClosedPrinciple/p03_ShoppingCart/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidLab/p02_OpenClosedPrinciple/p03_ShoppingCart/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidLab/p02_OpenClosedPrinciple/p03_ShoppingCart/OnlineOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidLab/p02_OpenClosedPrinciple/p03_ShoppingCart/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidLab/p02_OpenClosedPrinciple/p03_ShoppingCart/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidLab/p03_LiskovSubstitution/p01_Square/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidLab/p03_LiskovSubstitution/p01_Square/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidLab/p03_LiskovSubstitution/p01_Square/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidLab/p03_LiskovSubstitution/p01_Square/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidLab/p04_InterfaceSegregation/p02_identity/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidLab/p04_InterfaceSegregation/p02_identity/AccountManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidLab/p04_InterfaceSegregation/p02_identity/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidLab/p04_InterfaceSegregation/p02_identity/interfaces/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidLab/p04_InterfaceSegregation/p02_identity/interfaces/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidLab/p05_DependencyInversion/p01_HelloWord/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidLab/p05_DependencyInversion/p01_HelloWord/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidLab/p05_DependencyInversion/p02_Worker/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidLab/p05_DependencyInversion/p02_Worker/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidLab/p05_DependencyInversion/p02_Worker/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidLab/p05_DependencyInversion/p03_Database/Courses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidLab/p05_DependencyInversion/p03_Database/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solidLab/p05_DependencyInversion/p03_Database/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -66,14 +99,14 @@
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Judge\VehiclesExtension" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src" />
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\SOLID\Lab" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Polymorphism\Exercise" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Polymorphism\Lab" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\InterfacesAndAbstraction\Exercise" />
-      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\InterfacesAndAbstraction\Lab" />
-      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Inheritance\Exercise" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.calculator.Main">
+  <component name="RunManager" selected="Application.Polymorphism.Exercise.calculator.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Polymorphism.Exercise.VehiclesExtension.Main" />
       <module name="JavaOOP" />
@@ -113,6 +146,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Polymorphism.Exercise.calculator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Polymorphism.Exercise.calculator.Main" />
+      <module name="JavaOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Polymorphism.Exercise.calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Polymorphism.Exercise.word.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Polymorphism.Exercise.word.Main" />
       <module name="JavaOOP" />
@@ -126,25 +172,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="calculator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="calculator.Main" />
-      <module name="JavaOOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="calculator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.calculator.Main" />
+        <item itemvalue="Application.Polymorphism.Exercise.calculator.Main" />
         <item itemvalue="Application.Polymorphism.Exercise.word.Main" />
         <item itemvalue="Application.Polymorphism.Exercise.WildFarm.Main" />
-        <item itemvalue="Application.Judge.VehiclesExtension.Main" />
         <item itemvalue="Application.Polymorphism.Exercise.Vehicles.Main" />
       </list>
     </recent_temporary>
@@ -157,27 +189,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664452212227</updated>
-    </task>
-    <task id="LOCAL-00044" summary="add new exercise">
-      <created>1664809320616</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1664809320616</updated>
-    </task>
-    <task id="LOCAL-00045" summary="add new exercise">
-      <created>1664980891624</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1664980891624</updated>
-    </task>
-    <task id="LOCAL-00046" summary="add new exercise">
-      <created>1664980898142</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1664980898142</updated>
     </task>
     <task id="LOCAL-00047" summary="add new exercise">
       <created>1664980907246</created>
@@ -501,7 +512,28 @@
       <option name="project" value="LOCAL" />
       <updated>1665675576558</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="add new exercise">
+      <created>1665682807766</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1665682807766</updated>
+    </task>
+    <task id="LOCAL-00094" summary="add new exercise">
+      <created>1665682814742</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1665682814742</updated>
+    </task>
+    <task id="LOCAL-00095" summary="add new exercise">
+      <created>1665682821352</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1665682821352</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -527,11 +559,6 @@
           <url>file://$PROJECT_DIR$/src/Encapsulation/Exercise/FootballTeamGenerator/Main.java</url>
           <line>16</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/calculator/Main.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
