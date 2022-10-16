@@ -5,45 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05a8a1e-9340-4aa8-9c36-23b5122a6c4d" name="Changes" comment="add new exercise">
-      <change afterPath="$PROJECT_DIR$/src/solidLab/p01_SingleResponsibility/p01_DrawingShape/DrawingManagerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidLab/p01_SingleResponsibility/p01_DrawingShape/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidLab/p01_SingleResponsibility/p01_DrawingShape/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidLab/p01_SingleResponsibility/p01_DrawingShape/interfaces/DrawingManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidLab/p01_SingleResponsibility/p01_DrawingShape/interfaces/DrawingRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidLab/p01_SingleResponsibility/p01_DrawingShape/interfaces/Rengerer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidLab/p01_SingleResponsibility/p01_DrawingShape/interfaces/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidLab/p02_OpenClosedPrinciple/p01_FileStream/File.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidLab/p02_OpenClosedPrinciple/p01_FileStream/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidLab/p02_OpenClosedPrinciple/p01_FileStream/Music.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidLab/p02_OpenClosedPrinciple/p01_FileStream/Progress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidLab/p02_OpenClosedPrinciple/p02_DrawingShape/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidLab/p02_OpenClosedPrinciple/p02_DrawingShape/DrawingManagerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidLab/p02_OpenClosedPrinciple/p02_DrawingShape/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidLab/p02_OpenClosedPrinciple/p02_DrawingShape/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidLab/p02_OpenClosedPrinciple/p02_DrawingShape/interfaces/DrawingManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidLab/p02_OpenClosedPrinciple/p02_DrawingShape/interfaces/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidLab/p02_OpenClosedPrinciple/p03_ShoppingCart/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidLab/p02_OpenClosedPrinciple/p03_ShoppingCart/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidLab/p02_OpenClosedPrinciple/p03_ShoppingCart/OnlineOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidLab/p02_OpenClosedPrinciple/p03_ShoppingCart/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidLab/p02_OpenClosedPrinciple/p03_ShoppingCart/OrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidLab/p03_LiskovSubstitution/p01_Square/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidLab/p03_LiskovSubstitution/p01_Square/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidLab/p03_LiskovSubstitution/p01_Square/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidLab/p03_LiskovSubstitution/p01_Square/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidLab/p04_InterfaceSegregation/p02_identity/AccountController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidLab/p04_InterfaceSegregation/p02_identity/AccountManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidLab/p04_InterfaceSegregation/p02_identity/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidLab/p04_InterfaceSegregation/p02_identity/interfaces/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidLab/p04_InterfaceSegregation/p02_identity/interfaces/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidLab/p05_DependencyInversion/p01_HelloWord/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidLab/p05_DependencyInversion/p01_HelloWord/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidLab/p05_DependencyInversion/p02_Worker/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidLab/p05_DependencyInversion/p02_Worker/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidLab/p05_DependencyInversion/p02_Worker/Worker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidLab/p05_DependencyInversion/p03_Database/Courses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidLab/p05_DependencyInversion/p03_Database/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solidLab/p05_DependencyInversion/p03_Database/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/Exercise/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/Exercise/CalorieCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/Exercise/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/Exercise/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/Exercise/QuantityCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/Exercise/products/Chips.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/Exercise/products/Chocolate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/Exercise/products/Coke.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/Exercise/products/Drink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/Exercise/products/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/Exercise/products/Lemonade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SOLID/Exercise/products/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,9 +30,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -106,13 +79,13 @@
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\InterfacesAndAbstraction\Exercise" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Polymorphism.Exercise.calculator.Main">
+  <component name="RunManager" selected="Application.SOLID.Exercise.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Polymorphism.Exercise.VehiclesExtension.Main" />
+      <option name="MAIN_CLASS_NAME" value="SOLID.Exercise.Main" />
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Polymorphism.Exercise.VehiclesExtension.*" />
+          <option name="PATTERN" value="SOLID.Exercise.calculators.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,6 +147,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SOLID.Exercise.Main" />
         <item itemvalue="Application.Polymorphism.Exercise.calculator.Main" />
         <item itemvalue="Application.Polymorphism.Exercise.word.Main" />
         <item itemvalue="Application.Polymorphism.Exercise.WildFarm.Main" />
@@ -189,13 +163,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664452212227</updated>
-    </task>
-    <task id="LOCAL-00047" summary="add new exercise">
-      <created>1664980907246</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1664980907246</updated>
     </task>
     <task id="LOCAL-00048" summary="add new exercise">
       <created>1664982863388</created>
@@ -533,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665682821352</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="add new exercise">
+      <created>1665752502861</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1665752502861</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
