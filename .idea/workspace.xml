@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05a8a1e-9340-4aa8-9c36-23b5122a6c4d" name="Changes" comment="add new exercise">
-      <change afterPath="$PROJECT_DIR$/src/SOLID/Exercise/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/Exercise/CalorieCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/Exercise/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/Exercise/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/Exercise/QuantityCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/Exercise/products/Chips.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/Exercise/products/Chocolate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/Exercise/products/Coke.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/Exercise/products/Drink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/Exercise/products/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/Exercise/products/Lemonade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/Exercise/products/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Reflection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Reflection/Lab/GettersAndSetters/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Reflection/Lab/Reflect/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Reflection/Lab/Reflection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -72,49 +65,20 @@
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Judge\VehiclesExtension" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Reflection\Lab" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\SOLID\Lab" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Polymorphism\Exercise" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Polymorphism\Lab" />
-      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\InterfacesAndAbstraction\Exercise" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Reflection.Lab" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SOLID.Exercise.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SOLID.Exercise.Main" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="JavaOOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SOLID.Exercise.calculators.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Polymorphism.Exercise.Vehicles.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Polymorphism.Exercise.Vehicles.Main" />
-      <module name="JavaOOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Polymorphism.Exercise.Vehicles.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Polymorphism.Exercise.WildFarm.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Polymorphism.Exercise.WildFarm.Main" />
-      <module name="JavaOOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Polymorphism.Exercise.WildFarm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -145,13 +109,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Reflection.Lab.GettersAndSetters.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Reflection.Lab.GettersAndSetters.Main" />
+      <module name="JavaOOP" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Reflection.Lab.Reflect.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Reflection.Lab.Reflect.Main" />
+      <module name="JavaOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SOLID.Exercise.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Reflection.Lab.GettersAndSetters.Main" />
+        <item itemvalue="Application.Reflection.Lab.Reflect.Main" />
         <item itemvalue="Application.Polymorphism.Exercise.calculator.Main" />
         <item itemvalue="Application.Polymorphism.Exercise.word.Main" />
-        <item itemvalue="Application.Polymorphism.Exercise.WildFarm.Main" />
-        <item itemvalue="Application.Polymorphism.Exercise.Vehicles.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -163,27 +147,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664452212227</updated>
-    </task>
-    <task id="LOCAL-00048" summary="add new exercise">
-      <created>1664982863388</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1664982863388</updated>
-    </task>
-    <task id="LOCAL-00049" summary="add new exercise">
-      <created>1664982896480</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1664982896480</updated>
-    </task>
-    <task id="LOCAL-00050" summary="add new exercise">
-      <created>1664982951786</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1664982951786</updated>
     </task>
     <task id="LOCAL-00051" summary="add new exercise">
       <created>1664982959738</created>
@@ -507,7 +470,28 @@
       <option name="project" value="LOCAL" />
       <updated>1665752502861</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="add new exercise">
+      <created>1665933246832</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1665933246832</updated>
+    </task>
+    <task id="LOCAL-00098" summary="add new exercise">
+      <created>1665933256383</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1665933256383</updated>
+    </task>
+    <task id="LOCAL-00099" summary="add new exercise">
+      <created>1665933262016</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1665933262016</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
