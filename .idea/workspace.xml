@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05a8a1e-9340-4aa8-9c36-23b5122a6c4d" name="Changes" comment="add new exercise">
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Reflection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Reflection/Lab/GettersAndSetters/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Reflection/Lab/Reflect/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Reflection/Lab/Reflection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Reflection/Lab/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Reflection/Lab/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Reflection/Lab/Tracker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +23,7 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -75,14 +74,7 @@
       <recent name="Reflection.Lab" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="JavaOOP" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Tracker">
     <configuration name="Polymorphism.Exercise.calculator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Polymorphism.Exercise.calculator.Main" />
       <module name="JavaOOP" />
@@ -96,21 +88,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Polymorphism.Exercise.word.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Polymorphism.Exercise.word.Main" />
+    <configuration name="Reflection.Lab.GettersAndSetters.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Reflection.Lab.GettersAndSetters.Main" />
       <module name="JavaOOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Polymorphism.Exercise.word.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reflection.Lab.GettersAndSetters.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Reflection.Lab.GettersAndSetters.Main" />
+    <configuration name="Reflection.Lab.HighQualityMistakes.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Reflection.Lab.HighQualityMistakes.Main" />
       <module name="JavaOOP" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,13 +115,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tracker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Reflection.Lab.Tracker" />
+      <module name="JavaOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Reflection.Lab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Tracker" />
+        <item itemvalue="Application.Reflection.Lab.HighQualityMistakes.Main" />
         <item itemvalue="Application.Reflection.Lab.GettersAndSetters.Main" />
         <item itemvalue="Application.Reflection.Lab.Reflect.Main" />
         <item itemvalue="Application.Polymorphism.Exercise.calculator.Main" />
-        <item itemvalue="Application.Polymorphism.Exercise.word.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -147,34 +146,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664452212227</updated>
-    </task>
-    <task id="LOCAL-00051" summary="add new exercise">
-      <created>1664982959738</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1664982959738</updated>
-    </task>
-    <task id="LOCAL-00052" summary="add new exercise">
-      <created>1664983136391</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1664983136391</updated>
-    </task>
-    <task id="LOCAL-00053" summary="add new exercise">
-      <created>1665047607957</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1665047607957</updated>
-    </task>
-    <task id="LOCAL-00054" summary="add new exercise">
-      <created>1665049143176</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1665049143176</updated>
     </task>
     <task id="LOCAL-00055" summary="add new exercise">
       <created>1665049150258</created>
@@ -491,7 +462,35 @@
       <option name="project" value="LOCAL" />
       <updated>1665933262016</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="add new exercise">
+      <created>1666012479374</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1666012479374</updated>
+    </task>
+    <task id="LOCAL-00101" summary="add new exercise">
+      <created>1666012485361</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1666012485361</updated>
+    </task>
+    <task id="LOCAL-00102" summary="add new exercise">
+      <created>1666012491773</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1666012491773</updated>
+    </task>
+    <task id="LOCAL-00103" summary="add new exercise">
+      <created>1666012497844</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1666012497844</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -517,6 +516,11 @@
           <url>file://$PROJECT_DIR$/src/Encapsulation/Exercise/FootballTeamGenerator/Main.java</url>
           <line>16</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Reflection/Lab/Tracker.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
