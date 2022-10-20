@@ -5,9 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05a8a1e-9340-4aa8-9c36-23b5122a6c4d" name="Changes" comment="add new exercise">
-      <change afterPath="$PROJECT_DIR$/src/Reflection/Lab/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Reflection/Lab/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Reflection/Lab/Tracker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Skeletons/barracksWars/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Skeletons/barracksWars/core/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Skeletons/barracksWars/core/commands/Add.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Skeletons/barracksWars/core/commands/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Skeletons/barracksWars/core/commands/CommandInterpreterImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Skeletons/barracksWars/core/commands/Fight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Skeletons/barracksWars/core/commands/Inject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Skeletons/barracksWars/core/commands/Report.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Skeletons/barracksWars/core/commands/Retire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Skeletons/barracksWars/core/factories/UnitFactoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Skeletons/barracksWars/data/UnitRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Skeletons/barracksWars/interfaces/Attacker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Skeletons/barracksWars/interfaces/CommandInterpreter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Skeletons/barracksWars/interfaces/Destroyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Skeletons/barracksWars/interfaces/Executable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Skeletons/barracksWars/interfaces/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Skeletons/barracksWars/interfaces/Runnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Skeletons/barracksWars/interfaces/Unit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Skeletons/barracksWars/interfaces/UnitFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Skeletons/barracksWars/models/units/AbstractUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Skeletons/barracksWars/models/units/Archer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Skeletons/barracksWars/models/units/Gunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Skeletons/barracksWars/models/units/Horseman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Skeletons/barracksWars/models/units/Pikeman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Skeletons/barracksWars/models/units/Swordsman.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,23 +86,23 @@
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Judge\VehiclesExtension" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Reflection\Exercise" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Reflection\Lab" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\SOLID\Lab" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Polymorphism\Exercise" />
-      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Polymorphism\Lab" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Reflection.Lab" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Tracker">
-    <configuration name="Polymorphism.Exercise.calculator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Polymorphism.Exercise.calculator.Main" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Skeletons.barracksWars.Main" />
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Polymorphism.Exercise.calculator.*" />
+          <option name="PATTERN" value="Skeletons.barracksWars.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,9 +110,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reflection.Lab.GettersAndSetters.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Reflection.Lab.GettersAndSetters.Main" />
+    <configuration name="Reflection.Exercise.blackBoxInteger.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Reflection.Exercise.blackBoxInteger.Main" />
       <module name="JavaOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Reflection.Exercise.blackBoxInteger.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Reflection.Exercise.harvestingFields.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Reflection.Exercise.harvestingFields.Main" />
+      <module name="JavaOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Reflection.Exercise.harvestingFields.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,19 +139,6 @@
     <configuration name="Reflection.Lab.HighQualityMistakes.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Reflection.Lab.HighQualityMistakes.Main" />
       <module name="JavaOOP" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Reflection.Lab.Reflect.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Reflection.Lab.Reflect.Main" />
-      <module name="JavaOOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -130,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Reflection.Exercise.blackBoxInteger.Main" />
+        <item itemvalue="Application.Reflection.Exercise.harvestingFields.Main" />
         <item itemvalue="Application.Tracker" />
         <item itemvalue="Application.Reflection.Lab.HighQualityMistakes.Main" />
-        <item itemvalue="Application.Reflection.Lab.GettersAndSetters.Main" />
-        <item itemvalue="Application.Reflection.Lab.Reflect.Main" />
-        <item itemvalue="Application.Polymorphism.Exercise.calculator.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -146,27 +174,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664452212227</updated>
-    </task>
-    <task id="LOCAL-00055" summary="add new exercise">
-      <created>1665049150258</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1665049150258</updated>
-    </task>
-    <task id="LOCAL-00056" summary="add new exercise">
-      <created>1665050039829</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1665050039829</updated>
-    </task>
-    <task id="LOCAL-00057" summary="add new exercise">
-      <created>1665055054300</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1665055054300</updated>
     </task>
     <task id="LOCAL-00058" summary="add new exercise">
       <created>1665068345370</created>
@@ -490,7 +497,28 @@
       <option name="project" value="LOCAL" />
       <updated>1666012497844</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="add new exercise">
+      <created>1666014990120</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1666014990120</updated>
+    </task>
+    <task id="LOCAL-00105" summary="add new exercise">
+      <created>1666216145495</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1666216145495</updated>
+    </task>
+    <task id="LOCAL-00106" summary="add new exercise">
+      <created>1666216166478</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1666216166478</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -518,9 +546,9 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Reflection/Lab/Tracker.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="5" />
+          <url>file://$PROJECT_DIR$/src/Skeletons/barracksWars/Main.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
