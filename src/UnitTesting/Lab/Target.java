@@ -1,4 +1,4 @@
-package UnitTesting.rpg_lab;
+package UnitTesting.Lab;
 
 import java.util.List;
 

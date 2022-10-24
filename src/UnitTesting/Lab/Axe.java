@@ -1,4 +1,4 @@
-package UnitTesting.rpg_lab;
+package UnitTesting.Lab;
 
 public class Axe implements Weapon{
 

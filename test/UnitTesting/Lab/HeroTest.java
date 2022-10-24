@@ -1,4 +1,4 @@
-package UnitTesting.rpg_lab;
+package UnitTesting.Lab;
 
 import org.junit.Test;
 import org.mockito.Mockito;

@@ -5,7 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05a8a1e-9340-4aa8-9c36-23b5122a6c4d" name="Changes" comment="add new exercise">
-      <change afterPath="$PROJECT_DIR$/src/ExceptionsAndErrorHandling/SquareRoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aquarium/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aquarium/common/AquariumTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aquarium/common/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aquarium/common/ConstantMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aquarium/common/DecorationTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aquarium/common/ExceptionMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aquarium/common/FishTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aquarium/core/ControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aquarium/core/EngineImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aquarium/core/interfaces/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aquarium/core/interfaces/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aquarium/models/aquariums/BaseAquarium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aquarium/models/aquariums/FreshwaterAquarium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aquarium/models/aquariums/SaltwaterAquarium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aquarium/models/aquariums/interfaces/Aquarium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aquarium/models/decorations/BaseDecoration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aquarium/models/decorations/Ornament.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aquarium/models/decorations/Plant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aquarium/models/decorations/interfaces/Decoration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aquarium/models/fish/BaseFish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aquarium/models/fish/FreshwaterFish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aquarium/models/fish/SaltwaterFish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aquarium/models/fish/interfaces/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aquarium/repositories/DecorationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aquarium/repositories/interfaces/Repository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,9 +44,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -45,6 +70,8 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/lyb4o/OneDrive/Desktop/JavaOOP/src/Judge/VehiclesExtension&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
@@ -54,6 +81,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="UnitTesting.rpg_lab" />
       <recent name="calculator" />
       <recent name="Judge.word" />
       <recent name="Judge.MathOperation" />
@@ -62,89 +90,108 @@
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Judge\VehiclesExtension" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP" />
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\UnitTesting" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Reflection\Exercise" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Reflection\Lab" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src" />
-      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\SOLID\Lab" />
-      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Polymorphism\Exercise" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="UnitTesting.rpg_lab" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Reflection.Lab" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SquareRoot">
-    <configuration name="EnterNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExceptionsAndErrorHandling.EnterNumbers" />
+  <component name="RunManager" selected="JUnit.HeroTest.test_TargetGivesItemsWhenKilled">
+    <configuration name="AxeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ExceptionsAndErrorHandling.*" />
+          <option name="PATTERN" value="UnitTesting.Lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="UnitTesting.rpg_lab" />
+      <option name="MAIN_CLASS_NAME" value="UnitTesting.Lab.AxeTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberInRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExceptionsAndErrorHandling.NumberInRange" />
+    <configuration name="DummyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ExceptionsAndErrorHandling.*" />
+          <option name="PATTERN" value="UnitTesting.Lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="UnitTesting.rpg_lab" />
+      <option name="MAIN_CLASS_NAME" value="UnitTesting.Lab.DummyTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reflection.Exercise.barracksWars.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Reflection.Exercise.barracksWars.Main" />
+    <configuration name="HeroTest.test_HeroGainXpWhenKillTarget" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Reflection.Exercise.barracksWars.*" />
+          <option name="PATTERN" value="UnitTesting.Lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="UnitTesting.rpg_lab" />
+      <option name="MAIN_CLASS_NAME" value="UnitTesting.Lab.HeroTest" />
+      <option name="METHOD_NAME" value="test_HeroGainXpWhenKillTarget" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reflection.Exercise.blackBoxInteger.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Reflection.Exercise.blackBoxInteger.Main" />
+    <configuration name="HeroTest.test_HeroGainXpWhenKillTarget_Mocking" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Reflection.Exercise.blackBoxInteger.*" />
+          <option name="PATTERN" value="UnitTesting.Lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="UnitTesting.rpg_lab" />
+      <option name="MAIN_CLASS_NAME" value="UnitTesting.Lab.HeroTest" />
+      <option name="METHOD_NAME" value="test_HeroGainXpWhenKillTarget_Mocking" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SquareRoot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExceptionsAndErrorHandling.SquareRoot" />
+    <configuration name="HeroTest.test_TargetGivesItemsWhenKilled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ExceptionsAndErrorHandling.*" />
+          <option name="PATTERN" value="UnitTesting.Lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="UnitTesting.rpg_lab" />
+      <option name="MAIN_CLASS_NAME" value="UnitTesting.Lab.HeroTest" />
+      <option name="METHOD_NAME" value="test_TargetGivesItemsWhenKilled" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SquareRoot" />
-        <item itemvalue="Application.NumberInRange" />
-        <item itemvalue="Application.EnterNumbers" />
-        <item itemvalue="Application.Reflection.Exercise.barracksWars.Main" />
-        <item itemvalue="Application.Reflection.Exercise.blackBoxInteger.Main" />
+        <item itemvalue="JUnit.HeroTest.test_TargetGivesItemsWhenKilled" />
+        <item itemvalue="JUnit.HeroTest.test_HeroGainXpWhenKillTarget_Mocking" />
+        <item itemvalue="JUnit.HeroTest.test_HeroGainXpWhenKillTarget" />
+        <item itemvalue="JUnit.DummyTest" />
+        <item itemvalue="JUnit.AxeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -156,20 +203,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664452212227</updated>
-    </task>
-    <task id="LOCAL-00064" summary="add new exercise">
-      <created>1665133380856</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1665133380856</updated>
-    </task>
-    <task id="LOCAL-00065" summary="add new exercise">
-      <created>1665133388637</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1665133388637</updated>
     </task>
     <task id="LOCAL-00066" summary="add new exercise">
       <created>1665134245942</created>
@@ -500,7 +533,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666371834173</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="add new exercise">
+      <created>1666373281422</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1666373281422</updated>
+    </task>
+    <task id="LOCAL-00114" summary="add new exercise">
+      <created>1666569703828</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1666569703828</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
