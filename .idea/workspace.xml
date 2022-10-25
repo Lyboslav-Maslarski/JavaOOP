@@ -5,42 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05a8a1e-9340-4aa8-9c36-23b5122a6c4d" name="Changes" comment="add new exercise">
-      <change afterPath="$PROJECT_DIR$/src/UnitTesting/Exercise/p01_Database/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UnitTesting/Exercise/p02_ExtendedDatabase/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UnitTesting/Exercise/p02_ExtendedDatabase/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UnitTesting/Exercise/p03_IteratorTest/ListIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UnitTesting/Exercise/p04_BubbleSortTest/Bubble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UnitTesting/Exercise/p05_CustomLinkedList/CustomLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UnitTesting/Exercise/p06_TirePressureMonitoringSystem/Alarm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UnitTesting/Exercise/p06_TirePressureMonitoringSystem/Sensor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aquarium/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aquarium/common/AquariumTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aquarium/common/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aquarium/common/ConstantMessages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aquarium/common/DecorationTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aquarium/common/ExceptionMessages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aquarium/common/FishTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aquarium/core/ControllerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aquarium/core/EngineImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aquarium/core/interfaces/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aquarium/core/interfaces/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aquarium/models/aquariums/BaseAquarium.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aquarium/models/aquariums/FreshwaterAquarium.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aquarium/models/aquariums/SaltwaterAquarium.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aquarium/models/aquariums/interfaces/Aquarium.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aquarium/models/decorations/BaseDecoration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aquarium/models/decorations/Ornament.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aquarium/models/decorations/Plant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aquarium/models/decorations/interfaces/Decoration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aquarium/models/fish/BaseFish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aquarium/models/fish/FreshwaterFish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aquarium/models/fish/SaltwaterFish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aquarium/models/fish/interfaces/Fish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aquarium/repositories/DecorationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aquarium/repositories/interfaces/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/UnitTesting/Exercise/p01_Database/DatabaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/UnitTesting/Exercise/p02_ExtendedDatabase/DatabaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/UnitTesting/Exercise/p03_IteratorTest/ListIteratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/UnitTesting/Exercise/p03_IteratorTest/ListIteratorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,6 +76,7 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="UnitTesting.Exercise.p03_IteratorTest" />
       <recent name="UnitTesting.Exercise.p02_ExtendedDatabase" />
       <recent name="UnitTesting.Exercise.p01_Database" />
       <recent name="UnitTesting.rpg_lab" />
@@ -118,81 +85,81 @@
       <recent name="Reflection.Lab" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DatabaseTest.test_FindByIDShouldThrowExceptionIfNotFoundOrNegativeID">
-    <configuration name="DatabaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ListIteratorTest">
+    <configuration name="ListIteratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UnitTesting.Exercise.p02_ExtendedDatabase.*" />
+          <option name="PATTERN" value="UnitTesting.Exercise.p03_IteratorTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="UnitTesting.Exercise.p02_ExtendedDatabase" />
-      <option name="MAIN_CLASS_NAME" value="UnitTesting.Exercise.p02_ExtendedDatabase.DatabaseTest" />
+      <option name="PACKAGE_NAME" value="UnitTesting.Exercise.p03_IteratorTest" />
+      <option name="MAIN_CLASS_NAME" value="UnitTesting.Exercise.p03_IteratorTest.ListIteratorTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DatabaseTest.test_FindByIDOperation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ListIteratorTest.test_hasNextIfThereIsNoNextElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UnitTesting.Exercise.p02_ExtendedDatabase.*" />
+          <option name="PATTERN" value="UnitTesting.Exercise.p03_IteratorTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="UnitTesting.Exercise.p02_ExtendedDatabase" />
-      <option name="MAIN_CLASS_NAME" value="UnitTesting.Exercise.p02_ExtendedDatabase.DatabaseTest" />
-      <option name="METHOD_NAME" value="test_FindByIDOperation" />
+      <option name="PACKAGE_NAME" value="UnitTesting.Exercise.p03_IteratorTest" />
+      <option name="MAIN_CLASS_NAME" value="UnitTesting.Exercise.p03_IteratorTest.ListIteratorTest" />
+      <option name="METHOD_NAME" value="test_hasNextIfThereIsNoNextElement" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DatabaseTest.test_FindByIDShouldThrowExceptionIfNotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ListIteratorTest.test_move" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UnitTesting.Exercise.p02_ExtendedDatabase.*" />
+          <option name="PATTERN" value="UnitTesting.Exercise.p03_IteratorTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="UnitTesting.Exercise.p02_ExtendedDatabase" />
-      <option name="MAIN_CLASS_NAME" value="UnitTesting.Exercise.p02_ExtendedDatabase.DatabaseTest" />
-      <option name="METHOD_NAME" value="test_FindByIDShouldThrowExceptionIfNotFound" />
+      <option name="PACKAGE_NAME" value="UnitTesting.Exercise.p03_IteratorTest" />
+      <option name="MAIN_CLASS_NAME" value="UnitTesting.Exercise.p03_IteratorTest.ListIteratorTest" />
+      <option name="METHOD_NAME" value="test_move" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DatabaseTest.test_FindByIDShouldThrowExceptionIfNotFoundOrNegativeID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ListIteratorTest.test_printEmptyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UnitTesting.Exercise.p02_ExtendedDatabase.*" />
+          <option name="PATTERN" value="UnitTesting.Exercise.p03_IteratorTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="UnitTesting.Exercise.p02_ExtendedDatabase" />
-      <option name="MAIN_CLASS_NAME" value="UnitTesting.Exercise.p02_ExtendedDatabase.DatabaseTest" />
-      <option name="METHOD_NAME" value="test_FindByIDShouldThrowExceptionIfNotFoundOrNegativeID" />
+      <option name="PACKAGE_NAME" value="UnitTesting.Exercise.p03_IteratorTest" />
+      <option name="MAIN_CLASS_NAME" value="UnitTesting.Exercise.p03_IteratorTest.ListIteratorTest" />
+      <option name="METHOD_NAME" value="test_printEmptyList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DatabaseTest.test_FindByUsernameCaseSensitive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ListIteratorTest.test_printOperation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UnitTesting.Exercise.p02_ExtendedDatabase.*" />
+          <option name="PATTERN" value="UnitTesting.Exercise.p03_IteratorTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="UnitTesting.Exercise.p02_ExtendedDatabase" />
-      <option name="MAIN_CLASS_NAME" value="UnitTesting.Exercise.p02_ExtendedDatabase.DatabaseTest" />
-      <option name="METHOD_NAME" value="test_FindByUsernameCaseSensitive" />
+      <option name="PACKAGE_NAME" value="UnitTesting.Exercise.p03_IteratorTest" />
+      <option name="MAIN_CLASS_NAME" value="UnitTesting.Exercise.p03_IteratorTest.ListIteratorTest" />
+      <option name="METHOD_NAME" value="test_printOperation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -200,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DatabaseTest.test_FindByIDShouldThrowExceptionIfNotFoundOrNegativeID" />
-        <item itemvalue="JUnit.DatabaseTest.test_FindByIDShouldThrowExceptionIfNotFound" />
-        <item itemvalue="JUnit.DatabaseTest" />
-        <item itemvalue="JUnit.DatabaseTest.test_FindByIDOperation" />
-        <item itemvalue="JUnit.DatabaseTest.test_FindByUsernameCaseSensitive" />
+        <item itemvalue="JUnit.ListIteratorTest" />
+        <item itemvalue="JUnit.ListIteratorTest.test_printOperation" />
+        <item itemvalue="JUnit.ListIteratorTest.test_printEmptyList" />
+        <item itemvalue="JUnit.ListIteratorTest.test_move" />
+        <item itemvalue="JUnit.ListIteratorTest.test_hasNextIfThereIsNoNextElement" />
       </list>
     </recent_temporary>
   </component>
@@ -216,20 +183,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664452212227</updated>
-    </task>
-    <task id="LOCAL-00067" summary="add new exercise">
-      <created>1665134252534</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1665134252534</updated>
-    </task>
-    <task id="LOCAL-00068" summary="add new exercise">
-      <created>1665134896987</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1665134896987</updated>
     </task>
     <task id="LOCAL-00069" summary="add new exercise">
       <created>1665140402424</created>
@@ -560,7 +513,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666603336517</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="add new exercise">
+      <created>1666659434495</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1666659434495</updated>
+    </task>
+    <task id="LOCAL-00117" summary="add new exercise">
+      <created>1666659483322</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1666659483322</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -595,6 +562,9 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JavaOOP$ListIteratorTest.ic" NAME="ListIteratorTest Coverage Results" MODIFIED="1666661526083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>UnitTesting.Exercise.p03_IteratorTest.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/JavaOOP$DatabaseTest.ic" NAME="DatabaseTest Coverage Results" MODIFIED="1666658651568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>UnitTesting.Exercise.p02_ExtendedDatabase.*</FILTER>
     </SUITE>
