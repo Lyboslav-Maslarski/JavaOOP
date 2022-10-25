@@ -5,6 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05a8a1e-9340-4aa8-9c36-23b5122a6c4d" name="Changes" comment="add new exercise">
+      <change afterPath="$PROJECT_DIR$/src/UnitTesting/Exercise/p01_Database/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UnitTesting/Exercise/p02_ExtendedDatabase/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UnitTesting/Exercise/p02_ExtendedDatabase/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UnitTesting/Exercise/p03_IteratorTest/ListIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UnitTesting/Exercise/p04_BubbleSortTest/Bubble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UnitTesting/Exercise/p05_CustomLinkedList/CustomLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UnitTesting/Exercise/p06_TirePressureMonitoringSystem/Alarm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UnitTesting/Exercise/p06_TirePressureMonitoringSystem/Sensor.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/aquarium/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/aquarium/common/AquariumTypes.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/aquarium/common/Command.java" afterDir="false" />
@@ -30,6 +38,8 @@
       <change afterPath="$PROJECT_DIR$/src/aquarium/models/fish/interfaces/Fish.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/aquarium/repositories/DecorationRepository.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/aquarium/repositories/interfaces/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/UnitTesting/Exercise/p01_Database/DatabaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/UnitTesting/Exercise/p02_ExtendedDatabase/DatabaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,8 +100,8 @@
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Judge\VehiclesExtension" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\UnitTesting" />
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Reflection\Exercise" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Reflection\Lab" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src" />
@@ -100,86 +110,89 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="UnitTesting.Exercise.p02_ExtendedDatabase" />
+      <recent name="UnitTesting.Exercise.p01_Database" />
       <recent name="UnitTesting.rpg_lab" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Reflection.Lab" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HeroTest.test_TargetGivesItemsWhenKilled">
-    <configuration name="AxeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DatabaseTest.test_FindByIDShouldThrowExceptionIfNotFoundOrNegativeID">
+    <configuration name="DatabaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UnitTesting.Lab.*" />
+          <option name="PATTERN" value="UnitTesting.Exercise.p02_ExtendedDatabase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="UnitTesting.rpg_lab" />
-      <option name="MAIN_CLASS_NAME" value="UnitTesting.Lab.AxeTest" />
+      <option name="PACKAGE_NAME" value="UnitTesting.Exercise.p02_ExtendedDatabase" />
+      <option name="MAIN_CLASS_NAME" value="UnitTesting.Exercise.p02_ExtendedDatabase.DatabaseTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DummyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DatabaseTest.test_FindByIDOperation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UnitTesting.Lab.*" />
+          <option name="PATTERN" value="UnitTesting.Exercise.p02_ExtendedDatabase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="UnitTesting.rpg_lab" />
-      <option name="MAIN_CLASS_NAME" value="UnitTesting.Lab.DummyTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HeroTest.test_HeroGainXpWhenKillTarget" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaOOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="UnitTesting.Lab.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="UnitTesting.rpg_lab" />
-      <option name="MAIN_CLASS_NAME" value="UnitTesting.Lab.HeroTest" />
-      <option name="METHOD_NAME" value="test_HeroGainXpWhenKillTarget" />
+      <option name="PACKAGE_NAME" value="UnitTesting.Exercise.p02_ExtendedDatabase" />
+      <option name="MAIN_CLASS_NAME" value="UnitTesting.Exercise.p02_ExtendedDatabase.DatabaseTest" />
+      <option name="METHOD_NAME" value="test_FindByIDOperation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeroTest.test_HeroGainXpWhenKillTarget_Mocking" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DatabaseTest.test_FindByIDShouldThrowExceptionIfNotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UnitTesting.Lab.*" />
+          <option name="PATTERN" value="UnitTesting.Exercise.p02_ExtendedDatabase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="UnitTesting.rpg_lab" />
-      <option name="MAIN_CLASS_NAME" value="UnitTesting.Lab.HeroTest" />
-      <option name="METHOD_NAME" value="test_HeroGainXpWhenKillTarget_Mocking" />
+      <option name="PACKAGE_NAME" value="UnitTesting.Exercise.p02_ExtendedDatabase" />
+      <option name="MAIN_CLASS_NAME" value="UnitTesting.Exercise.p02_ExtendedDatabase.DatabaseTest" />
+      <option name="METHOD_NAME" value="test_FindByIDShouldThrowExceptionIfNotFound" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeroTest.test_TargetGivesItemsWhenKilled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DatabaseTest.test_FindByIDShouldThrowExceptionIfNotFoundOrNegativeID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UnitTesting.Lab.*" />
+          <option name="PATTERN" value="UnitTesting.Exercise.p02_ExtendedDatabase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="UnitTesting.rpg_lab" />
-      <option name="MAIN_CLASS_NAME" value="UnitTesting.Lab.HeroTest" />
-      <option name="METHOD_NAME" value="test_TargetGivesItemsWhenKilled" />
+      <option name="PACKAGE_NAME" value="UnitTesting.Exercise.p02_ExtendedDatabase" />
+      <option name="MAIN_CLASS_NAME" value="UnitTesting.Exercise.p02_ExtendedDatabase.DatabaseTest" />
+      <option name="METHOD_NAME" value="test_FindByIDShouldThrowExceptionIfNotFoundOrNegativeID" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DatabaseTest.test_FindByUsernameCaseSensitive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UnitTesting.Exercise.p02_ExtendedDatabase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UnitTesting.Exercise.p02_ExtendedDatabase" />
+      <option name="MAIN_CLASS_NAME" value="UnitTesting.Exercise.p02_ExtendedDatabase.DatabaseTest" />
+      <option name="METHOD_NAME" value="test_FindByUsernameCaseSensitive" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -187,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HeroTest.test_TargetGivesItemsWhenKilled" />
-        <item itemvalue="JUnit.HeroTest.test_HeroGainXpWhenKillTarget_Mocking" />
-        <item itemvalue="JUnit.HeroTest.test_HeroGainXpWhenKillTarget" />
-        <item itemvalue="JUnit.DummyTest" />
-        <item itemvalue="JUnit.AxeTest" />
+        <item itemvalue="JUnit.DatabaseTest.test_FindByIDShouldThrowExceptionIfNotFoundOrNegativeID" />
+        <item itemvalue="JUnit.DatabaseTest.test_FindByIDShouldThrowExceptionIfNotFound" />
+        <item itemvalue="JUnit.DatabaseTest" />
+        <item itemvalue="JUnit.DatabaseTest.test_FindByIDOperation" />
+        <item itemvalue="JUnit.DatabaseTest.test_FindByUsernameCaseSensitive" />
       </list>
     </recent_temporary>
   </component>
@@ -203,13 +216,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664452212227</updated>
-    </task>
-    <task id="LOCAL-00066" summary="add new exercise">
-      <created>1665134245942</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1665134245942</updated>
     </task>
     <task id="LOCAL-00067" summary="add new exercise">
       <created>1665134252534</created>
@@ -547,7 +553,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666569703828</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="add new exercise">
+      <created>1666603336517</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1666603336517</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -580,5 +593,10 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JavaOOP$DatabaseTest.ic" NAME="DatabaseTest Coverage Results" MODIFIED="1666658651568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>UnitTesting.Exercise.p02_ExtendedDatabase.*</FILTER>
+    </SUITE>
   </component>
 </project>
