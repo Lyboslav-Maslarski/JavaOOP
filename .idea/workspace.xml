@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05a8a1e-9340-4aa8-9c36-23b5122a6c4d" name="Changes" comment="add new exercise">
-      <change afterPath="$PROJECT_DIR$/test/UnitTesting/Exercise/p06_TirePressureMonitoringSystem/AlarmTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UnitTesting/Exercise/p06_TirePressureMonitoringSystem/Sensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UnitTesting/Exercise/p06_TirePressureMonitoringSystem/Sensor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/UnitTesting/Exercise/p04_BubbleSortTest/BubbleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,17 +75,17 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="UnitTesting.Exercise.p04_BubbleSortTest" />
       <recent name="UnitTesting.Exercise.p06_TirePressureMonitoringSystem" />
       <recent name="UnitTesting.Exercise.p03_IteratorTest" />
       <recent name="UnitTesting.Exercise.p02_ExtendedDatabase" />
       <recent name="UnitTesting.Exercise.p01_Database" />
-      <recent name="UnitTesting.rpg_lab" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Reflection.Lab" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AlarmTest">
+  <component name="RunManager" selected="JUnit.BubbleTest">
     <configuration name="AlarmTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaOOP" />
       <extension name="coverage">
@@ -119,6 +117,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BubbleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UnitTesting.Exercise.p04_BubbleSortTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UnitTesting.Exercise.p04_BubbleSortTest" />
+      <option name="MAIN_CLASS_NAME" value="UnitTesting.Exercise.p04_BubbleSortTest.BubbleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ListIteratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaOOP" />
       <extension name="coverage">
@@ -130,22 +143,6 @@
       <option name="PACKAGE_NAME" value="UnitTesting.Exercise.p03_IteratorTest" />
       <option name="MAIN_CLASS_NAME" value="UnitTesting.Exercise.p03_IteratorTest.ListIteratorTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListIteratorTest.test_printEmptyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaOOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="UnitTesting.Exercise.p03_IteratorTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="UnitTesting.Exercise.p03_IteratorTest" />
-      <option name="MAIN_CLASS_NAME" value="UnitTesting.Exercise.p03_IteratorTest.ListIteratorTest" />
-      <option name="METHOD_NAME" value="test_printEmptyList" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -168,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BubbleTest" />
         <item itemvalue="JUnit.AlarmTest" />
         <item itemvalue="JUnit.AlarmTest.test_Alarm" />
         <item itemvalue="JUnit.ListIteratorTest" />
         <item itemvalue="JUnit.ListIteratorTest.test_printOperation" />
-        <item itemvalue="JUnit.ListIteratorTest.test_printEmptyList" />
       </list>
     </recent_temporary>
   </component>
@@ -184,13 +181,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664452212227</updated>
-    </task>
-    <task id="LOCAL-00070" summary="add new exercise">
-      <created>1665140408610</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1665140408610</updated>
     </task>
     <task id="LOCAL-00071" summary="add new exercise">
       <created>1665140416125</created>
@@ -528,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666661778815</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="add new exercise">
+      <created>1666663270866</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1666663270866</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
