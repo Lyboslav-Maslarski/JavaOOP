@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05a8a1e-9340-4aa8-9c36-23b5122a6c4d" name="Changes" comment="add new exercise">
-      <change afterPath="$PROJECT_DIR$/test/UnitTesting/Exercise/p05_CustomLinkedList/CustomLinkedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestDrivenDevelopment/Lab/Instock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestDrivenDevelopment/Lab/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestDrivenDevelopment/Lab/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestDrivenDevelopment/Lab/ProductStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/TestDrivenDevelopment/Lab/InstockTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,89 +80,91 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="TestDrivenDevelopment.Lab" />
       <recent name="UnitTesting.Exercise.p05_CustomLinkedList" />
       <recent name="UnitTesting.Exercise.p04_BubbleSortTest" />
       <recent name="UnitTesting.Exercise.p06_TirePressureMonitoringSystem" />
       <recent name="UnitTesting.Exercise.p03_IteratorTest" />
-      <recent name="UnitTesting.Exercise.p02_ExtendedDatabase" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Reflection.Lab" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CustomLinkedListTest">
-    <configuration name="AlarmTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.InstockTest">
+    <configuration name="InstockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UnitTesting.Exercise.p06_TirePressureMonitoringSystem.*" />
+          <option name="PATTERN" value="TestDrivenDevelopment.Lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="UnitTesting.Exercise.p06_TirePressureMonitoringSystem" />
-      <option name="MAIN_CLASS_NAME" value="UnitTesting.Exercise.p06_TirePressureMonitoringSystem.AlarmTest" />
+      <option name="PACKAGE_NAME" value="TestDrivenDevelopment.Lab" />
+      <option name="MAIN_CLASS_NAME" value="TestDrivenDevelopment.Lab.InstockTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AlarmTest.test_Alarm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InstockTest.test_FindAllInPriceRangeShouldReturnAllProductsWithinGivenPriceRange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UnitTesting.Exercise.p06_TirePressureMonitoringSystem.*" />
+          <option name="PATTERN" value="TestDrivenDevelopment.Lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="UnitTesting.Exercise.p06_TirePressureMonitoringSystem" />
-      <option name="MAIN_CLASS_NAME" value="UnitTesting.Exercise.p06_TirePressureMonitoringSystem.AlarmTest" />
-      <option name="METHOD_NAME" value="test_Alarm" />
+      <option name="PACKAGE_NAME" value="TestDrivenDevelopment.Lab" />
+      <option name="MAIN_CLASS_NAME" value="TestDrivenDevelopment.Lab.InstockTest" />
+      <option name="METHOD_NAME" value="test_FindAllInPriceRangeShouldReturnAllProductsWithinGivenPriceRange" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BubbleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InstockTest.test_FindAllInPriceRangeShouldReturnEmptyCollectionWhenNoSuchElementIsPresent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UnitTesting.Exercise.p04_BubbleSortTest.*" />
+          <option name="PATTERN" value="TestDrivenDevelopment.Lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="UnitTesting.Exercise.p04_BubbleSortTest" />
-      <option name="MAIN_CLASS_NAME" value="UnitTesting.Exercise.p04_BubbleSortTest.BubbleTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="TestDrivenDevelopment.Lab" />
+      <option name="MAIN_CLASS_NAME" value="TestDrivenDevelopment.Lab.InstockTest" />
+      <option name="METHOD_NAME" value="test_FindAllInPriceRangeShouldReturnEmptyCollectionWhenNoSuchElementIsPresent" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InstockTest.test_FindFirstByAlphabeticalOrderShouldReturnTheCorrectProducts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UnitTesting.Exercise.p05_CustomLinkedList.*" />
+          <option name="PATTERN" value="TestDrivenDevelopment.Lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="UnitTesting.Exercise.p05_CustomLinkedList" />
-      <option name="MAIN_CLASS_NAME" value="UnitTesting.Exercise.p05_CustomLinkedList.CustomLinkedListTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="TestDrivenDevelopment.Lab" />
+      <option name="MAIN_CLASS_NAME" value="TestDrivenDevelopment.Lab.InstockTest" />
+      <option name="METHOD_NAME" value="test_FindFirstByAlphabeticalOrderShouldReturnTheCorrectProducts" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomLinkedListTest.test_AddOperation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InstockTest.test_GetIterableShouldReturnAllProductsInStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UnitTesting.Exercise.p05_CustomLinkedList.*" />
+          <option name="PATTERN" value="TestDrivenDevelopment.Lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="UnitTesting.Exercise.p05_CustomLinkedList" />
-      <option name="MAIN_CLASS_NAME" value="UnitTesting.Exercise.p05_CustomLinkedList.CustomLinkedListTest" />
-      <option name="METHOD_NAME" value="test_AddOperation" />
+      <option name="PACKAGE_NAME" value="TestDrivenDevelopment.Lab" />
+      <option name="MAIN_CLASS_NAME" value="TestDrivenDevelopment.Lab.InstockTest" />
+      <option name="METHOD_NAME" value="test_GetIterableShouldReturnAllProductsInStock" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -166,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CustomLinkedListTest" />
-        <item itemvalue="JUnit.CustomLinkedListTest.test_AddOperation" />
-        <item itemvalue="JUnit.BubbleTest" />
-        <item itemvalue="JUnit.AlarmTest" />
-        <item itemvalue="JUnit.AlarmTest.test_Alarm" />
+        <item itemvalue="JUnit.InstockTest" />
+        <item itemvalue="JUnit.InstockTest.test_GetIterableShouldReturnAllProductsInStock" />
+        <item itemvalue="JUnit.InstockTest.test_FindAllInPriceRangeShouldReturnAllProductsWithinGivenPriceRange" />
+        <item itemvalue="JUnit.InstockTest.test_FindAllInPriceRangeShouldReturnEmptyCollectionWhenNoSuchElementIsPresent" />
+        <item itemvalue="JUnit.InstockTest.test_FindFirstByAlphabeticalOrderShouldReturnTheCorrectProducts" />
       </list>
     </recent_temporary>
   </component>
@@ -182,13 +188,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664452212227</updated>
-    </task>
-    <task id="LOCAL-00072" summary="add new exercise">
-      <created>1665140420859</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1665140420859</updated>
     </task>
     <task id="LOCAL-00073" summary="add new exercise">
       <created>1665140426289</created>
@@ -526,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666663942460</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="add new exercise">
+      <created>1666688969088</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1666688969088</updated>
+    </task>
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -561,6 +567,9 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JavaOOP$InstockTest.ic" NAME="InstockTest Coverage Results" MODIFIED="1666734367601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>TestDrivenDevelopment.Lab.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/JavaOOP$AlarmTest.ic" NAME="AlarmTest Coverage Results" MODIFIED="1666662938362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>UnitTesting.Exercise.p06_TirePressureMonitoringSystem.*</FILTER>
     </SUITE>
@@ -570,7 +579,7 @@
     <SUITE FILE_PATH="coverage/JavaOOP$BubbleTest.ic" NAME="BubbleTest Coverage Results" MODIFIED="1666663809014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>UnitTesting.Exercise.p04_BubbleSortTest.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/JavaOOP$CustomLinkedListTest.ic" NAME="CustomLinkedListTest Coverage Results" MODIFIED="1666688687735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/JavaOOP$CustomLinkedListTest.ic" NAME="CustomLinkedListTest Coverage Results" MODIFIED="1666688922708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>UnitTesting.Exercise.p05_CustomLinkedList.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/JavaOOP$DatabaseTest.ic" NAME="DatabaseTest Coverage Results" MODIFIED="1666658651568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
