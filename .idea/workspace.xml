@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05a8a1e-9340-4aa8-9c36-23b5122a6c4d" name="Changes" comment="add new exercise">
+      <change afterPath="$PROJECT_DIR$/test/UnitTesting/Exercise/p06_TirePressureMonitoringSystem/AlarmTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/UnitTesting/Exercise/p03_IteratorTest/ListIteratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/UnitTesting/Exercise/p03_IteratorTest/ListIteratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UnitTesting/Exercise/p06_TirePressureMonitoringSystem/Sensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UnitTesting/Exercise/p06_TirePressureMonitoringSystem/Sensor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +77,7 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="UnitTesting.Exercise.p06_TirePressureMonitoringSystem" />
       <recent name="UnitTesting.Exercise.p03_IteratorTest" />
       <recent name="UnitTesting.Exercise.p02_ExtendedDatabase" />
       <recent name="UnitTesting.Exercise.p01_Database" />
@@ -85,7 +87,38 @@
       <recent name="Reflection.Lab" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ListIteratorTest">
+  <component name="RunManager" selected="JUnit.AlarmTest">
+    <configuration name="AlarmTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UnitTesting.Exercise.p06_TirePressureMonitoringSystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UnitTesting.Exercise.p06_TirePressureMonitoringSystem" />
+      <option name="MAIN_CLASS_NAME" value="UnitTesting.Exercise.p06_TirePressureMonitoringSystem.AlarmTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlarmTest.test_Alarm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UnitTesting.Exercise.p06_TirePressureMonitoringSystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UnitTesting.Exercise.p06_TirePressureMonitoringSystem" />
+      <option name="MAIN_CLASS_NAME" value="UnitTesting.Exercise.p06_TirePressureMonitoringSystem.AlarmTest" />
+      <option name="METHOD_NAME" value="test_Alarm" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ListIteratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaOOP" />
       <extension name="coverage">
@@ -97,38 +130,6 @@
       <option name="PACKAGE_NAME" value="UnitTesting.Exercise.p03_IteratorTest" />
       <option name="MAIN_CLASS_NAME" value="UnitTesting.Exercise.p03_IteratorTest.ListIteratorTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListIteratorTest.test_hasNextIfThereIsNoNextElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaOOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="UnitTesting.Exercise.p03_IteratorTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="UnitTesting.Exercise.p03_IteratorTest" />
-      <option name="MAIN_CLASS_NAME" value="UnitTesting.Exercise.p03_IteratorTest.ListIteratorTest" />
-      <option name="METHOD_NAME" value="test_hasNextIfThereIsNoNextElement" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListIteratorTest.test_move" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaOOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="UnitTesting.Exercise.p03_IteratorTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="UnitTesting.Exercise.p03_IteratorTest" />
-      <option name="MAIN_CLASS_NAME" value="UnitTesting.Exercise.p03_IteratorTest.ListIteratorTest" />
-      <option name="METHOD_NAME" value="test_move" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -167,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AlarmTest" />
+        <item itemvalue="JUnit.AlarmTest.test_Alarm" />
         <item itemvalue="JUnit.ListIteratorTest" />
         <item itemvalue="JUnit.ListIteratorTest.test_printOperation" />
         <item itemvalue="JUnit.ListIteratorTest.test_printEmptyList" />
-        <item itemvalue="JUnit.ListIteratorTest.test_move" />
-        <item itemvalue="JUnit.ListIteratorTest.test_hasNextIfThereIsNoNextElement" />
       </list>
     </recent_temporary>
   </component>
@@ -183,13 +184,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664452212227</updated>
-    </task>
-    <task id="LOCAL-00069" summary="add new exercise">
-      <created>1665140402424</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1665140402424</updated>
     </task>
     <task id="LOCAL-00070" summary="add new exercise">
       <created>1665140408610</created>
@@ -527,7 +521,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666659483322</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="add new exercise">
+      <created>1666661778815</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1666661778815</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -562,6 +563,9 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JavaOOP$AlarmTest.ic" NAME="AlarmTest Coverage Results" MODIFIED="1666662938362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>UnitTesting.Exercise.p06_TirePressureMonitoringSystem.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/JavaOOP$ListIteratorTest.ic" NAME="ListIteratorTest Coverage Results" MODIFIED="1666661526083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>UnitTesting.Exercise.p03_IteratorTest.*</FILTER>
     </SUITE>
