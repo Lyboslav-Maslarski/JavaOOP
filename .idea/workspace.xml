@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05a8a1e-9340-4aa8-9c36-23b5122a6c4d" name="Changes" comment="add new exercise">
-      <change afterPath="$PROJECT_DIR$/test/TestDrivenDevelopment/Exercise/ChainblockImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TestDrivenDevelopment/Exercise/ChainblockImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestDrivenDevelopment/Exercise/ChainblockImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TestDrivenDevelopment/Exercise/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestDrivenDevelopment/Exercise/Transaction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TestDrivenDevelopment/Exercise/TransactionImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestDrivenDevelopment/Exercise/TransactionImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/TestDrivenDevelopment/Exercise/ChainblockImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/TestDrivenDevelopment/Exercise/ChainblockImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,6 +118,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ChainblockImplTest.test_GetAllInAmountRange_ShouldReturnEmptyCollectionIfNoSuchTransactions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestDrivenDevelopment.Exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestDrivenDevelopment.Exercise" />
+      <option name="MAIN_CLASS_NAME" value="TestDrivenDevelopment.Exercise.ChainblockImplTest" />
+      <option name="METHOD_NAME" value="test_GetAllInAmountRange_ShouldReturnEmptyCollectionIfNoSuchTransactions" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChainblockImplTest.test_RemoveTransactionById_ShouldRemoveTransaction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestDrivenDevelopment.Exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestDrivenDevelopment.Exercise" />
+      <option name="MAIN_CLASS_NAME" value="TestDrivenDevelopment.Exercise.ChainblockImplTest" />
+      <option name="METHOD_NAME" value="test_RemoveTransactionById_ShouldRemoveTransaction" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InstockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaOOP" />
       <extension name="coverage">
@@ -133,45 +165,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InstockTest.test_FindAllInPriceRangeShouldReturnAllProductsWithinGivenPriceRange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaOOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestDrivenDevelopment.Lab.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestDrivenDevelopment.Lab" />
-      <option name="MAIN_CLASS_NAME" value="TestDrivenDevelopment.Lab.InstockTest" />
-      <option name="METHOD_NAME" value="test_FindAllInPriceRangeShouldReturnAllProductsWithinGivenPriceRange" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InstockTest.test_GetIterableShouldReturnAllProductsInStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaOOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestDrivenDevelopment.Lab.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestDrivenDevelopment.Lab" />
-      <option name="MAIN_CLASS_NAME" value="TestDrivenDevelopment.Lab.InstockTest" />
-      <option name="METHOD_NAME" value="test_GetIterableShouldReturnAllProductsInStock" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ChainblockImplTest" />
+        <item itemvalue="JUnit.ChainblockImplTest.test_GetAllInAmountRange_ShouldReturnEmptyCollectionIfNoSuchTransactions" />
+        <item itemvalue="JUnit.ChainblockImplTest.test_RemoveTransactionById_ShouldRemoveTransaction" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.InstockTest" />
-        <item itemvalue="JUnit.InstockTest.test_GetIterableShouldReturnAllProductsInStock" />
-        <item itemvalue="JUnit.InstockTest.test_FindAllInPriceRangeShouldReturnAllProductsWithinGivenPriceRange" />
       </list>
     </recent_temporary>
   </component>
@@ -183,13 +183,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664452212227</updated>
-    </task>
-    <task id="LOCAL-00075" summary="add new exercise">
-      <created>1665148030599</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1665148030599</updated>
     </task>
     <task id="LOCAL-00076" summary="add new exercise">
       <created>1665152925501</created>
@@ -527,7 +520,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666829461887</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="add new exercise">
+      <created>1666919748233</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1666919748233</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

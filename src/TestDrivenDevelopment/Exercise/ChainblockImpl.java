@@ -1,11 +1,10 @@
 package TestDrivenDevelopment.Exercise;
 
-import java.util.Iterator;
-import java.util.LinkedHashMap;
-import java.util.Map;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class ChainblockImpl implements Chainblock {
-    private Map<Integer, Transaction> transactions;
+    private final Map<Integer, Transaction> transactions;
 
     ChainblockImpl() {
         this.transactions = new LinkedHashMap<>();
@@ -28,58 +27,143 @@ public class ChainblockImpl implements Chainblock {
     }
 
     public void changeTransactionStatus(int id, TransactionStatus newStatus) {
-
+        if (!transactions.containsKey(id)) {
+            throw new IllegalArgumentException();
+        }
+        transactions.get(id).setStatus(newStatus);
     }
 
     public void removeTransactionById(int id) {
-
+        if (!transactions.containsKey(id)) {
+            throw new IllegalArgumentException();
+        }
+        transactions.remove(id);
     }
 
     public Transaction getById(int id) {
-        return null;
+        if (!transactions.containsKey(id)) {
+            throw new IllegalArgumentException();
+        }
+        return transactions.get(id);
     }
 
     public Iterable<Transaction> getByTransactionStatus(TransactionStatus status) {
-        return null;
+        List<Transaction> list = transactions.values().stream()
+                .filter(t -> t.getStatus().equals(status))
+                .sorted(Comparator.comparing(Transaction::getAmount).reversed())
+                .collect(Collectors.toList());
+        if (list.size() == 0) {
+            throw new IllegalArgumentException();
+        }
+        return list;
     }
 
     public Iterable<String> getAllSendersWithTransactionStatus(TransactionStatus status) {
-        return null;
+        List<String> list = transactions.values().stream()
+                .filter(t -> t.getStatus().equals(status))
+                .sorted(Comparator.comparing(Transaction::getAmount).reversed())
+                .map(Transaction::getFrom)
+                .collect(Collectors.toList());
+        if (list.size() == 0) {
+            throw new IllegalArgumentException();
+        }
+        return list;
     }
 
     public Iterable<String> getAllReceiversWithTransactionStatus(TransactionStatus status) {
-        return null;
+        List<String> list = transactions.values().stream()
+                .filter(t -> t.getStatus().equals(status))
+                .sorted(Comparator.comparing(Transaction::getAmount).reversed())
+                .map(Transaction::getTo)
+                .collect(Collectors.toList());
+        if (list.size() == 0) {
+            throw new IllegalArgumentException();
+        }
+        return list;
     }
 
     public Iterable<Transaction> getAllOrderedByAmountDescendingThenById() {
-        return null;
+        return transactions.values().stream()
+                .sorted(Comparator.comparing(Transaction::getAmount).reversed().thenComparing(Transaction::getId))
+                .collect(Collectors.toList());
     }
 
     public Iterable<Transaction> getBySenderOrderedByAmountDescending(String sender) {
-        return null;
+        List<Transaction> list = transactions.values().stream()
+                .filter(t -> t.getFrom().equals(sender))
+                .sorted(Comparator.comparing(Transaction::getAmount).reversed())
+                .collect(Collectors.toList());
+        if (list.size() == 0) {
+            throw new IllegalArgumentException();
+        }
+        return list;
     }
 
     public Iterable<Transaction> getByReceiverOrderedByAmountThenById(String receiver) {
-        return null;
+        List<Transaction> list = transactions.values().stream()
+                .filter(t -> t.getTo().equals(receiver))
+                .sorted(Comparator.comparing(Transaction::getAmount).reversed().thenComparing(Transaction::getId))
+                .collect(Collectors.toList());
+        if (list.size() == 0) {
+            throw new IllegalArgumentException();
+        }
+        return list;
     }
 
     public Iterable<Transaction> getByTransactionStatusAndMaximumAmount(TransactionStatus status, double amount) {
-        return null;
+        return transactions.values().stream()
+                .filter(t -> t.getStatus().equals(status))
+                .filter(t -> t.getAmount() <= amount)
+                .sorted(Comparator.comparing(Transaction::getAmount).reversed())
+                .collect(Collectors.toList());
     }
 
     public Iterable<Transaction> getBySenderAndMinimumAmountDescending(String sender, double amount) {
-        return null;
+        List<Transaction> list = transactions.values().stream()
+                .filter(t -> t.getFrom().equals(sender))
+                .filter(t -> t.getAmount() > amount)
+                .sorted(Comparator.comparing(Transaction::getAmount).reversed())
+                .collect(Collectors.toList());
+        if (list.size() == 0) {
+            throw new IllegalArgumentException();
+        }
+        return list;
     }
 
-    public Iterable<Transaction> getByReceiverAndAmountRange(String receiver, double lo, double hi) {
-        return null;
+    public Iterable<Transaction> getByReceiverAndAmountRange(String receiver, double low, double high) {
+        List<Transaction> list = transactions.values().stream()
+                .filter(t -> t.getTo().equals(receiver))
+                .filter(t -> t.getAmount() >= low && t.getAmount() < high)
+                .collect(Collectors.toList());
+        if (list.size() == 0) {
+            throw new IllegalArgumentException();
+        }
+        return list;
+
     }
 
-    public Iterable<Transaction> getAllInAmountRange(double lo, double hi) {
-        return null;
+    public Iterable<Transaction> getAllInAmountRange(double low, double high) {
+        return transactions.values().stream()
+                .filter(t -> t.getAmount() >= low && t.getAmount() <= high)
+                .collect(Collectors.toList());
     }
 
     public Iterator<Transaction> iterator() {
-        return null;
+        return new Iterator<>() {
+            int index = 0;
+
+            @Override
+            public boolean hasNext() {
+                return index < transactions.size();
+            }
+
+            @Override
+            public Transaction next() {
+                while (!transactions.containsKey(index)) {
+                    index++;
+                }
+                return transactions.get(index);
+            }
+        };
     }
 }
