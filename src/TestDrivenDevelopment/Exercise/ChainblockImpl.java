@@ -1,22 +1,30 @@
 package TestDrivenDevelopment.Exercise;
 
 import java.util.Iterator;
+import java.util.LinkedHashMap;
+import java.util.Map;
 
-public class ChainblockImpl implements Chainblock{
+public class ChainblockImpl implements Chainblock {
+    private Map<Integer, Transaction> transactions;
+
+    ChainblockImpl() {
+        this.transactions = new LinkedHashMap<>();
+    }
+
     public int getCount() {
-        return 0;
+        return transactions.size();
     }
 
     public void add(Transaction transaction) {
-
+        transactions.putIfAbsent(transaction.getId(), transaction);
     }
 
     public boolean contains(Transaction transaction) {
-        return false;
+        return transactions.containsKey(transaction.getId());
     }
 
     public boolean contains(int id) {
-        return false;
+        return transactions.containsKey(id);
     }
 
     public void changeTransactionStatus(int id, TransactionStatus newStatus) {

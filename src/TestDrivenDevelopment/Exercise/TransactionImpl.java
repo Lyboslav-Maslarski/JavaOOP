@@ -1,6 +1,6 @@
 package TestDrivenDevelopment.Exercise;
 
-public class TransactionImpl implements Comparable<TransactionImpl>{
+public class TransactionImpl implements Comparable<TransactionImpl>, Transaction {
 
     private int id;
     private TransactionStatus status;
@@ -16,7 +16,27 @@ public class TransactionImpl implements Comparable<TransactionImpl>{
         this.amount = amount;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public TransactionStatus getStatus() {
+        return status;
+    }
+
+    public String getFrom() {
+        return from;
+    }
+
+    public String getTo() {
+        return to;
+    }
+
+    public double getAmount() {
+        return amount;
+    }
+
     public int compareTo(TransactionImpl o) {
-        return 0;
+        return this.id - o.id;
     }
 }
