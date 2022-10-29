@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05a8a1e-9340-4aa8-9c36-23b5122a6c4d" name="Changes" comment="add new exercise">
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Lab/Singleton/SingletonContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Lab/Singleton/SingletonDataContainer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestDrivenDevelopment/Exercise/ChainblockImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestDrivenDevelopment/Exercise/ChainblockImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestDrivenDevelopment/Exercise/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestDrivenDevelopment/Exercise/Transaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestDrivenDevelopment/Exercise/TransactionImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestDrivenDevelopment/Exercise/TransactionImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/TestDrivenDevelopment/Exercise/ChainblockImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/TestDrivenDevelopment/Exercise/ChainblockImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +23,8 @@
         <option value="Enum" />
         <option value="AnnotationType" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -89,7 +87,20 @@
       <recent name="Reflection.Lab" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ChainblockImplTest">
+  <component name="RunManager" selected="Application.DesignPatterns.Lab.Singleton.Main">
+    <configuration name="DesignPatterns.Lab.Singleton.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.Lab.Singleton.Main" />
+      <module name="JavaOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DesignPatterns.Lab.Singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestDrivenDevelopment.Exercise.Main" />
       <module name="JavaOOP" />
@@ -150,28 +161,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InstockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaOOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestDrivenDevelopment.Lab.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestDrivenDevelopment.Lab" />
-      <option name="MAIN_CLASS_NAME" value="TestDrivenDevelopment.Lab.InstockTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DesignPatterns.Lab.Singleton.Main" />
         <item itemvalue="JUnit.ChainblockImplTest" />
         <item itemvalue="JUnit.ChainblockImplTest.test_GetAllInAmountRange_ShouldReturnEmptyCollectionIfNoSuchTransactions" />
         <item itemvalue="JUnit.ChainblockImplTest.test_RemoveTransactionById_ShouldRemoveTransaction" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.InstockTest" />
       </list>
     </recent_temporary>
   </component>
@@ -183,13 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664452212227</updated>
-    </task>
-    <task id="LOCAL-00076" summary="add new exercise">
-      <created>1665152925501</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1665152925501</updated>
     </task>
     <task id="LOCAL-00077" summary="add new exercise">
       <created>1665252754111</created>
@@ -527,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666919748233</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <task id="LOCAL-00125" summary="add new exercise">
+      <created>1666930796188</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1666930796188</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -579,6 +575,9 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/JavaOOP$DatabaseTest.ic" NAME="DatabaseTest Coverage Results" MODIFIED="1666658651568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>UnitTesting.Exercise.p02_ExtendedDatabase.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JavaOOP$ChainblockImplTest.ic" NAME="ChainblockImplTest Coverage Results" MODIFIED="1666930134603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>TestDrivenDevelopment.Exercise.*</FILTER>
     </SUITE>
   </component>
 </project>
