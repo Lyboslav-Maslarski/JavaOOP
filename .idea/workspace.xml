@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05a8a1e-9340-4aa8-9c36-23b5122a6c4d" name="Changes" comment="add new exercise">
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Lab/Singleton/SingletonContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Lab/Singleton/SingletonDataContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Exercise/builderExercise/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Exercise/builderExercise/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Exercise/builderExercise/Phonebook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +23,8 @@
       <list>
         <option value="Enum" />
         <option value="AnnotationType" />
-        <option value="Interface" />
         <option value="JUnit4 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -58,6 +59,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="DesignPatterns.Lab.Facade" />
       <recent name="UnitTesting.rpg_lab" />
       <recent name="calculator" />
       <recent name="Judge.word" />
@@ -67,11 +69,11 @@
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Judge\VehiclesExtension" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\DesignPatterns\Lab\Command" />
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\DesignPatterns\Lab\Product" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\UnitTesting" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Reflection\Exercise" />
-      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Reflection\Lab" />
-      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -87,13 +89,13 @@
       <recent name="Reflection.Lab" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DesignPatterns.Lab.Singleton.Main">
-    <configuration name="DesignPatterns.Lab.Singleton.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.Lab.Singleton.Main" />
+  <component name="RunManager" selected="Application.DesignPatterns.Exercise.builderExercise.Main">
+    <configuration name="DesignPatterns.Exercise.builderExercise.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.Exercise.builderExercise.Main" />
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPatterns.Lab.Singleton.*" />
+          <option name="PATTERN" value="DesignPatterns.Exercise.builderExercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestDrivenDevelopment.Exercise.Main" />
+    <configuration name="DesignPatterns.Exercise.factoryExercise.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.Exercise.factoryExercise.Main" />
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestDrivenDevelopment.Exercise.*" />
+          <option name="PATTERN" value="DesignPatterns.Exercise.factoryExercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,60 +116,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChainblockImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DesignPatterns.Lab.Command.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.Lab.Command.Main" />
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestDrivenDevelopment.Exercise.*" />
+          <option name="PATTERN" value="DesignPatterns.Lab.Command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TestDrivenDevelopment.Exercise" />
-      <option name="MAIN_CLASS_NAME" value="TestDrivenDevelopment.Exercise.ChainblockImplTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChainblockImplTest.test_GetAllInAmountRange_ShouldReturnEmptyCollectionIfNoSuchTransactions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HashcodeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.Exercise.Singleton.HashcodeDemo" />
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestDrivenDevelopment.Exercise.*" />
+          <option name="PATTERN" value="DesignPatterns.Exercise.Singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TestDrivenDevelopment.Exercise" />
-      <option name="MAIN_CLASS_NAME" value="TestDrivenDevelopment.Exercise.ChainblockImplTest" />
-      <option name="METHOD_NAME" value="test_GetAllInAmountRange_ShouldReturnEmptyCollectionIfNoSuchTransactions" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChainblockImplTest.test_RemoveTransactionById_ShouldRemoveTransaction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PrototypeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.Exercise.prototypeExercise.PrototypeDemo" />
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestDrivenDevelopment.Exercise.*" />
+          <option name="PATTERN" value="DesignPatterns.Exercise.prototypeExercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TestDrivenDevelopment.Exercise" />
-      <option name="MAIN_CLASS_NAME" value="TestDrivenDevelopment.Exercise.ChainblockImplTest" />
-      <option name="METHOD_NAME" value="test_RemoveTransactionById_ShouldRemoveTransaction" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DesignPatterns.Lab.Singleton.Main" />
-        <item itemvalue="JUnit.ChainblockImplTest" />
-        <item itemvalue="JUnit.ChainblockImplTest.test_GetAllInAmountRange_ShouldReturnEmptyCollectionIfNoSuchTransactions" />
-        <item itemvalue="JUnit.ChainblockImplTest.test_RemoveTransactionById_ShouldRemoveTransaction" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.DesignPatterns.Exercise.builderExercise.Main" />
+        <item itemvalue="Application.DesignPatterns.Exercise.factoryExercise.Main" />
+        <item itemvalue="Application.PrototypeDemo" />
+        <item itemvalue="Application.HashcodeDemo" />
+        <item itemvalue="Application.DesignPatterns.Lab.Command.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -179,41 +173,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664452212227</updated>
-    </task>
-    <task id="LOCAL-00077" summary="add new exercise">
-      <created>1665252754111</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1665252754111</updated>
-    </task>
-    <task id="LOCAL-00078" summary="add new exercise">
-      <created>1665414759870</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1665414759870</updated>
-    </task>
-    <task id="LOCAL-00079" summary="add new exercise">
-      <created>1665414765766</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1665414765766</updated>
-    </task>
-    <task id="LOCAL-00080" summary="add new exercise">
-      <created>1665414771565</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1665414771565</updated>
-    </task>
-    <task id="LOCAL-00081" summary="add new exercise">
-      <created>1665414776647</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1665414776647</updated>
     </task>
     <task id="LOCAL-00082" summary="add new exercise">
       <created>1665414781670</created>
@@ -523,7 +482,42 @@
       <option name="project" value="LOCAL" />
       <updated>1666930796188</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="add new exercise">
+      <created>1667018264953</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1667018264953</updated>
+    </task>
+    <task id="LOCAL-00127" summary="add new exercise">
+      <created>1667204445687</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1667204445687</updated>
+    </task>
+    <task id="LOCAL-00128" summary="add new exercise">
+      <created>1667206098199</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1667206098199</updated>
+    </task>
+    <task id="LOCAL-00129" summary="add new exercise">
+      <created>1667208873502</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1667208873502</updated>
+    </task>
+    <task id="LOCAL-00130" summary="add new exercise">
+      <created>1667211011710</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1667211011710</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
