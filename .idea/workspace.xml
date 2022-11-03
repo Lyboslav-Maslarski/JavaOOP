@@ -5,10 +5,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05a8a1e-9340-4aa8-9c36-23b5122a6c4d" name="Changes" comment="add new exercise">
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Exercise/builderExercise/Contact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Exercise/builderExercise/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Exercise/builderExercise/Phonebook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam18April2022/zoo/common/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam18April2022/zoo/common/ConstantMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam18April2022/zoo/common/ExceptionMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam18April2022/zoo/core/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam18April2022/zoo/core/ControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam18April2022/zoo/core/EngineImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam18April2022/zoo/entities/animals/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam18April2022/zoo/entities/animals/AquaticAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam18April2022/zoo/entities/animals/BaseAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam18April2022/zoo/entities/animals/TerrestrialAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam18April2022/zoo/entities/areas/Area.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam18April2022/zoo/entities/areas/BaseArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam18April2022/zoo/entities/areas/LandArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam18April2022/zoo/entities/areas/WaterArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam18April2022/zoo/entities/foods/BaseFood.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam18April2022/zoo/entities/foods/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam18April2022/zoo/entities/foods/Meat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam18April2022/zoo/entities/foods/Vegetable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam18April2022/zoo/repositories/FoodRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam18April2022/zoo/repositories/FoodRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/farmville/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/farmville/Farm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/farmville/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/farmville/FarmvilleTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/petStore/PetStoreTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aquarium/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam18April2022/zoo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aquarium/common/AquariumTypes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aquarium/common/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aquarium/common/ConstantMessages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aquarium/common/DecorationTypes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aquarium/common/ExceptionMessages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aquarium/common/FishTypes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aquarium/core/ControllerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aquarium/core/EngineImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aquarium/core/interfaces/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aquarium/core/interfaces/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam18April2022/zoo/core/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aquarium/models/aquariums/BaseAquarium.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aquarium/models/aquariums/FreshwaterAquarium.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aquarium/models/aquariums/SaltwaterAquarium.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aquarium/models/aquariums/interfaces/Aquarium.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aquarium/models/decorations/BaseDecoration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aquarium/models/decorations/Ornament.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aquarium/models/decorations/Plant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aquarium/models/decorations/interfaces/Decoration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aquarium/models/fish/BaseFish.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aquarium/models/fish/FreshwaterFish.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aquarium/models/fish/SaltwaterFish.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aquarium/models/fish/interfaces/Fish.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aquarium/repositories/DecorationRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aquarium/repositories/interfaces/Repository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/petStore/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/petStore/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/petStore/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/petStore/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/petStore/PetStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/petStore/PetStore.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +74,8 @@
       <list>
         <option value="Enum" />
         <option value="AnnotationType" />
-        <option value="JUnit4 Test Class" />
         <option value="Interface" />
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -69,27 +120,27 @@
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Judge\VehiclesExtension" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src" />
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\ExamPreparation\Exam5August2022" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\DesignPatterns\Lab\Command" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\DesignPatterns\Lab\Product" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\UnitTesting" />
-      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP" />
-      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Reflection\Exercise" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="ExamPreparation.Exam5August2022.petStore" />
       <recent name="TestDrivenDevelopment.Exercise" />
       <recent name="TestDrivenDevelopment.Lab" />
       <recent name="UnitTesting.Exercise.p05_CustomLinkedList" />
       <recent name="UnitTesting.Exercise.p04_BubbleSortTest" />
-      <recent name="UnitTesting.Exercise.p06_TirePressureMonitoringSystem" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Reflection.Lab" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DesignPatterns.Exercise.builderExercise.Main">
+  <component name="RunManager" selected="JUnit.PetStoreTest (1)">
     <configuration name="DesignPatterns.Exercise.builderExercise.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DesignPatterns.Exercise.builderExercise.Main" />
       <module name="JavaOOP" />
@@ -103,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DesignPatterns.Exercise.factoryExercise.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.Exercise.factoryExercise.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exam18April2022.zoo.Main" />
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPatterns.Exercise.factoryExercise.*" />
+          <option name="PATTERN" value="Exam18April2022.zoo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,52 +167,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DesignPatterns.Lab.Command.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.Lab.Command.Main" />
+    <configuration name="PetStoreTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPatterns.Lab.Command.*" />
+          <option name="PATTERN" value="Exam18April2022.petStore.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Exam18April2022.petStore" />
+      <option name="MAIN_CLASS_NAME" value="Exam18April2022.petStore.PetStoreTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashcodeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.Exercise.Singleton.HashcodeDemo" />
+    <configuration name="PetStoreTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPatterns.Exercise.Singleton.*" />
+          <option name="PATTERN" value="ExamPreparation.Exam18April2022.petStore.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="ExamPreparation.Exam18April2022.petStore" />
+      <option name="MAIN_CLASS_NAME" value="ExamPreparation.Exam18April2022.petStore.PetStoreTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrototypeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.Exercise.prototypeExercise.PrototypeDemo" />
+    <configuration name="PetStoreTest.test_GetAnimalsShouldReturnUnmodifiableList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPatterns.Exercise.prototypeExercise.*" />
+          <option name="PATTERN" value="ExamPreparation.Exam18April2022.petStore.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="ExamPreparation.Exam18April2022.petStore" />
+      <option name="MAIN_CLASS_NAME" value="ExamPreparation.Exam18April2022.petStore.PetStoreTest" />
+      <option name="METHOD_NAME" value="test_GetAnimalsShouldReturnUnmodifiableList" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PetStoreTest (1)" />
+        <item itemvalue="JUnit.PetStoreTest" />
+        <item itemvalue="JUnit.PetStoreTest.test_GetAnimalsShouldReturnUnmodifiableList" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.DesignPatterns.Exercise.builderExercise.Main" />
-        <item itemvalue="Application.DesignPatterns.Exercise.factoryExercise.Main" />
-        <item itemvalue="Application.PrototypeDemo" />
-        <item itemvalue="Application.HashcodeDemo" />
-        <item itemvalue="Application.DesignPatterns.Lab.Command.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -173,13 +232,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664452212227</updated>
-    </task>
-    <task id="LOCAL-00082" summary="add new exercise">
-      <created>1665414781670</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1665414781670</updated>
     </task>
     <task id="LOCAL-00083" summary="add new exercise">
       <created>1665661475755</created>
@@ -517,7 +569,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667211011710</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="add new exercise">
+      <created>1667214339907</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1667214339907</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -561,6 +620,9 @@
     <SUITE FILE_PATH="coverage/JavaOOP$ListIteratorTest.ic" NAME="ListIteratorTest Coverage Results" MODIFIED="1666661526083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>UnitTesting.Exercise.p03_IteratorTest.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/JavaOOP$PetStoreTest.ic" NAME="PetStoreTest Coverage Results" MODIFIED="1667488003726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ExamPreparation.Exam18April2022.petStore.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/JavaOOP$BubbleTest.ic" NAME="BubbleTest Coverage Results" MODIFIED="1666663809014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>UnitTesting.Exercise.p04_BubbleSortTest.*</FILTER>
     </SUITE>
@@ -569,6 +631,9 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/JavaOOP$DatabaseTest.ic" NAME="DatabaseTest Coverage Results" MODIFIED="1666658651568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>UnitTesting.Exercise.p02_ExtendedDatabase.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JavaOOP$PetStoreTest__1_.ic" NAME="PetStoreTest (1) Coverage Results" MODIFIED="1667489004772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Exam18April2022.petStore.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/JavaOOP$ChainblockImplTest.ic" NAME="ChainblockImplTest Coverage Results" MODIFIED="1666930134603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TestDrivenDevelopment.Exercise.*</FILTER>
