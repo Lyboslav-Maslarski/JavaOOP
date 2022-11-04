@@ -5,32 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05a8a1e-9340-4aa8-9c36-23b5122a6c4d" name="Changes" comment="add new exercise">
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam22August2021/glacialExpedition/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam22August2021/glacialExpedition/common/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam22August2021/glacialExpedition/common/ConstantMessages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam22August2021/glacialExpedition/common/ExceptionMessages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam22August2021/glacialExpedition/core/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam22August2021/glacialExpedition/core/ControllerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam22August2021/glacialExpedition/core/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam22August2021/glacialExpedition/core/EngineImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam22August2021/glacialExpedition/models/explorers/AnimalExplorer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam22August2021/glacialExpedition/models/explorers/BaseExplorer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam22August2021/glacialExpedition/models/explorers/Explorer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam22August2021/glacialExpedition/models/explorers/GlacierExplorer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam22August2021/glacialExpedition/models/explorers/NaturalExplorer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam22August2021/glacialExpedition/models/mission/Mission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam22August2021/glacialExpedition/models/mission/MissionImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam22August2021/glacialExpedition/models/states/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam22August2021/glacialExpedition/models/states/StateImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam22August2021/glacialExpedition/models/suitcases/Carton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam22August2021/glacialExpedition/models/suitcases/Suitcase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam22August2021/glacialExpedition/repositories/ExplorerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam22August2021/glacialExpedition/repositories/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam22August2021/glacialExpedition/repositories/StateRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/farmville/FarmvilleTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/farmville/FarmvilleTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ExamPreparation/farmville/FarmvilleTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/petStore/PetStoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ExamPreparation/petStore/PetStoreTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ExamPreparation/Exam22August2021/farmville/FarmvilleTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664452212227</updated>
-    </task>
-    <task id="LOCAL-00088" summary="add new exercise">
-      <created>1665671937576</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1665671937576</updated>
     </task>
     <task id="LOCAL-00089" summary="add new exercise">
       <created>1665671947256</created>
@@ -554,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667570461123</updated>
     </task>
-    <option name="localTasksCounter" value="137" />
+    <task id="LOCAL-00137" summary="add new exercise">
+      <created>1667574569920</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1667574569920</updated>
+    </task>
+    <option name="localTasksCounter" value="138" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -591,6 +568,12 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaOOP$InstockTest.ic" NAME="InstockTest Coverage Results" MODIFIED="1666735296303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TestDrivenDevelopment.Lab.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JavaOOP$FarmvilleTests.ic" NAME="FarmvilleTests Coverage Results" MODIFIED="1667574499489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ExamPreparation.farmville.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JavaOOP$FarmvilleTests__1_.ic" NAME="FarmvilleTests (1) Coverage Results" MODIFIED="1667575546076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ExamPreparation.Exam22August2021.farmville.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/JavaOOP$AlarmTest.ic" NAME="AlarmTest Coverage Results" MODIFIED="1666662938362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>UnitTesting.Exercise.p06_TirePressureMonitoringSystem.*</FILTER>
