@@ -1,4 +1,4 @@
-package farmville;
+package ExamPreparation.Exam22August2021.farmville;
 
 public class Animal {
     private String type;

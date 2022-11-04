@@ -5,61 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05a8a1e-9340-4aa8-9c36-23b5122a6c4d" name="Changes" comment="add new exercise">
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam18April2022/zoo/common/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam18April2022/zoo/common/ConstantMessages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam18April2022/zoo/common/ExceptionMessages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam18April2022/zoo/core/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam18April2022/zoo/core/ControllerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam18April2022/zoo/core/EngineImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam18April2022/zoo/entities/animals/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam18April2022/zoo/entities/animals/AquaticAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam18April2022/zoo/entities/animals/BaseAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam18April2022/zoo/entities/animals/TerrestrialAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam18April2022/zoo/entities/areas/Area.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam18April2022/zoo/entities/areas/BaseArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam18April2022/zoo/entities/areas/LandArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam18April2022/zoo/entities/areas/WaterArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam18April2022/zoo/entities/foods/BaseFood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam18April2022/zoo/entities/foods/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam18April2022/zoo/entities/foods/Meat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam18April2022/zoo/entities/foods/Vegetable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam18April2022/zoo/repositories/FoodRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam18April2022/zoo/repositories/FoodRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/farmville/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/farmville/Farm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/farmville/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/farmville/FarmvilleTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/petStore/PetStoreTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam22August2021/glacialExpedition/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam22August2021/glacialExpedition/common/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam22August2021/glacialExpedition/common/ConstantMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam22August2021/glacialExpedition/common/ExceptionMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam22August2021/glacialExpedition/core/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam22August2021/glacialExpedition/core/ControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam22August2021/glacialExpedition/core/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam22August2021/glacialExpedition/core/EngineImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam22August2021/glacialExpedition/models/explorers/AnimalExplorer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam22August2021/glacialExpedition/models/explorers/BaseExplorer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam22August2021/glacialExpedition/models/explorers/Explorer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam22August2021/glacialExpedition/models/explorers/GlacierExplorer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam22August2021/glacialExpedition/models/explorers/NaturalExplorer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam22August2021/glacialExpedition/models/mission/Mission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam22August2021/glacialExpedition/models/mission/MissionImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam22August2021/glacialExpedition/models/states/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam22August2021/glacialExpedition/models/states/StateImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam22August2021/glacialExpedition/models/suitcases/Carton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam22August2021/glacialExpedition/models/suitcases/Suitcase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam22August2021/glacialExpedition/repositories/ExplorerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam22August2021/glacialExpedition/repositories/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam22August2021/glacialExpedition/repositories/StateRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aquarium/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam18April2022/zoo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aquarium/common/AquariumTypes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aquarium/common/Command.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aquarium/common/ConstantMessages.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aquarium/common/DecorationTypes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aquarium/common/ExceptionMessages.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aquarium/common/FishTypes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aquarium/core/ControllerImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aquarium/core/EngineImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aquarium/core/interfaces/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aquarium/core/interfaces/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam18April2022/zoo/core/Engine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aquarium/models/aquariums/BaseAquarium.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aquarium/models/aquariums/FreshwaterAquarium.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aquarium/models/aquariums/SaltwaterAquarium.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aquarium/models/aquariums/interfaces/Aquarium.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aquarium/models/decorations/BaseDecoration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aquarium/models/decorations/Ornament.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aquarium/models/decorations/Plant.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aquarium/models/decorations/interfaces/Decoration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aquarium/models/fish/BaseFish.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aquarium/models/fish/FreshwaterFish.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aquarium/models/fish/SaltwaterFish.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aquarium/models/fish/interfaces/Fish.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aquarium/repositories/DecorationRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aquarium/repositories/interfaces/Repository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/petStore/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/petStore/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/petStore/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/petStore/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/petStore/PetStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/petStore/PetStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/farmville/FarmvilleTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ExamPreparation/farmville/FarmvilleTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/petStore/PetStoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ExamPreparation/petStore/PetStoreTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +56,13 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2FRQ2LeSvwbbm47kwlsdpvOEK4b" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -120,11 +98,11 @@
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Judge\VehiclesExtension" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\test\ExamPreparation\petStore" />
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\ExamPreparation\Exam22August2021" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\ExamPreparation\Exam5August2022" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\DesignPatterns\Lab\Command" />
-      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\DesignPatterns\Lab\Product" />
-      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\UnitTesting" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -140,13 +118,13 @@
       <recent name="Reflection.Lab" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PetStoreTest (1)">
-    <configuration name="DesignPatterns.Exercise.builderExercise.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.Exercise.builderExercise.Main" />
+  <component name="RunManager" selected="JUnit.FarmvilleTests (1)">
+    <configuration name="glacialExpedition.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="glacialExpedition.Main" />
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPatterns.Exercise.builderExercise.*" />
+          <option name="PATTERN" value="glacialExpedition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,15 +132,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exam18April2022.zoo.Main" />
+    <configuration name="FarmvilleTests (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exam18April2022.zoo.*" />
+          <option name="PATTERN" value="ExamPreparation.Exam22August2021.farmville.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="ExamPreparation.Exam22August2021.farmville" />
+      <option name="MAIN_CLASS_NAME" value="ExamPreparation.Exam22August2021.farmville.FarmvilleTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FarmvilleTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ExamPreparation.farmville.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ExamPreparation.farmville" />
+      <option name="MAIN_CLASS_NAME" value="ExamPreparation.farmville.FarmvilleTests" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -182,45 +177,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PetStoreTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PetStoreTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ExamPreparation.Exam18April2022.petStore.*" />
+          <option name="PATTERN" value="petStore.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ExamPreparation.Exam18April2022.petStore" />
-      <option name="MAIN_CLASS_NAME" value="ExamPreparation.Exam18April2022.petStore.PetStoreTest" />
-      <option name="METHOD_NAME" value="" />
+      <option name="PACKAGE_NAME" value="petStore" />
+      <option name="MAIN_CLASS_NAME" value="petStore.PetStoreTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PetStoreTest.test_GetAnimalsShouldReturnUnmodifiableList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaOOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ExamPreparation.Exam18April2022.petStore.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ExamPreparation.Exam18April2022.petStore" />
-      <option name="MAIN_CLASS_NAME" value="ExamPreparation.Exam18April2022.petStore.PetStoreTest" />
-      <option name="METHOD_NAME" value="test_GetAnimalsShouldReturnUnmodifiableList" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FarmvilleTests (1)" />
+        <item itemvalue="JUnit.FarmvilleTests" />
+        <item itemvalue="Application.glacialExpedition.Main" />
+        <item itemvalue="JUnit.PetStoreTest (2)" />
         <item itemvalue="JUnit.PetStoreTest (1)" />
-        <item itemvalue="JUnit.PetStoreTest" />
-        <item itemvalue="JUnit.PetStoreTest.test_GetAnimalsShouldReturnUnmodifiableList" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.DesignPatterns.Exercise.builderExercise.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -232,41 +210,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664452212227</updated>
-    </task>
-    <task id="LOCAL-00083" summary="add new exercise">
-      <created>1665661475755</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1665661475755</updated>
-    </task>
-    <task id="LOCAL-00084" summary="add new exercise">
-      <created>1665661495327</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1665661495327</updated>
-    </task>
-    <task id="LOCAL-00085" summary="add new exercise">
-      <created>1665661503904</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1665661503904</updated>
-    </task>
-    <task id="LOCAL-00086" summary="add new exercise">
-      <created>1665671851636</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1665671851636</updated>
-    </task>
-    <task id="LOCAL-00087" summary="add new exercise">
-      <created>1665671861306</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1665671861306</updated>
     </task>
     <task id="LOCAL-00088" summary="add new exercise">
       <created>1665671937576</created>
@@ -576,7 +519,42 @@
       <option name="project" value="LOCAL" />
       <updated>1667214339907</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary="add new exercise">
+      <created>1667491056634</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1667491056634</updated>
+    </task>
+    <task id="LOCAL-00133" summary="add new exercise">
+      <created>1667491064368</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1667491064368</updated>
+    </task>
+    <task id="LOCAL-00134" summary="add new exercise">
+      <created>1667491081406</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1667491081406</updated>
+    </task>
+    <task id="LOCAL-00135" summary="add new exercise">
+      <created>1667491090355</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1667491090355</updated>
+    </task>
+    <task id="LOCAL-00136" summary="add new exercise">
+      <created>1667570461123</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1667570461123</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

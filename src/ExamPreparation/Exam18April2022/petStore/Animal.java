@@ -1,4 +1,4 @@
-package petStore;
+package ExamPreparation.Exam18April2022.petStore;
 
 public class Animal {
     private String specie;

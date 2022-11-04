@@ -1,7 +1,9 @@
-package petStore;
+package ExamPreparation.Exam18April2022.petStore;
 
 import org.junit.Before;
 import org.junit.Test;
+import ExamPreparation.Exam18April2022.petStore.Animal;
+import ExamPreparation.Exam18April2022.petStore.PetStore;
 
 import java.util.ArrayList;
 import java.util.List;
