@@ -5,32 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05a8a1e-9340-4aa8-9c36-23b5122a6c4d" name="Changes" comment="add new exercise">
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam14August2022/football/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam14August2022/football/common/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam14August2022/football/common/ConstantMessages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam14August2022/football/common/ExceptionMessages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam14August2022/football/core/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam14August2022/football/core/ControllerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam14August2022/football/core/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam14August2022/football/core/EngineImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam14August2022/football/entities/field/ArtificialTurf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam14August2022/football/entities/field/BaseField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam14August2022/football/entities/field/Field.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam14August2022/football/entities/field/NaturalGrass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam14August2022/football/entities/player/BasePlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam14August2022/football/entities/player/Men.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam14August2022/football/entities/player/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam14August2022/football/entities/player/Women.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam14August2022/football/entities/supplement/BaseSupplement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam14August2022/football/entities/supplement/Liquid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam14August2022/football/entities/supplement/Powdered.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam14August2022/football/entities/supplement/Supplement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam14August2022/football/repositories/SupplementRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam14August2022/football/repositories/SupplementRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/football/FootballTeam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/football/Footballer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/football/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/football/FootballTeamTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/archeologicalExcavations/Archaeologist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/archeologicalExcavations/Excavation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/archeologicalExcavations/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/goldDigger/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/goldDigger/common/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/goldDigger/common/ConstantMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/goldDigger/common/ExceptionMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/goldDigger/core/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/goldDigger/core/ControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/goldDigger/core/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/goldDigger/core/EngineImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/goldDigger/models/discoverer/Anthropologist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/goldDigger/models/discoverer/Archaeologist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/goldDigger/models/discoverer/BaseDiscoverer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/goldDigger/models/discoverer/Discoverer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/goldDigger/models/discoverer/Geologist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/goldDigger/models/museum/BaseMuseum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/goldDigger/models/museum/Museum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/goldDigger/models/operation/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/goldDigger/models/operation/OperationImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/goldDigger/models/spot/Spot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/goldDigger/models/spot/SpotImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/goldDigger/repositories/DiscovererRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/goldDigger/repositories/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/goldDigger/repositories/SpotRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/archeologicalExcavations/ExcavationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,8 +47,8 @@
         <option value="Enum" />
         <option value="AnnotationType" />
         <option value="JUnit4 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -99,11 +99,11 @@
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Judge\VehiclesExtension" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\test\java" />
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\test" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\main\java" />
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\test\ExamPreparation\Exam14August2022\football" />
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\test\java" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\ExamPreparation\Exam14August2022" />
-      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src" />
-      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\test\ExamPreparation\Exam22August2021" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -119,13 +119,26 @@
       <recent name="Reflection.Lab" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FootballTeamTests">
+  <component name="RunManager" selected="Application.goldDigger.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="football.Main" />
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="football.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="goldDigger.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="goldDigger.Main" />
+      <module name="JavaOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="goldDigger.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,21 +156,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="ExamPreparation.Exam22August2021.farmville" />
       <option name="MAIN_CLASS_NAME" value="ExamPreparation.Exam22August2021.farmville.FarmvilleTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FarmvilleTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaOOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ExamPreparation.farmville.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ExamPreparation.farmville" />
-      <option name="MAIN_CLASS_NAME" value="ExamPreparation.farmville.FarmvilleTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -196,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.goldDigger.Main" />
         <item itemvalue="JUnit.FootballTeamTests" />
         <item itemvalue="JUnit.FootballTeamTests.test_Constructor" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.FarmvilleTests (1)" />
-        <item itemvalue="JUnit.FarmvilleTests" />
       </list>
     </recent_temporary>
   </component>
@@ -212,13 +210,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664452212227</updated>
-    </task>
-    <task id="LOCAL-00090" summary="add new exercise">
-      <created>1665671957281</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1665671957281</updated>
     </task>
     <task id="LOCAL-00091" summary="add new exercise">
       <created>1665675556141</created>
@@ -556,7 +547,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667576189558</updated>
     </task>
-    <option name="localTasksCounter" value="139" />
+    <task id="LOCAL-00139" summary="add new exercise">
+      <created>1670824863433</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1670824863433</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -614,7 +612,7 @@
     <SUITE FILE_PATH="coverage/JavaOOP$PetStoreTest.ic" NAME="PetStoreTest Coverage Results" MODIFIED="1667488003726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ExamPreparation.Exam18April2022.petStore.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/JavaOOP$FootballTeamTests.ic" NAME="FootballTeamTests Coverage Results" MODIFIED="1670824475194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/JavaOOP$FootballTeamTests.ic" NAME="FootballTeamTests Coverage Results" MODIFIED="1670824685960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>football.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/JavaOOP$BubbleTest.ic" NAME="BubbleTest Coverage Results" MODIFIED="1666663809014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
