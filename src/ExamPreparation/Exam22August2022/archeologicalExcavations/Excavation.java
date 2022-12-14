@@ -1,4 +1,4 @@
-package archeologicalExcavations;
+package ExamPreparation.Exam22August2022.archeologicalExcavations;
 
 import java.util.ArrayList;
 import java.util.Collection;

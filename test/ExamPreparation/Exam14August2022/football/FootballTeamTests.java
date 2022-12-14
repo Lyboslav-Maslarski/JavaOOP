@@ -1,7 +1,6 @@
 package ExamPreparation.Exam14August2022.football;
 
-import football.FootballTeam;
-import football.Footballer;
+
 import org.junit.Before;
 import org.junit.Test;
 

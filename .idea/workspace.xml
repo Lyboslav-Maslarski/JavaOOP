@@ -5,33 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05a8a1e-9340-4aa8-9c36-23b5122a6c4d" name="Changes" comment="add new exercise">
-      <change afterPath="$PROJECT_DIR$/src/main/java/archeologicalExcavations/Archaeologist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/archeologicalExcavations/Excavation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/archeologicalExcavations/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/goldDigger/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/goldDigger/common/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/goldDigger/common/ConstantMessages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/goldDigger/common/ExceptionMessages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/goldDigger/core/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/goldDigger/core/ControllerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/goldDigger/core/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/goldDigger/core/EngineImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/goldDigger/models/discoverer/Anthropologist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/goldDigger/models/discoverer/Archaeologist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/goldDigger/models/discoverer/BaseDiscoverer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/goldDigger/models/discoverer/Discoverer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/goldDigger/models/discoverer/Geologist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/goldDigger/models/museum/BaseMuseum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/goldDigger/models/museum/Museum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/goldDigger/models/operation/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/goldDigger/models/operation/OperationImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/goldDigger/models/spot/Spot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/goldDigger/models/spot/SpotImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/goldDigger/repositories/DiscovererRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/goldDigger/repositories/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/goldDigger/repositories/SpotRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/archeologicalExcavations/ExcavationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ExamPreparation/Exam14August2022/football/FootballTeamTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ExamPreparation/Exam14August2022/football/FootballTeamTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/archeologicalExcavations/ExcavationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/archeologicalExcavations/ExcavationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,11 +75,11 @@
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Judge\VehiclesExtension" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\ExamPreparation\Exam22August2022" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\test" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\main\java" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\test\ExamPreparation\Exam14August2022\football" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\test\java" />
-      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\ExamPreparation\Exam14August2022" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -119,7 +95,7 @@
       <recent name="Reflection.Lab" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.goldDigger.Main">
+  <component name="RunManager" selected="JUnit.ExcavationTests">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="football.Main" />
       <module name="JavaOOP" />
@@ -146,16 +122,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FarmvilleTests (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExcavationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ExamPreparation.Exam22August2021.farmville.*" />
+          <option name="PATTERN" value="archeologicalExcavations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ExamPreparation.Exam22August2021.farmville" />
-      <option name="MAIN_CLASS_NAME" value="ExamPreparation.Exam22August2021.farmville.FarmvilleTests" />
+      <option name="PACKAGE_NAME" value="archeologicalExcavations" />
+      <option name="MAIN_CLASS_NAME" value="archeologicalExcavations.ExcavationTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -194,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ExcavationTests" />
         <item itemvalue="Application.goldDigger.Main" />
         <item itemvalue="JUnit.FootballTeamTests" />
         <item itemvalue="JUnit.FootballTeamTests.test_Constructor" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.FarmvilleTests (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -210,13 +186,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664452212227</updated>
-    </task>
-    <task id="LOCAL-00091" summary="add new exercise">
-      <created>1665675556141</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1665675556141</updated>
     </task>
     <task id="LOCAL-00092" summary="add new exercise">
       <created>1665675576558</created>
@@ -554,7 +523,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670824863433</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <task id="LOCAL-00140" summary="add new exercise">
+      <created>1670921913334</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1670921913349</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
