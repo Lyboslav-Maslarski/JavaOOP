@@ -5,9 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05a8a1e-9340-4aa8-9c36-23b5122a6c4d" name="Changes" comment="add new exercise">
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam16August2020/computers/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam16August2020/computers/ComputerManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam16August2020/computers/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam16August2020/onlineShop/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam16August2020/onlineShop/common/constants/ExceptionMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam16August2020/onlineShop/common/constants/OutputMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam16August2020/onlineShop/common/enums/CommandType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam16August2020/onlineShop/core/ControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam16August2020/onlineShop/core/EngineImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam16August2020/onlineShop/core/interfaces/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam16August2020/onlineShop/core/interfaces/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam16August2020/onlineShop/io/ConsoleReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam16August2020/onlineShop/io/ConsoleWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam16August2020/onlineShop/io/interfaces/InputReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam16August2020/onlineShop/io/interfaces/OutputWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam16August2020/onlineShop/models/products/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam16August2020/onlineShop/models/products/components/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam16August2020/onlineShop/models/products/components/Motherboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam16August2020/onlineShop/models/products/components/PowerSupply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam16August2020/onlineShop/models/products/components/RandomAccessMemory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam16August2020/onlineShop/models/products/components/SolidStateDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam16August2020/onlineShop/models/products/components/VideoCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam16August2020/onlineShop/models/products/computers/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam16August2020/onlineShop/models/products/computers/DesktopComputer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam16August2020/onlineShop/models/products/computers/Laptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam16August2020/onlineShop/models/products/peripherals/Headset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam16August2020/onlineShop/models/products/peripherals/Keyboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam16August2020/onlineShop/models/products/peripherals/Monitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam16August2020/onlineShop/models/products/peripherals/Mouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam16August2020/onlineShop/models/products/peripherals/Peripheral.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ExamPreparation/Exam16August2020/computers/ComputerManagerTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ExamPreparation/Exam14August2022/football/FootballTeamTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ExamPreparation/Exam14August2022/football/FootballTeamTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/archeologicalExcavations/ExcavationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/archeologicalExcavations/ExcavationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +51,9 @@
       <list>
         <option value="Enum" />
         <option value="AnnotationType" />
-        <option value="JUnit4 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -48,60 +77,74 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/lyb4o/OneDrive/Desktop/JavaOOP/src/Judge/VehiclesExtension&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "last_directory_selection": "C:/Users/lyb4o/OneDrive/Desktop/JavaOOP/test/computers",
+    "last_opened_file_path": "C:/Users/lyb4o/OneDrive/Desktop/JavaOOP/src/Judge/VehiclesExtension",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="onlineShop.core.interfaces" />
       <recent name="DesignPatterns.Lab.Facade" />
       <recent name="UnitTesting.rpg_lab" />
       <recent name="calculator" />
       <recent name="Judge.word" />
-      <recent name="Judge.MathOperation" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Judge\VehiclesExtension" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\ExamPreparation\Exam22August2022" />
-      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\test" />
-      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\main\java" />
-      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\test\ExamPreparation\Exam14August2022\football" />
-      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\test\java" />
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\test\ExamPreparation\Exam16August2020" />
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\test\ExamPreparation\Exam14August2022" />
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\test\ExamPreparation\Exam18April2022" />
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\ExamPreparation\Exam16August2020" />
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\test\ExamPreparation\Exam22August2022" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="computers" />
       <recent name="ExamPreparation.Exam5August2022.petStore" />
       <recent name="TestDrivenDevelopment.Exercise" />
       <recent name="TestDrivenDevelopment.Lab" />
       <recent name="UnitTesting.Exercise.p05_CustomLinkedList" />
-      <recent name="UnitTesting.Exercise.p04_BubbleSortTest" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Reflection.Lab" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ExcavationTests">
+  <component name="RunManager" selected="JUnit.ComputerManagerTests">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="football.Main" />
+      <option name="MAIN_CLASS_NAME" value="onlineShop.Main" />
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="football.*" />
+          <option name="PATTERN" value="onlineShop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Polymorphism.Exercise.VehiclesExtension.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Polymorphism.Exercise.VehiclesExtension.Main" />
+      <module name="JavaOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Polymorphism.Exercise.VehiclesExtension.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,6 +165,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ComputerManagerTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="computers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="computers" />
+      <option name="MAIN_CLASS_NAME" value="computers.ComputerManagerTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExcavationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaOOP" />
       <extension name="coverage">
@@ -137,44 +195,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FootballTeamTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaOOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="football.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="football" />
-      <option name="MAIN_CLASS_NAME" value="football.FootballTeamTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FootballTeamTests.test_Constructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaOOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="football.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="football" />
-      <option name="MAIN_CLASS_NAME" value="football.FootballTeamTests" />
-      <option name="METHOD_NAME" value="test_Constructor" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ComputerManagerTests" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Polymorphism.Exercise.VehiclesExtension.Main" />
         <item itemvalue="JUnit.ExcavationTests" />
         <item itemvalue="Application.goldDigger.Main" />
-        <item itemvalue="JUnit.FootballTeamTests" />
-        <item itemvalue="JUnit.FootballTeamTests.test_Constructor" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -186,55 +213,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664452212227</updated>
-    </task>
-    <task id="LOCAL-00092" summary="add new exercise">
-      <created>1665675576558</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1665675576558</updated>
-    </task>
-    <task id="LOCAL-00093" summary="add new exercise">
-      <created>1665682807766</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1665682807766</updated>
-    </task>
-    <task id="LOCAL-00094" summary="add new exercise">
-      <created>1665682814742</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1665682814742</updated>
-    </task>
-    <task id="LOCAL-00095" summary="add new exercise">
-      <created>1665682821352</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1665682821352</updated>
-    </task>
-    <task id="LOCAL-00096" summary="add new exercise">
-      <created>1665752502861</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1665752502861</updated>
-    </task>
-    <task id="LOCAL-00097" summary="add new exercise">
-      <created>1665933246832</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1665933246832</updated>
-    </task>
-    <task id="LOCAL-00098" summary="add new exercise">
-      <created>1665933256383</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1665933256383</updated>
     </task>
     <task id="LOCAL-00099" summary="add new exercise">
       <created>1665933262016</created>
@@ -530,7 +508,56 @@
       <option name="project" value="LOCAL" />
       <updated>1670921913349</updated>
     </task>
-    <option name="localTasksCounter" value="141" />
+    <task id="LOCAL-00141" summary="add new exercise">
+      <created>1671002166232</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1671002166233</updated>
+    </task>
+    <task id="LOCAL-00142" summary="add new exercise">
+      <created>1679345329919</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1679345329920</updated>
+    </task>
+    <task id="LOCAL-00143" summary="add new exercise">
+      <created>1679345338055</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1679345338055</updated>
+    </task>
+    <task id="LOCAL-00144" summary="add new exercise">
+      <created>1679345346272</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1679345346272</updated>
+    </task>
+    <task id="LOCAL-00145" summary="add new exercise">
+      <created>1679345352326</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1679345352326</updated>
+    </task>
+    <task id="LOCAL-00146" summary="add new exercise">
+      <created>1679345357984</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1679345357984</updated>
+    </task>
+    <task id="LOCAL-00147" summary="add new exercise">
+      <created>1679345363437</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1679345363437</updated>
+    </task>
+    <option name="localTasksCounter" value="148" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -570,17 +597,11 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/JavaOOP$InstockTest.ic" NAME="InstockTest Coverage Results" MODIFIED="1666735296303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>TestDrivenDevelopment.Lab.*</FILTER>
+    <SUITE FILE_PATH="coverage/JavaOOP$ComputerManagerTests.ic" NAME="ComputerManagerTests Coverage Results" MODIFIED="1679344994831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>computers.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/JavaOOP$FarmvilleTests.ic" NAME="FarmvilleTests Coverage Results" MODIFIED="1667574499489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ExamPreparation.farmville.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/JavaOOP$FarmvilleTests__1_.ic" NAME="FarmvilleTests (1) Coverage Results" MODIFIED="1667575546076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>ExamPreparation.Exam22August2021.farmville.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/JavaOOP$AlarmTest.ic" NAME="AlarmTest Coverage Results" MODIFIED="1666662938362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>UnitTesting.Exercise.p06_TirePressureMonitoringSystem.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/JavaOOP$ListIteratorTest.ic" NAME="ListIteratorTest Coverage Results" MODIFIED="1666661526083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>UnitTesting.Exercise.p03_IteratorTest.*</FILTER>
@@ -588,11 +609,23 @@
     <SUITE FILE_PATH="coverage/JavaOOP$PetStoreTest.ic" NAME="PetStoreTest Coverage Results" MODIFIED="1667488003726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ExamPreparation.Exam18April2022.petStore.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/JavaOOP$FootballTeamTests.ic" NAME="FootballTeamTests Coverage Results" MODIFIED="1670824685960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>football.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/JavaOOP$BubbleTest.ic" NAME="BubbleTest Coverage Results" MODIFIED="1666663809014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>UnitTesting.Exercise.p04_BubbleSortTest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JavaOOP$ChainblockImplTest.ic" NAME="ChainblockImplTest Coverage Results" MODIFIED="1666930134603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>TestDrivenDevelopment.Exercise.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JavaOOP$InstockTest.ic" NAME="InstockTest Coverage Results" MODIFIED="1666735296303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>TestDrivenDevelopment.Lab.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JavaOOP$FarmvilleTests__1_.ic" NAME="FarmvilleTests (1) Coverage Results" MODIFIED="1667575546076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ExamPreparation.Exam22August2021.farmville.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JavaOOP$AlarmTest.ic" NAME="AlarmTest Coverage Results" MODIFIED="1666662938362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>UnitTesting.Exercise.p06_TirePressureMonitoringSystem.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JavaOOP$FootballTeamTests.ic" NAME="FootballTeamTests Coverage Results" MODIFIED="1670824685960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>football.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/JavaOOP$CustomLinkedListTest.ic" NAME="CustomLinkedListTest Coverage Results" MODIFIED="1666688922708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>UnitTesting.Exercise.p05_CustomLinkedList.*</FILTER>
@@ -603,8 +636,8 @@
     <SUITE FILE_PATH="coverage/JavaOOP$PetStoreTest__1_.ic" NAME="PetStoreTest (1) Coverage Results" MODIFIED="1667489004772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Exam18April2022.petStore.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/JavaOOP$ChainblockImplTest.ic" NAME="ChainblockImplTest Coverage Results" MODIFIED="1666930134603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>TestDrivenDevelopment.Exercise.*</FILTER>
+    <SUITE FILE_PATH="coverage/JavaOOP$ExcavationTests.ic" NAME="ExcavationTests Coverage Results" MODIFIED="1671001990864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>archeologicalExcavations.*</FILTER>
     </SUITE>
   </component>
 </project>
