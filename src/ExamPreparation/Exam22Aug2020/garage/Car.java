@@ -1,4 +1,4 @@
-package garage;
+package ExamPreparation.Exam22Aug2020.garage;
 
 public class Car {
     private String brand;

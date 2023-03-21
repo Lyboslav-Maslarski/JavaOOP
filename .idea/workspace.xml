@@ -5,35 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05a8a1e-9340-4aa8-9c36-23b5122a6c4d" name="Changes" comment="add new exercise">
-      <change afterPath="$PROJECT_DIR$/src/easterRaces/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easterRaces/common/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easterRaces/common/ExceptionMessages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easterRaces/common/OutputMessages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easterRaces/core/ControllerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easterRaces/core/EngineImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easterRaces/core/interfaces/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easterRaces/core/interfaces/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easterRaces/entities/cars/BaseCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easterRaces/entities/cars/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easterRaces/entities/cars/MuscleCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easterRaces/entities/cars/SportsCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easterRaces/entities/drivers/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easterRaces/entities/drivers/DriverImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easterRaces/entities/racers/Race.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easterRaces/entities/racers/RaceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easterRaces/io/ConsoleReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easterRaces/io/ConsoleWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easterRaces/io/interfaces/InputReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easterRaces/io/interfaces/OutputWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easterRaces/repositories/interfaces/CarRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easterRaces/repositories/interfaces/DriverRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easterRaces/repositories/interfaces/RaceRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easterRaces/repositories/interfaces/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/garage/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/garage/Garage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/garage/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/test/garage/GarageTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,11 +74,11 @@
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Judge\VehiclesExtension" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\ExamPreparation\Exam22Aug2020" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\main\java" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\test\java" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\test\ExamPreparation\Exam16August2020" />
-      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\test\ExamPreparation\Exam14August2022" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -122,7 +94,7 @@
       <recent name="Reflection.Lab" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.easterRaces.Main">
+  <component name="RunManager" selected="JUnit.GarageTests">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="onlineShop.Main" />
       <module name="JavaOOP" />
@@ -177,16 +149,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExcavationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GarageTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="archeologicalExcavations.*" />
+          <option name="PATTERN" value="garage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="archeologicalExcavations" />
-      <option name="MAIN_CLASS_NAME" value="archeologicalExcavations.ExcavationTests" />
+      <option name="PACKAGE_NAME" value="garage" />
+      <option name="MAIN_CLASS_NAME" value="garage.GarageTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -194,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GarageTests" />
         <item itemvalue="Application.easterRaces.Main" />
         <item itemvalue="JUnit.ComputerManagerTests" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Polymorphism.Exercise.VehiclesExtension.Main" />
-        <item itemvalue="JUnit.ExcavationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -210,48 +182,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664452212227</updated>
-    </task>
-    <task id="LOCAL-00114" summary="add new exercise">
-      <created>1666569703828</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1666569703828</updated>
-    </task>
-    <task id="LOCAL-00115" summary="add new exercise">
-      <created>1666603336517</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1666603336517</updated>
-    </task>
-    <task id="LOCAL-00116" summary="add new exercise">
-      <created>1666659434495</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1666659434495</updated>
-    </task>
-    <task id="LOCAL-00117" summary="add new exercise">
-      <created>1666659483322</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1666659483322</updated>
-    </task>
-    <task id="LOCAL-00118" summary="add new exercise">
-      <created>1666661778815</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1666661778815</updated>
-    </task>
-    <task id="LOCAL-00119" summary="add new exercise">
-      <created>1666663270866</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
-      <option name="project" value="LOCAL" />
-      <updated>1666663270866</updated>
     </task>
     <task id="LOCAL-00120" summary="add new exercise">
       <created>1666663942460</created>
@@ -554,7 +484,49 @@
       <option name="project" value="LOCAL" />
       <updated>1679345506922</updated>
     </task>
-    <option name="localTasksCounter" value="163" />
+    <task id="LOCAL-00163" summary="add new exercise">
+      <created>1679422102160</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1679422102160</updated>
+    </task>
+    <task id="LOCAL-00164" summary="add new exercise">
+      <created>1679422108467</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1679422108467</updated>
+    </task>
+    <task id="LOCAL-00165" summary="add new exercise">
+      <created>1679422113658</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1679422113658</updated>
+    </task>
+    <task id="LOCAL-00166" summary="add new exercise">
+      <created>1679422118781</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1679422118782</updated>
+    </task>
+    <task id="LOCAL-00167" summary="add new exercise">
+      <created>1679422126144</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1679422126144</updated>
+    </task>
+    <task id="LOCAL-00168" summary="add new exercise">
+      <created>1679422163439</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1679422163439</updated>
+    </task>
+    <option name="localTasksCounter" value="169" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

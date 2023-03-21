@@ -1,4 +1,4 @@
-package garage;
+package ExamPreparation.Exam22Aug2020.garage;
 
 import java.util.ArrayList;
 import java.util.Collections;
