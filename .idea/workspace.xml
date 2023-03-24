@@ -5,7 +5,69 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05a8a1e-9340-4aa8-9c36-23b5122a6c4d" name="Changes" comment="add new exercise">
-      <change afterPath="$PROJECT_DIR$/test/garage/GarageTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/common/ExceptionMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/common/OutputMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/common/enums/BakedFoodType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/common/enums/Commands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/common/enums/DrinkType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/common/enums/TableTYpe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/core/ControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/core/EngineImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/core/interfaces/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/core/interfaces/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/entities/bakedFoods/BaseFood.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/entities/bakedFoods/Bread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/entities/bakedFoods/Cake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/entities/bakedFoods/interfaces/BakedFood.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/entities/drinks/BaseDrink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/entities/drinks/Tea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/entities/drinks/Water.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/entities/drinks/interfaces/Drink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/entities/tables/BaseTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/entities/tables/InsideTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/entities/tables/OutsideTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/entities/tables/interfaces/Table.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/io/ConsoleReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/io/ConsoleWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/io/interfaces/InputReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/io/interfaces/OutputWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/repositories/DrinkRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/repositories/FoodRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/repositories/TableRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/repositories/interfaces/DrinkRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/repositories/interfaces/FoodRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/repositories/interfaces/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/repositories/interfaces/TableRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bankSafe/BankVault.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bankSafe/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bankSafe/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blueOrigin/Astronaut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blueOrigin/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blueOrigin/Spaceship.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/viceCity/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/viceCity/common/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/viceCity/common/ConstantMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/viceCity/common/ExceptionMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/viceCity/core/ControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/viceCity/core/EngineImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/viceCity/core/interfaces/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/viceCity/core/interfaces/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/viceCity/models/guns/BaseGun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/viceCity/models/guns/Gun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/viceCity/models/guns/Pistol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/viceCity/models/guns/Rifle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/viceCity/models/neighbourhood/GangNeighbourhood.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/viceCity/models/neighbourhood/Neighbourhood.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/viceCity/models/players/BasePlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/viceCity/models/players/CivilPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/viceCity/models/players/MainPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/viceCity/models/players/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/viceCity/repositories/GunRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/viceCity/repositories/interfaces/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ExamPreparation/Exam12Dec2020/bankSafe/BankVaultTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/blueOrigin/SpaceshipTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,21 +126,21 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="viceCity.core.interfaces" />
+      <recent name="bakery.repositories.interfaces" />
       <recent name="easterRaces.core.interfaces" />
       <recent name="easterRaces.entities.racers" />
       <recent name="easterRaces.entities.drivers" />
-      <recent name="onlineShop.core.interfaces" />
-      <recent name="DesignPatterns.Lab.Facade" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Judge\VehiclesExtension" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\ExamPreparation\Exam22Aug2020" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src" />
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\test" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\main\java" />
-      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\test\java" />
-      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\test\ExamPreparation\Exam16August2020" />
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\test\ExamPreparation\Exam12Dec2020" />
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\ExamPreparation\Exam12Dec2020" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -94,13 +156,13 @@
       <recent name="Reflection.Lab" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GarageTests">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="onlineShop.Main" />
+      <option name="MAIN_CLASS_NAME" value="viceCity.Main" />
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="onlineShop.*" />
+          <option name="PATTERN" value="viceCity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +170,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Polymorphism.Exercise.VehiclesExtension.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Polymorphism.Exercise.VehiclesExtension.Main" />
+    <configuration name="bakery.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bakery.Main" />
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Polymorphism.Exercise.VehiclesExtension.*" />
+          <option name="PATTERN" value="bakery.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,30 +183,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="easterRaces.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easterRaces.Main" />
+    <configuration name="BankVaultTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easterRaces.*" />
+          <option name="PATTERN" value="bankSafe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ComputerManagerTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaOOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="computers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="computers" />
-      <option name="MAIN_CLASS_NAME" value="computers.ComputerManagerTests" />
+      <option name="PACKAGE_NAME" value="bankSafe" />
+      <option name="MAIN_CLASS_NAME" value="bankSafe.BankVaultTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankVaultTest.test_removeItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bankSafe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bankSafe" />
+      <option name="MAIN_CLASS_NAME" value="bankSafe.BankVaultTest" />
+      <option name="METHOD_NAME" value="test_removeItem" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -166,11 +231,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GarageTests" />
-        <item itemvalue="Application.easterRaces.Main" />
-        <item itemvalue="JUnit.ComputerManagerTests" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Polymorphism.Exercise.VehiclesExtension.Main" />
+        <item itemvalue="JUnit.BankVaultTest" />
+        <item itemvalue="JUnit.BankVaultTest.test_removeItem" />
+        <item itemvalue="Application.bakery.Main" />
+        <item itemvalue="JUnit.GarageTests" />
       </list>
     </recent_temporary>
   </component>
@@ -182,13 +247,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664452212227</updated>
-    </task>
-    <task id="LOCAL-00120" summary="add new exercise">
-      <created>1666663942460</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
-      <option name="project" value="LOCAL" />
-      <updated>1666663942460</updated>
     </task>
     <task id="LOCAL-00121" summary="add new exercise">
       <created>1666688969088</created>
@@ -526,7 +584,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679422163439</updated>
     </task>
-    <option name="localTasksCounter" value="169" />
+    <task id="LOCAL-00169" summary="add new exercise">
+      <created>1679423771706</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1679423771706</updated>
+    </task>
+    <option name="localTasksCounter" value="170" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -578,8 +643,14 @@
     <SUITE FILE_PATH="coverage/JavaOOP$PetStoreTest.ic" NAME="PetStoreTest Coverage Results" MODIFIED="1667488003726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ExamPreparation.Exam18April2022.petStore.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/JavaOOP$GarageTests.ic" NAME="GarageTests Coverage Results" MODIFIED="1679423633323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>garage.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/JavaOOP$BubbleTest.ic" NAME="BubbleTest Coverage Results" MODIFIED="1666663809014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>UnitTesting.Exercise.p04_BubbleSortTest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JavaOOP$BankVaultTest.ic" NAME="BankVaultTest Coverage Results" MODIFIED="1679597310929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>bankSafe.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/JavaOOP$ChainblockImplTest.ic" NAME="ChainblockImplTest Coverage Results" MODIFIED="1666930134603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TestDrivenDevelopment.Exercise.*</FILTER>
@@ -607,6 +678,9 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/JavaOOP$ExcavationTests.ic" NAME="ExcavationTests Coverage Results" MODIFIED="1671001990864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>archeologicalExcavations.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JavaOOP$BankVaultTest_test_removeItem.ic" NAME="BankVaultTest.test_removeItem Coverage Results" MODIFIED="1679597199954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>bankSafe.*</FILTER>
     </SUITE>
   </component>
 </project>
