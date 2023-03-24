@@ -1,4 +1,4 @@
-package blueOrigin;
+package ExamPreparation.Exam19Dec2020.blueOrigin;
 
 public class Astronaut {
     private String name;

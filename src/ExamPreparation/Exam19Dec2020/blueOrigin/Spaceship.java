@@ -1,4 +1,4 @@
-package blueOrigin;
+package ExamPreparation.Exam19Dec2020.blueOrigin;
 
 import java.util.ArrayList;
 import java.util.Collection;

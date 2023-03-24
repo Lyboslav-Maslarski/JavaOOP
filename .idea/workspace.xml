@@ -5,69 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05a8a1e-9340-4aa8-9c36-23b5122a6c4d" name="Changes" comment="add new exercise">
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/common/ExceptionMessages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/common/OutputMessages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/common/enums/BakedFoodType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/common/enums/Commands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/common/enums/DrinkType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/common/enums/TableTYpe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/core/ControllerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/core/EngineImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/core/interfaces/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/core/interfaces/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/entities/bakedFoods/BaseFood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/entities/bakedFoods/Bread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/entities/bakedFoods/Cake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/entities/bakedFoods/interfaces/BakedFood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/entities/drinks/BaseDrink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/entities/drinks/Tea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/entities/drinks/Water.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/entities/drinks/interfaces/Drink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/entities/tables/BaseTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/entities/tables/InsideTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/entities/tables/OutsideTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/entities/tables/interfaces/Table.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/io/ConsoleReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/io/ConsoleWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/io/interfaces/InputReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/io/interfaces/OutputWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/repositories/DrinkRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/repositories/FoodRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/repositories/TableRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/repositories/interfaces/DrinkRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/repositories/interfaces/FoodRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/repositories/interfaces/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bakery/repositories/interfaces/TableRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bankSafe/BankVault.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bankSafe/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam12Dec2020/bankSafe/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blueOrigin/Astronaut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blueOrigin/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/blueOrigin/Spaceship.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/viceCity/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/viceCity/common/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/viceCity/common/ConstantMessages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/viceCity/common/ExceptionMessages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/viceCity/core/ControllerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/viceCity/core/EngineImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/viceCity/core/interfaces/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/viceCity/core/interfaces/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/viceCity/models/guns/BaseGun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/viceCity/models/guns/Gun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/viceCity/models/guns/Pistol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/viceCity/models/guns/Rifle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/viceCity/models/neighbourhood/GangNeighbourhood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/viceCity/models/neighbourhood/Neighbourhood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/viceCity/models/players/BasePlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/viceCity/models/players/CivilPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/viceCity/models/players/MainPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/viceCity/models/players/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/viceCity/repositories/GunRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/viceCity/repositories/interfaces/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ExamPreparation/Exam12Dec2020/bankSafe/BankVaultTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/blueOrigin/SpaceshipTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/blueOrigin/SpaceshipTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/blueOrigin/SpaceshipTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,11 +74,11 @@
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Judge\VehiclesExtension" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\ExamPreparation\Exam19Dec2020" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\test" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\main\java" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\test\ExamPreparation\Exam12Dec2020" />
-      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\ExamPreparation\Exam12Dec2020" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -156,7 +94,7 @@
       <recent name="Reflection.Lab" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.SpaceshipTests">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="viceCity.Main" />
       <module name="JavaOOP" />
@@ -214,16 +152,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GarageTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpaceshipTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="garage.*" />
+          <option name="PATTERN" value="blueOrigin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="garage" />
-      <option name="MAIN_CLASS_NAME" value="garage.GarageTests" />
+      <option name="PACKAGE_NAME" value="blueOrigin" />
+      <option name="MAIN_CLASS_NAME" value="blueOrigin.SpaceshipTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -231,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpaceshipTests" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.BankVaultTest" />
         <item itemvalue="JUnit.BankVaultTest.test_removeItem" />
         <item itemvalue="Application.bakery.Main" />
-        <item itemvalue="JUnit.GarageTests" />
       </list>
     </recent_temporary>
   </component>
@@ -247,146 +185,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664452212227</updated>
-    </task>
-    <task id="LOCAL-00121" summary="add new exercise">
-      <created>1666688969088</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
-      <option name="project" value="LOCAL" />
-      <updated>1666688969088</updated>
-    </task>
-    <task id="LOCAL-00122" summary="add new exercise">
-      <created>1666735329848</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
-      <option name="project" value="LOCAL" />
-      <updated>1666735329848</updated>
-    </task>
-    <task id="LOCAL-00123" summary="add new exercise">
-      <created>1666829461886</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1666829461887</updated>
-    </task>
-    <task id="LOCAL-00124" summary="add new exercise">
-      <created>1666919748233</created>
-      <option name="number" value="00124" />
-      <option name="presentableId" value="LOCAL-00124" />
-      <option name="project" value="LOCAL" />
-      <updated>1666919748233</updated>
-    </task>
-    <task id="LOCAL-00125" summary="add new exercise">
-      <created>1666930796188</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
-      <option name="project" value="LOCAL" />
-      <updated>1666930796188</updated>
-    </task>
-    <task id="LOCAL-00126" summary="add new exercise">
-      <created>1667018264953</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
-      <option name="project" value="LOCAL" />
-      <updated>1667018264953</updated>
-    </task>
-    <task id="LOCAL-00127" summary="add new exercise">
-      <created>1667204445687</created>
-      <option name="number" value="00127" />
-      <option name="presentableId" value="LOCAL-00127" />
-      <option name="project" value="LOCAL" />
-      <updated>1667204445687</updated>
-    </task>
-    <task id="LOCAL-00128" summary="add new exercise">
-      <created>1667206098199</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
-      <option name="project" value="LOCAL" />
-      <updated>1667206098199</updated>
-    </task>
-    <task id="LOCAL-00129" summary="add new exercise">
-      <created>1667208873502</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1667208873502</updated>
-    </task>
-    <task id="LOCAL-00130" summary="add new exercise">
-      <created>1667211011710</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
-      <option name="project" value="LOCAL" />
-      <updated>1667211011710</updated>
-    </task>
-    <task id="LOCAL-00131" summary="add new exercise">
-      <created>1667214339907</created>
-      <option name="number" value="00131" />
-      <option name="presentableId" value="LOCAL-00131" />
-      <option name="project" value="LOCAL" />
-      <updated>1667214339907</updated>
-    </task>
-    <task id="LOCAL-00132" summary="add new exercise">
-      <created>1667491056634</created>
-      <option name="number" value="00132" />
-      <option name="presentableId" value="LOCAL-00132" />
-      <option name="project" value="LOCAL" />
-      <updated>1667491056634</updated>
-    </task>
-    <task id="LOCAL-00133" summary="add new exercise">
-      <created>1667491064368</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1667491064368</updated>
-    </task>
-    <task id="LOCAL-00134" summary="add new exercise">
-      <created>1667491081406</created>
-      <option name="number" value="00134" />
-      <option name="presentableId" value="LOCAL-00134" />
-      <option name="project" value="LOCAL" />
-      <updated>1667491081406</updated>
-    </task>
-    <task id="LOCAL-00135" summary="add new exercise">
-      <created>1667491090355</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1667491090355</updated>
-    </task>
-    <task id="LOCAL-00136" summary="add new exercise">
-      <created>1667570461123</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1667570461123</updated>
-    </task>
-    <task id="LOCAL-00137" summary="add new exercise">
-      <created>1667574569920</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
-      <option name="project" value="LOCAL" />
-      <updated>1667574569920</updated>
-    </task>
-    <task id="LOCAL-00138" summary="add new exercise">
-      <created>1667576189558</created>
-      <option name="number" value="00138" />
-      <option name="presentableId" value="LOCAL-00138" />
-      <option name="project" value="LOCAL" />
-      <updated>1667576189558</updated>
-    </task>
-    <task id="LOCAL-00139" summary="add new exercise">
-      <created>1670824863433</created>
-      <option name="number" value="00139" />
-      <option name="presentableId" value="LOCAL-00139" />
-      <option name="project" value="LOCAL" />
-      <updated>1670824863433</updated>
-    </task>
-    <task id="LOCAL-00140" summary="add new exercise">
-      <created>1670921913334</created>
-      <option name="number" value="00140" />
-      <option name="presentableId" value="LOCAL-00140" />
-      <option name="project" value="LOCAL" />
-      <updated>1670921913349</updated>
     </task>
     <task id="LOCAL-00141" summary="add new exercise">
       <created>1671002166232</created>
@@ -591,7 +389,147 @@
       <option name="project" value="LOCAL" />
       <updated>1679423771706</updated>
     </task>
-    <option name="localTasksCounter" value="170" />
+    <task id="LOCAL-00170" summary="add new exercise">
+      <created>1679685260186</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1679685260187</updated>
+    </task>
+    <task id="LOCAL-00171" summary="add new exercise">
+      <created>1679685267558</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1679685267558</updated>
+    </task>
+    <task id="LOCAL-00172" summary="add new exercise">
+      <created>1679685273221</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1679685273221</updated>
+    </task>
+    <task id="LOCAL-00173" summary="add new exercise">
+      <created>1679685282127</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1679685282127</updated>
+    </task>
+    <task id="LOCAL-00174" summary="add new exercise">
+      <created>1679685290175</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1679685290175</updated>
+    </task>
+    <task id="LOCAL-00175" summary="add new exercise">
+      <created>1679685332921</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1679685332922</updated>
+    </task>
+    <task id="LOCAL-00176" summary="add new exercise">
+      <created>1679685343414</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1679685343414</updated>
+    </task>
+    <task id="LOCAL-00177" summary="add new exercise">
+      <created>1679685350506</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1679685350506</updated>
+    </task>
+    <task id="LOCAL-00178" summary="add new exercise">
+      <created>1679685356344</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1679685356344</updated>
+    </task>
+    <task id="LOCAL-00179" summary="add new exercise">
+      <created>1679685364622</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1679685364622</updated>
+    </task>
+    <task id="LOCAL-00180" summary="add new exercise">
+      <created>1679685371073</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1679685371073</updated>
+    </task>
+    <task id="LOCAL-00181" summary="add new exercise">
+      <created>1679685379528</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1679685379528</updated>
+    </task>
+    <task id="LOCAL-00182" summary="add new exercise">
+      <created>1679685388001</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1679685388001</updated>
+    </task>
+    <task id="LOCAL-00183" summary="add new exercise">
+      <created>1679685396926</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
+      <option name="project" value="LOCAL" />
+      <updated>1679685396926</updated>
+    </task>
+    <task id="LOCAL-00184" summary="add new exercise">
+      <created>1679685405717</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1679685405717</updated>
+    </task>
+    <task id="LOCAL-00185" summary="add new exercise">
+      <created>1679685416521</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1679685416521</updated>
+    </task>
+    <task id="LOCAL-00186" summary="add new exercise">
+      <created>1679685426217</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1679685426217</updated>
+    </task>
+    <task id="LOCAL-00187" summary="add new exercise">
+      <created>1679685440947</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1679685440947</updated>
+    </task>
+    <task id="LOCAL-00188" summary="add new exercise">
+      <created>1679685448689</created>
+      <option name="number" value="00188" />
+      <option name="presentableId" value="LOCAL-00188" />
+      <option name="project" value="LOCAL" />
+      <updated>1679685448689</updated>
+    </task>
+    <task id="LOCAL-00189" summary="add new exercise">
+      <created>1679685455782</created>
+      <option name="number" value="00189" />
+      <option name="presentableId" value="LOCAL-00189" />
+      <option name="project" value="LOCAL" />
+      <updated>1679685455782</updated>
+    </task>
+    <option name="localTasksCounter" value="190" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
