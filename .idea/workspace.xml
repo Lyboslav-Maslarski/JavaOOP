@@ -5,7 +5,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05a8a1e-9340-4aa8-9c36-23b5122a6c4d" name="Changes" comment="add new exercise">
-      <change beforePath="$PROJECT_DIR$/test/blueOrigin/SpaceshipTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/blueOrigin/SpaceshipTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam10April2021/aquarium/Aquarium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam10April2021/aquarium/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam10April2021/aquarium/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam10April2021/aquarium/common/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam10April2021/aquarium/common/ConstantMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam10April2021/aquarium/common/ExceptionMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam10April2021/aquarium/core/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam10April2021/aquarium/core/ControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam10April2021/aquarium/core/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam10April2021/aquarium/core/EngineImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam10April2021/aquarium/entities/aquariums/Aquarium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam10April2021/aquarium/entities/aquariums/BaseAquarium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam10April2021/aquarium/entities/aquariums/FreshwaterAquarium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam10April2021/aquarium/entities/aquariums/SaltwaterAquarium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam10April2021/aquarium/entities/decorations/BaseDecoration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam10April2021/aquarium/entities/decorations/Decoration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam10April2021/aquarium/entities/decorations/Ornament.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam10April2021/aquarium/entities/decorations/Plant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam10April2021/aquarium/entities/fish/BaseFish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam10April2021/aquarium/entities/fish/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam10April2021/aquarium/entities/fish/FreshwaterFish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam10April2021/aquarium/entities/fish/SaltwaterFish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam10April2021/aquarium/repositories/DecorationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam10April2021/aquarium/repositories/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heroRepository/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heroRepository/HeroRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/heroRepository/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spaceStation/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spaceStation/common/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spaceStation/common/ConstantMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spaceStation/common/ExceptionMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spaceStation/core/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spaceStation/core/ControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spaceStation/core/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spaceStation/core/EngineImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spaceStation/models/astronauts/Astronaut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spaceStation/models/astronauts/BaseAstronaut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spaceStation/models/astronauts/Biologist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spaceStation/models/astronauts/Geodesist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spaceStation/models/astronauts/Meteorologist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spaceStation/models/bags/Backpack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spaceStation/models/bags/Bag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spaceStation/models/mission/Mission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spaceStation/models/mission/MissionImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spaceStation/models/planets/Planet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spaceStation/models/planets/PlanetImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spaceStation/repositories/AstronautRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spaceStation/repositories/PlanetRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spaceStation/repositories/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ExamPreparation/Exam10April2021/aquarium/AquariumTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/heroRepository/HeroRepositoryTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,39 +97,42 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/lyb4o/OneDrive/Desktop/JavaOOP/test/computers&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/lyb4o/OneDrive/Desktop/JavaOOP/src/Judge/VehiclesExtension&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "last_directory_selection": "C:/Users/lyb4o/OneDrive/Desktop/JavaOOP/test/computers",
+    "last_opened_file_path": "C:/Users/lyb4o/OneDrive/Desktop/JavaOOP/src",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="spaceStation.models.planets" />
+      <recent name="spaceStation.models.mission" />
+      <recent name="aquarium.core" />
       <recent name="viceCity.core.interfaces" />
       <recent name="bakery.repositories.interfaces" />
-      <recent name="easterRaces.core.interfaces" />
-      <recent name="easterRaces.entities.racers" />
-      <recent name="easterRaces.entities.drivers" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src" />
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\test" />
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\aquarium" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Judge\VehiclesExtension" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\ExamPreparation\Exam10April2021" />
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\test\ExamPreparation\Exam10April2021" />
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\test\ExamPreparation\Exam19Dec2020" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\ExamPreparation\Exam19Dec2020" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src" />
-      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\test" />
-      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\main\java" />
-      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\test\ExamPreparation\Exam12Dec2020" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -94,7 +148,7 @@
       <recent name="Reflection.Lab" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SpaceshipTests">
+  <component name="RunManager" selected="Application.spaceStation.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="viceCity.Main" />
       <module name="JavaOOP" />
@@ -108,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bakery.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bakery.Main" />
+    <configuration name="aquarium.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aquarium.Main" />
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bakery.*" />
+          <option name="PATTERN" value="aquarium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,33 +175,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BankVaultTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="spaceStation.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spaceStation.Main" />
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bankSafe.*" />
+          <option name="PATTERN" value="spaceStation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="bankSafe" />
-      <option name="MAIN_CLASS_NAME" value="bankSafe.BankVaultTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AquariumTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aquarium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="aquarium" />
+      <option name="MAIN_CLASS_NAME" value="aquarium.AquariumTests" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BankVaultTest.test_removeItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaOOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bankSafe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bankSafe" />
-      <option name="MAIN_CLASS_NAME" value="bankSafe.BankVaultTest" />
-      <option name="METHOD_NAME" value="test_removeItem" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -169,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.spaceStation.Main" />
+        <item itemvalue="JUnit.AquariumTests" />
+        <item itemvalue="Application.aquarium.Main" />
         <item itemvalue="JUnit.SpaceshipTests" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.BankVaultTest" />
-        <item itemvalue="JUnit.BankVaultTest.test_removeItem" />
-        <item itemvalue="Application.bakery.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -185,13 +236,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664452212227</updated>
-    </task>
-    <task id="LOCAL-00141" summary="add new exercise">
-      <created>1671002166232</created>
-      <option name="number" value="00141" />
-      <option name="presentableId" value="LOCAL-00141" />
-      <option name="project" value="LOCAL" />
-      <updated>1671002166233</updated>
     </task>
     <task id="LOCAL-00142" summary="add new exercise">
       <created>1679345329919</created>
@@ -529,7 +573,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679685455782</updated>
     </task>
-    <option name="localTasksCounter" value="190" />
+    <task id="LOCAL-00190" summary="add new exercise">
+      <created>1679686397357</created>
+      <option name="number" value="00190" />
+      <option name="presentableId" value="LOCAL-00190" />
+      <option name="project" value="LOCAL" />
+      <updated>1679686397357</updated>
+    </task>
+    <option name="localTasksCounter" value="191" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -602,8 +653,14 @@
     <SUITE FILE_PATH="coverage/JavaOOP$AlarmTest.ic" NAME="AlarmTest Coverage Results" MODIFIED="1666662938362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>UnitTesting.Exercise.p06_TirePressureMonitoringSystem.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/JavaOOP$AquariumTests.ic" NAME="AquariumTests Coverage Results" MODIFIED="1679922953345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>aquarium.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/JavaOOP$FootballTeamTests.ic" NAME="FootballTeamTests Coverage Results" MODIFIED="1670824685960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>football.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JavaOOP$SpaceshipTests.ic" NAME="SpaceshipTests Coverage Results" MODIFIED="1679686279064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>blueOrigin.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/JavaOOP$CustomLinkedListTest.ic" NAME="CustomLinkedListTest Coverage Results" MODIFIED="1666688922708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>UnitTesting.Exercise.p05_CustomLinkedList.*</FILTER>
