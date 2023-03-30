@@ -1,4 +1,4 @@
-package heroRepository;
+package ExamPreparation.Exam18April2021.heroRepository;
 
 import java.util.ArrayList;
 import java.util.Collection;
