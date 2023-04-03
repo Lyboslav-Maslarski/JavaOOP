@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05a8a1e-9340-4aa8-9c36-23b5122a6c4d" name="Changes" comment="add new exercise">
-      <change afterPath="$PROJECT_DIR$/src/garage/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/garage/Garage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/garage/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/garage/GarageTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/christmasRaces/core/ControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/christmasRaces/core/ControllerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/christmasRaces/entities/cars/BaseCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/christmasRaces/entities/cars/BaseCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/christmasRaces/entities/races/RaceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/christmasRaces/entities/races/RaceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,11 +80,11 @@
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Judge\VehiclesExtension" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\test\ExamPreparation\Exam20December2021" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\test\ExamPreparation\Exam11December2021" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\ExamPreparation\Exam11December2021" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\test\ExamPreparation\Exam15August2021" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\test\ExamPreparation\Exam18April2021" />
-      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\ExamPreparation\Exam15August2021" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -101,13 +100,26 @@
       <recent name="Reflection.Lab" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GarageTests">
+  <component name="RunManager" selected="Application.christmasRaces.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="catHouse.Main" />
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="catHouse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="christmasRaces.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="christmasRaces.Main" />
+      <module name="JavaOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="christmasRaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,21 +137,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="garage" />
       <option name="MAIN_CLASS_NAME" value="garage.GarageTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HeroRepositoryTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaOOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="heroRepository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="heroRepository" />
-      <option name="MAIN_CLASS_NAME" value="heroRepository.HeroRepositoryTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -177,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.christmasRaces.Main" />
         <item itemvalue="JUnit.GarageTests" />
         <item itemvalue="JUnit.HouseTests" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ShopTest" />
-        <item itemvalue="JUnit.HeroRepositoryTests" />
       </list>
     </recent_temporary>
   </component>
@@ -193,20 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664452212227</updated>
-    </task>
-    <task id="LOCAL-00179" summary="add new exercise">
-      <created>1679685364622</created>
-      <option name="number" value="00179" />
-      <option name="presentableId" value="LOCAL-00179" />
-      <option name="project" value="LOCAL" />
-      <updated>1679685364622</updated>
-    </task>
-    <task id="LOCAL-00180" summary="add new exercise">
-      <created>1679685371073</created>
-      <option name="number" value="00180" />
-      <option name="presentableId" value="LOCAL-00180" />
-      <option name="project" value="LOCAL" />
-      <updated>1679685371073</updated>
     </task>
     <task id="LOCAL-00181" summary="add new exercise">
       <created>1679685379528</created>
@@ -537,7 +520,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680546318301</updated>
     </task>
-    <option name="localTasksCounter" value="228" />
+    <task id="LOCAL-00228" summary="add new exercise">
+      <created>1680550428595</created>
+      <option name="number" value="00228" />
+      <option name="presentableId" value="LOCAL-00228" />
+      <option name="project" value="LOCAL" />
+      <updated>1680550428595</updated>
+    </task>
+    <task id="LOCAL-00229" summary="add new exercise">
+      <created>1680550447825</created>
+      <option name="number" value="00229" />
+      <option name="presentableId" value="LOCAL-00229" />
+      <option name="project" value="LOCAL" />
+      <updated>1680550447825</updated>
+    </task>
+    <option name="localTasksCounter" value="230" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -589,7 +586,7 @@
     <SUITE FILE_PATH="coverage/JavaOOP$PetStoreTest.ic" NAME="PetStoreTest Coverage Results" MODIFIED="1667488003726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ExamPreparation.Exam18April2022.petStore.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/JavaOOP$GarageTests.ic" NAME="GarageTests Coverage Results" MODIFIED="1680549817893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/JavaOOP$GarageTests.ic" NAME="GarageTests Coverage Results" MODIFIED="1680550282768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>garage.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/JavaOOP$BubbleTest.ic" NAME="BubbleTest Coverage Results" MODIFIED="1666663809014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
