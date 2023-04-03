@@ -1,7 +1,5 @@
 package ExamPreparation.Exam20December2021.garage;
 
-import garage.Car;
-import garage.Garage;
 import org.junit.Before;
 import org.junit.Test;
 
