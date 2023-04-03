@@ -1,4 +1,4 @@
-package cats;
+package ExamPreparation.Exam11December2021.cats;
 
 import java.util.ArrayList;
 import java.util.Collection;
