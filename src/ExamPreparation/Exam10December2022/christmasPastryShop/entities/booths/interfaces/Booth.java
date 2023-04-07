@@ -1,7 +1,4 @@
-package christmasPastryShop.entities.booths.interfaces;
-
-import christmasPastryShop.entities.delicacies.interfaces.Delicacy;
-import christmasPastryShop.entities.cocktails.interfaces.Cocktail;
+package ExamPreparation.Exam10December2022.christmasPastryShop.entities.booths.interfaces;
 
 public interface Booth {
     int getBoothNumber();
