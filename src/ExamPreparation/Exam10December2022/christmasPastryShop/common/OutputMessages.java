@@ -1,4 +1,4 @@
-package christmasPastryShop.common;
+package ExamPreparation.Exam10December2022.christmasPastryShop.common;
 
 public class OutputMessages {
     public static final String DELICACY_ADDED = "Added delicacy %s - %s to the pastry shop!";
