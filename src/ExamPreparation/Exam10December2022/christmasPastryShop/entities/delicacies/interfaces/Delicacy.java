@@ -1,4 +1,4 @@
-package christmasPastryShop.entities.delicacies.interfaces;
+package ExamPreparation.Exam10December2022.christmasPastryShop.entities.delicacies.interfaces;
 
 public interface Delicacy {
     String getName();
