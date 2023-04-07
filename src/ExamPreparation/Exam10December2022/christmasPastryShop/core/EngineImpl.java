@@ -1,10 +1,10 @@
-package christmasPastryShop.core;
+package ExamPreparation.Exam10December2022.christmasPastryShop.core;
 
-import christmasPastryShop.common.enums.Commands;
-import christmasPastryShop.core.interfaces.Controller;
-import christmasPastryShop.core.interfaces.Engine;
-import christmasPastryShop.io.ConsoleReader;
-import christmasPastryShop.io.ConsoleWriter;
+import ExamPreparation.Exam10December2022.christmasPastryShop.common.enums.Commands;
+import ExamPreparation.Exam10December2022.christmasPastryShop.core.interfaces.Controller;
+import ExamPreparation.Exam10December2022.christmasPastryShop.core.interfaces.Engine;
+import ExamPreparation.Exam10December2022.christmasPastryShop.io.ConsoleReader;
+import ExamPreparation.Exam10December2022.christmasPastryShop.io.ConsoleWriter;
 
 import java.io.IOException;
 import java.util.Arrays;

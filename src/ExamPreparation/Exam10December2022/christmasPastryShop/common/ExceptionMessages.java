@@ -1,4 +1,4 @@
-package christmasPastryShop.common;
+package ExamPreparation.Exam10December2022.christmasPastryShop.common;
 
 public class ExceptionMessages {
     public static final String INVALID_NAME = "Name cannot be null or white space!";

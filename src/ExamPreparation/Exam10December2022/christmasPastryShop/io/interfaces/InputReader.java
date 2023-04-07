@@ -1,4 +1,4 @@
-package christmasPastryShop.io.interfaces;
+package ExamPreparation.Exam10December2022.christmasPastryShop.io.interfaces;
 
 import java.io.IOException;
 
