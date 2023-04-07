@@ -1,7 +1,7 @@
-package christmasPastryShop.io;
+package ExamPreparation.Exam10December2022.christmasPastryShop.io;
 
 
-import christmasPastryShop.io.interfaces.InputReader;
+import ExamPreparation.Exam10December2022.christmasPastryShop.io.interfaces.InputReader;
 
 import java.io.BufferedReader;
 import java.io.IOException;

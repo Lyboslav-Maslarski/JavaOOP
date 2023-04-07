@@ -1,4 +1,4 @@
-package christmasPastryShop.core.interfaces;
+package ExamPreparation.Exam10December2022.christmasPastryShop.core.interfaces;
 
 public interface Controller {
    String addDelicacy(String type, String name, double price);
