@@ -5,10 +5,83 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05a8a1e-9340-4aa8-9c36-23b5122a6c4d" name="Changes" comment="add new exercise">
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam09April2022/fairyShop/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam09April2022/fairyShop/common/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam09April2022/fairyShop/common/ConstantMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam09April2022/fairyShop/common/ExceptionMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam09April2022/fairyShop/core/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam09April2022/fairyShop/core/ControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam09April2022/fairyShop/core/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam09April2022/fairyShop/core/EngineImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam09April2022/fairyShop/models/BaseHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam09April2022/fairyShop/models/Happy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam09April2022/fairyShop/models/Helper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam09April2022/fairyShop/models/Instrument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam09April2022/fairyShop/models/InstrumentImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam09April2022/fairyShop/models/Present.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam09April2022/fairyShop/models/PresentImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam09April2022/fairyShop/models/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam09April2022/fairyShop/models/ShopImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam09April2022/fairyShop/models/Sleepy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam09April2022/fairyShop/repositories/HelperRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam09April2022/fairyShop/repositories/PresentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam09April2022/fairyShop/repositories/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam09April2022/gifts/Gift.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam09April2022/gifts/GiftFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam09April2022/gifts/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam19December2022/magicGame/Magic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam19December2022/magicGame/Magician.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam19December2022/magicGame/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam19December2022/magicGame/common/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam19December2022/magicGame/common/ExceptionMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam19December2022/magicGame/common/OutputMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam19December2022/magicGame/core/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam19December2022/magicGame/core/ControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam19December2022/magicGame/core/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam19December2022/magicGame/core/EngineImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam19December2022/magicGame/models/magicians/BlackWidow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam19December2022/magicGame/models/magicians/Magician.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam19December2022/magicGame/models/magicians/MagicianImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam19December2022/magicGame/models/magicians/Wizard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam19December2022/magicGame/models/magics/BlackMagic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam19December2022/magicGame/models/magics/Magic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam19December2022/magicGame/models/magics/MagicImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam19December2022/magicGame/models/magics/RedMagic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam19December2022/magicGame/models/region/Region.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam19December2022/magicGame/models/region/RegionImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam19December2022/magicGame/repositories/interfaces/MagicRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam19December2022/magicGame/repositories/interfaces/MagicRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam19December2022/magicGame/repositories/interfaces/MagicianRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam19December2022/magicGame/repositories/interfaces/MagicianRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/christmasPastryShop/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/christmasPastryShop/common/ExceptionMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/christmasPastryShop/common/OutputMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/christmasPastryShop/common/enums/BoothType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/christmasPastryShop/common/enums/CocktailType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/christmasPastryShop/common/enums/Commands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/christmasPastryShop/common/enums/DelicacyType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/christmasPastryShop/core/ControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/christmasPastryShop/core/EngineImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/christmasPastryShop/core/interfaces/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/christmasPastryShop/core/interfaces/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/christmasPastryShop/entities/booths/interfaces/Booth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/christmasPastryShop/entities/cocktails/interfaces/Cocktail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/christmasPastryShop/entities/delicacies/interfaces/Delicacy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/christmasPastryShop/io/ConsoleReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/christmasPastryShop/io/ConsoleWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/christmasPastryShop/io/interfaces/InputReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/christmasPastryShop/io/interfaces/OutputWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/christmasPastryShop/repositories/interfaces/BoothRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/christmasPastryShop/repositories/interfaces/CocktailRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/christmasPastryShop/repositories/interfaces/DelicacyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/christmasPastryShop/repositories/interfaces/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/toyStore/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/toyStore/Toy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/toyStore/ToyStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ExamPreparation/Exam09April2022/gifts/GiftFactoryTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ExamPreparation/Exam19December2022/magicGame/MagicianTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/toyStore/ToyStoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/christmasRaces/core/ControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/christmasRaces/core/ControllerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/christmasRaces/entities/cars/BaseCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/christmasRaces/entities/cars/BaseCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/christmasRaces/entities/races/RaceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/christmasRaces/entities/races/RaceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +131,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
     "last_directory_selection": "C:/Users/lyb4o/OneDrive/Desktop/JavaOOP/test/computers",
-    "last_opened_file_path": "C:/Users/lyb4o/OneDrive/Desktop/JavaOOP/src",
+    "last_opened_file_path": "C:/Users/lyb4o/OneDrive/Desktop/JavaOOP/test",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -67,24 +140,25 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="christmasRaces.entities.races" />
-      <recent name="christmasRaces.entities.drivers" />
-      <recent name="christmasRaces.core.interfaces" />
-      <recent name="catHouse.core" />
-      <recent name="restaurant.repositories.interfaces" />
+      <recent name="magicGame.repositories.interfaces" />
+      <recent name="magicGame.models.region" />
+      <recent name="magicGame.models.magicians" />
+      <recent name="magicGame.models.magics" />
+      <recent name="magicGame.core" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\test" />
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src" />
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\main\java" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\aquarium" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Judge\VehiclesExtension" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\test\ExamPreparation\Exam19December2022" />
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\ExamPreparation\Exam09April2022" />
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\test\ExamPreparation\Exam09April2022" />
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\ExamPreparation\Exam20December2021" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\test\ExamPreparation\Exam20December2021" />
-      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\test\ExamPreparation\Exam11December2021" />
-      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\ExamPreparation\Exam11December2021" />
-      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\test\ExamPreparation\Exam15August2021" />
-      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\test\ExamPreparation\Exam18April2021" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -100,13 +174,13 @@
       <recent name="Reflection.Lab" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.christmasRaces.Main">
+  <component name="RunManager" selected="JUnit.ToyStoryTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="catHouse.Main" />
+      <option name="MAIN_CLASS_NAME" value="magicGame.Main" />
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="catHouse.*" />
+          <option name="PATTERN" value="magicGame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +188,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="christmasRaces.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="christmasRaces.Main" />
+    <configuration name="fairyShop.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fairyShop.Main" />
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="christmasRaces.*" />
+          <option name="PATTERN" value="fairyShop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,46 +201,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GarageTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GiftFactoryTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="garage.*" />
+          <option name="PATTERN" value="gifts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="garage" />
-      <option name="MAIN_CLASS_NAME" value="garage.GarageTests" />
+      <option name="PACKAGE_NAME" value="gifts" />
+      <option name="MAIN_CLASS_NAME" value="gifts.GiftFactoryTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HouseTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MagicianTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cats.*" />
+          <option name="PATTERN" value="magicGame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cats" />
-      <option name="MAIN_CLASS_NAME" value="cats.HouseTests" />
+      <option name="PACKAGE_NAME" value="magicGame" />
+      <option name="MAIN_CLASS_NAME" value="magicGame.MagicianTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ToyStoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="shopAndGoods.*" />
+          <option name="PATTERN" value="toyStore.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="shopAndGoods" />
-      <option name="MAIN_CLASS_NAME" value="shopAndGoods.ShopTest" />
+      <option name="PACKAGE_NAME" value="toyStore" />
+      <option name="MAIN_CLASS_NAME" value="toyStore.ToyStoryTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -174,11 +248,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.christmasRaces.Main" />
-        <item itemvalue="JUnit.GarageTests" />
-        <item itemvalue="JUnit.HouseTests" />
+        <item itemvalue="JUnit.ToyStoryTest" />
+        <item itemvalue="JUnit.MagicianTests" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.ShopTest" />
+        <item itemvalue="Application.fairyShop.Main" />
+        <item itemvalue="JUnit.GiftFactoryTests" />
       </list>
     </recent_temporary>
   </component>
@@ -190,13 +264,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664452212227</updated>
-    </task>
-    <task id="LOCAL-00181" summary="add new exercise">
-      <created>1679685379528</created>
-      <option name="number" value="00181" />
-      <option name="presentableId" value="LOCAL-00181" />
-      <option name="project" value="LOCAL" />
-      <updated>1679685379528</updated>
     </task>
     <task id="LOCAL-00182" summary="add new exercise">
       <created>1679685388001</created>
@@ -534,7 +601,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680550447825</updated>
     </task>
-    <option name="localTasksCounter" value="230" />
+    <task id="LOCAL-00230" summary="add new exercise">
+      <created>1680554958484</created>
+      <option name="number" value="00230" />
+      <option name="presentableId" value="LOCAL-00230" />
+      <option name="project" value="LOCAL" />
+      <updated>1680554958484</updated>
+    </task>
+    <option name="localTasksCounter" value="231" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -566,6 +640,11 @@
           <line>21</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ExamPreparation/Exam09April2022/fairyShop/core/ControllerImpl.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -580,17 +659,41 @@
     <SUITE FILE_PATH="coverage/JavaOOP$FarmvilleTests.ic" NAME="FarmvilleTests Coverage Results" MODIFIED="1667574499489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ExamPreparation.farmville.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/JavaOOP$ListIteratorTest.ic" NAME="ListIteratorTest Coverage Results" MODIFIED="1666661526083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>UnitTesting.Exercise.p03_IteratorTest.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/JavaOOP$PetStoreTest.ic" NAME="PetStoreTest Coverage Results" MODIFIED="1667488003726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ExamPreparation.Exam18April2022.petStore.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/JavaOOP$GarageTests.ic" NAME="GarageTests Coverage Results" MODIFIED="1680550282768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>garage.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/JavaOOP$BubbleTest.ic" NAME="BubbleTest Coverage Results" MODIFIED="1666663809014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>UnitTesting.Exercise.p04_BubbleSortTest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JavaOOP$FarmvilleTests__1_.ic" NAME="FarmvilleTests (1) Coverage Results" MODIFIED="1667575546076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ExamPreparation.Exam22August2021.farmville.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JavaOOP$AlarmTest.ic" NAME="AlarmTest Coverage Results" MODIFIED="1666662938362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>UnitTesting.Exercise.p06_TirePressureMonitoringSystem.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JavaOOP$AquariumTests.ic" NAME="AquariumTests Coverage Results" MODIFIED="1679922953345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>aquarium.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JavaOOP$HouseTests.ic" NAME="HouseTests Coverage Results" MODIFIED="1680546065141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>cats.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JavaOOP$GiftFactoryTests.ic" NAME="GiftFactoryTests Coverage Results" MODIFIED="1680557254210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>gifts.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JavaOOP$DatabaseTest.ic" NAME="DatabaseTest Coverage Results" MODIFIED="1666658651568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>UnitTesting.Exercise.p02_ExtendedDatabase.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JavaOOP$PetStoreTest__1_.ic" NAME="PetStoreTest (1) Coverage Results" MODIFIED="1667489004772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Exam18April2022.petStore.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JavaOOP$MagicianTests.ic" NAME="MagicianTests Coverage Results" MODIFIED="1680897533450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>magicGame.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JavaOOP$ListIteratorTest.ic" NAME="ListIteratorTest Coverage Results" MODIFIED="1666661526083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>UnitTesting.Exercise.p03_IteratorTest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JavaOOP$GarageTests.ic" NAME="GarageTests Coverage Results" MODIFIED="1680550282768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>garage.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/JavaOOP$HeroRepositoryTests.ic" NAME="HeroRepositoryTests Coverage Results" MODIFIED="1680195823615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>heroRepository.*</FILTER>
@@ -607,38 +710,23 @@
     <SUITE FILE_PATH="coverage/JavaOOP$ShopTest.ic" NAME="ShopTest Coverage Results" MODIFIED="1680198527399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>shopAndGoods.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/JavaOOP$FarmvilleTests__1_.ic" NAME="FarmvilleTests (1) Coverage Results" MODIFIED="1667575546076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>ExamPreparation.Exam22August2021.farmville.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/JavaOOP$AlarmTest.ic" NAME="AlarmTest Coverage Results" MODIFIED="1666662938362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>UnitTesting.Exercise.p06_TirePressureMonitoringSystem.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/JavaOOP$AquariumTests.ic" NAME="AquariumTests Coverage Results" MODIFIED="1679922953345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>aquarium.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/JavaOOP$FootballTeamTests.ic" NAME="FootballTeamTests Coverage Results" MODIFIED="1670824685960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>football.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/JavaOOP$SpaceshipTests.ic" NAME="SpaceshipTests Coverage Results" MODIFIED="1679686279064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>blueOrigin.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/JavaOOP$HouseTests.ic" NAME="HouseTests Coverage Results" MODIFIED="1680546065141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>cats.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/JavaOOP$CustomLinkedListTest.ic" NAME="CustomLinkedListTest Coverage Results" MODIFIED="1666688922708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>UnitTesting.Exercise.p05_CustomLinkedList.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/JavaOOP$DatabaseTest.ic" NAME="DatabaseTest Coverage Results" MODIFIED="1666658651568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>UnitTesting.Exercise.p02_ExtendedDatabase.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/JavaOOP$PetStoreTest__1_.ic" NAME="PetStoreTest (1) Coverage Results" MODIFIED="1667489004772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>Exam18April2022.petStore.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/JavaOOP$ExcavationTests.ic" NAME="ExcavationTests Coverage Results" MODIFIED="1671001990864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>archeologicalExcavations.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/JavaOOP$BankVaultTest_test_removeItem.ic" NAME="BankVaultTest.test_removeItem Coverage Results" MODIFIED="1679597199954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>bankSafe.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JavaOOP$ToyStoryTest.ic" NAME="ToyStoryTest Coverage Results" MODIFIED="1680897785204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>toyStore.*</FILTER>
     </SUITE>
   </component>
 </project>
