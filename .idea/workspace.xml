@@ -5,21 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05a8a1e-9340-4aa8-9c36-23b5122a6c4d" name="Changes" comment="add new exercise">
-      <change afterPath="$PROJECT_DIR$/src/christmasPastryShop/entities/booths/BaseBooth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/christmasPastryShop/entities/booths/OpenBooth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/christmasPastryShop/entities/booths/PrivateBooth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/christmasPastryShop/entities/cocktails/BaseCocktail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/christmasPastryShop/entities/cocktails/Hibernation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/christmasPastryShop/entities/cocktails/MulledWine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/christmasPastryShop/entities/delicacies/BaseDelicacy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/christmasPastryShop/entities/delicacies/Gingerbread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/christmasPastryShop/entities/delicacies/Stolen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/christmasPastryShop/repositories/BoothRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/christmasPastryShop/repositories/CocktailRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/christmasPastryShop/repositories/DelicacyRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam08April2023/robotService/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam08April2023/robotService/common/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam08April2023/robotService/common/ConstantMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam08April2023/robotService/common/ExceptionMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam08April2023/robotService/core/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam08April2023/robotService/core/ControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam08April2023/robotService/core/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam08April2023/robotService/core/EngineImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam08April2023/robotService/entities/robot/BaseRobot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam08April2023/robotService/entities/robot/FemaleRobot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam08April2023/robotService/entities/robot/MaleRobot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam08April2023/robotService/entities/robot/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam08April2023/robotService/entities/services/BaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam08April2023/robotService/entities/services/MainService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam08April2023/robotService/entities/services/SecondaryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam08April2023/robotService/entities/services/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam08April2023/robotService/entities/supplements/BaseSupplement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam08April2023/robotService/entities/supplements/MetalArmor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam08April2023/robotService/entities/supplements/PlasticArmor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam08April2023/robotService/entities/supplements/Supplement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam08April2023/robotService/repositories/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam08April2023/robotService/repositories/SupplementRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam08April2023/robots/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam08April2023/robots/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamPreparation/Exam08April2023/robots/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ExamPreparation/Exam08April2023/robots/ServiceTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/christmasPastryShop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/christmasPastryShop/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/christmasPastryShop/core/ControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/christmasPastryShop/core/ControllerImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +81,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
     "last_directory_selection": "C:/Users/lyb4o/OneDrive/Desktop/JavaOOP/test/computers",
-    "last_opened_file_path": "C:/Users/lyb4o/OneDrive/Desktop/JavaOOP/test",
+    "last_opened_file_path": "C:/Users/lyb4o/OneDrive/Desktop/JavaOOP/src",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -78,25 +90,25 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="robotService.core" />
       <recent name="christmasPastryShop.repositories.interfaces" />
       <recent name="magicGame.repositories.interfaces" />
       <recent name="magicGame.models.region" />
       <recent name="magicGame.models.magicians" />
-      <recent name="magicGame.models.magics" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\test" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src" />
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\test" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\main\java" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\aquarium" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\Judge\VehiclesExtension" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\test\ExamPreparation\Exam08April2023" />
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\ExamPreparation\Exam08April2023" />
+      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\ExamPreparation\Exam10December2022" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\test\ExamPreparation\Exam10December2022" />
       <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\test\ExamPreparation\Exam19December2022" />
-      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\ExamPreparation\Exam09April2022" />
-      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\test\ExamPreparation\Exam09April2022" />
-      <recent name="C:\Users\lyb4o\OneDrive\Desktop\JavaOOP\src\ExamPreparation\Exam20December2021" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -112,20 +124,7 @@
       <recent name="Reflection.Lab" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.christmasPastryShop.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="magicGame.Main" />
-      <module name="JavaOOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="magicGame.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ServiceTests">
     <configuration name="christmasPastryShop.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="christmasPastryShop.Main" />
       <module name="JavaOOP" />
@@ -139,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fairyShop.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fairyShop.Main" />
+    <configuration name="robotService.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="robotService.Main" />
       <module name="JavaOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fairyShop.*" />
+          <option name="PATTERN" value="robotService.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,6 +166,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServiceTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="robots.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="robots" />
+      <option name="MAIN_CLASS_NAME" value="robots.ServiceTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ToyStoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaOOP" />
       <extension name="coverage">
@@ -184,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ServiceTests" />
+        <item itemvalue="Application.robotService.Main" />
         <item itemvalue="Application.christmasPastryShop.Main" />
         <item itemvalue="JUnit.ToyStoryTest" />
         <item itemvalue="JUnit.MagicianTests" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.fairyShop.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -200,41 +214,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664452212227</updated>
-    </task>
-    <task id="LOCAL-00198" summary="add new exercise">
-      <created>1679954148325</created>
-      <option name="number" value="00198" />
-      <option name="presentableId" value="LOCAL-00198" />
-      <option name="project" value="LOCAL" />
-      <updated>1679954148325</updated>
-    </task>
-    <task id="LOCAL-00199" summary="add new exercise">
-      <created>1679954215577</created>
-      <option name="number" value="00199" />
-      <option name="presentableId" value="LOCAL-00199" />
-      <option name="project" value="LOCAL" />
-      <updated>1679954215577</updated>
-    </task>
-    <task id="LOCAL-00200" summary="add new exercise">
-      <created>1679954252923</created>
-      <option name="number" value="00200" />
-      <option name="presentableId" value="LOCAL-00200" />
-      <option name="project" value="LOCAL" />
-      <updated>1679954252923</updated>
-    </task>
-    <task id="LOCAL-00201" summary="add new exercise">
-      <created>1679954259444</created>
-      <option name="number" value="00201" />
-      <option name="presentableId" value="LOCAL-00201" />
-      <option name="project" value="LOCAL" />
-      <updated>1679954259444</updated>
-    </task>
-    <task id="LOCAL-00202" summary="add new exercise">
-      <created>1679954268119</created>
-      <option name="number" value="00202" />
-      <option name="presentableId" value="LOCAL-00202" />
-      <option name="project" value="LOCAL" />
-      <updated>1679954268119</updated>
     </task>
     <task id="LOCAL-00203" summary="add new exercise">
       <created>1679954277789</created>
@@ -544,7 +523,42 @@
       <option name="project" value="LOCAL" />
       <updated>1680898422478</updated>
     </task>
-    <option name="localTasksCounter" value="247" />
+    <task id="LOCAL-00247" summary="add new exercise">
+      <created>1680904859701</created>
+      <option name="number" value="00247" />
+      <option name="presentableId" value="LOCAL-00247" />
+      <option name="project" value="LOCAL" />
+      <updated>1680904859701</updated>
+    </task>
+    <task id="LOCAL-00248" summary="add new exercise">
+      <created>1680904874082</created>
+      <option name="number" value="00248" />
+      <option name="presentableId" value="LOCAL-00248" />
+      <option name="project" value="LOCAL" />
+      <updated>1680904874082</updated>
+    </task>
+    <task id="LOCAL-00249" summary="add new exercise">
+      <created>1680904885949</created>
+      <option name="number" value="00249" />
+      <option name="presentableId" value="LOCAL-00249" />
+      <option name="project" value="LOCAL" />
+      <updated>1680904885949</updated>
+    </task>
+    <task id="LOCAL-00250" summary="add new exercise">
+      <created>1680904897594</created>
+      <option name="number" value="00250" />
+      <option name="presentableId" value="LOCAL-00250" />
+      <option name="project" value="LOCAL" />
+      <updated>1680904897594</updated>
+    </task>
+    <task id="LOCAL-00251" summary="add new exercise">
+      <created>1680904913439</created>
+      <option name="number" value="00251" />
+      <option name="presentableId" value="LOCAL-00251" />
+      <option name="project" value="LOCAL" />
+      <updated>1680904913439</updated>
+    </task>
+    <option name="localTasksCounter" value="252" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -621,6 +635,9 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/JavaOOP$PetStoreTest__1_.ic" NAME="PetStoreTest (1) Coverage Results" MODIFIED="1667489004772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Exam18April2022.petStore.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JavaOOP$ServiceTests.ic" NAME="ServiceTests Coverage Results" MODIFIED="1680938922912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>robots.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/JavaOOP$MagicianTests.ic" NAME="MagicianTests Coverage Results" MODIFIED="1680897533450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>magicGame.*</FILTER>
